@@ -1,0 +1,10 @@
+# 仓库里的文本一律按 LF 存储：pipeline 的产物要求逐字节稳定，
+# Windows 上 core.autocrlf=true 会把 YAML 变回 CRLF，导致每次运行都被判「有变化」。
+* text=auto eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.ps1 text eol=crlf

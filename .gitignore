@@ -1,0 +1,9 @@
+# runtime scratch: raw bytes, caches, logs, probe workdirs, downloaded binaries
+raw/
+cache/
+node_modules/
+*.log
+.verify/
+bin/
+
+# the published outputs in out/ ARE committed on purpose (that is what CI serves)

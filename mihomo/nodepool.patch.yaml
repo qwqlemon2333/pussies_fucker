@@ -1,0 +1,79 @@
+# ============================================================================
+# nodepool.patch.yaml - mihomo / Clash Verge 配置片段（不是完整配置！）
+#
+# 用法：把下面三段（proxy-providers / proxy-groups / rules）分别粘贴进你的
+# mihomo config.yaml 对应位置。若已有同名段，请合并而不是整体覆盖。
+# 本片段假设 provider 文件位于 ./providers/nodepool.yaml（相对配置目录）。
+#
+# ★ 注意：本片段的最后一条规则是 MATCH,POOL —— POOL 会成为全部流量的默认出口，
+#   整台机器的上网速度/稳定性由“当前最快的那一个免费节点”决定。这些节点由陌生人运营、
+#   寿命通常只有几小时到几天，随时可能变慢、断流。请只把它当作开发/抓取用途的备用出口，
+#   不要用它登录网银、公司系统或任何重要账号（详见 README 的「局限与风险」）。
+#
+# ★ MATCH,POOL 之前是本地/内网绕行规则：没有它们，回环、局域网、链路本地地址也会被
+#   塞进代理，本地服务（NAS、打印机、127.0.0.1 调试端口……）会直接坏掉。这些 CIDR 规则
+#   不依赖任何地理数据库，任何 mihomo 构建都能用。
+# ★ 另一组 GEOIP,PRIVATE / GEOIP,LAN 规则需要 geoip 数据库（geoip.metadb / Country.mmdb）；
+#   本次生成时在机器上检测到了这类文件，所以保留。若你的构建缺这个文件，mihomo 会拒绝加载整份
+#   配置并提示 "can't download MMDB"，此时删掉这两条即可——上面的 IP-CIDR 规则覆盖同样的地址段。
+#
+# ★ 如果你不想要“全流量走 POOL”，把最后一行 MATCH,POOL 换成 MATCH,DIRECT，
+#   只保留上面对开发者域名的分流即可。
+# ============================================================================
+
+proxy-providers:
+  nodepool:
+    type: file
+    path: ./providers/nodepool.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: https://api.github.com/
+      interval: 300
+
+proxy-groups:
+  - name: POOL
+    type: url-test
+    use: [nodepool]
+    url: https://api.github.com/
+    interval: 300
+    tolerance: 50
+
+rules:
+  - DOMAIN,github.com,POOL
+  - DOMAIN,api.github.com,POOL
+  - DOMAIN,codeload.github.com,POOL
+  - DOMAIN,raw.githubusercontent.com,POOL
+  - DOMAIN,gist.github.com,POOL
+  - DOMAIN,gist.githubusercontent.com,POOL
+  - DOMAIN,objects.githubusercontent.com,POOL
+  - DOMAIN,ghcr.io,POOL
+  - DOMAIN,pkg-containers.githubusercontent.com,POOL
+  - DOMAIN,githubassets.com,POOL
+  - DOMAIN,android.googlesource.com,POOL
+  - DOMAIN,dl.google.com,POOL
+  - DOMAIN,storage.googleapis.com,POOL
+  - DOMAIN,crates.io,POOL
+  - DOMAIN,index.crates.io,POOL
+  - DOMAIN,static.crates.io,POOL
+  - DOMAIN,registry.npmjs.org,POOL
+  - DOMAIN,pypi.org,POOL
+  - DOMAIN,files.pythonhosted.org,POOL
+  - DOMAIN-SUFFIX,githubusercontent.com,POOL
+  - DOMAIN-SUFFIX,github.io,POOL
+  - DOMAIN-SUFFIX,googlesource.com,POOL
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,localhost,DIRECT
+  - DOMAIN-SUFFIX,lan,DIRECT
+  - GEOIP,PRIVATE,DIRECT,no-resolve
+  - GEOIP,LAN,DIRECT,no-resolve
+  - MATCH,POOL

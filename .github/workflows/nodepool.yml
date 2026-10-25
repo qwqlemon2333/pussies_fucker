@@ -1,0 +1,180 @@
+name: nodepool
+
+# Discovery -> fetch -> parse -> safety -> dedupe -> liveness/fidelity -> publish.
+# The 5-day default-branch recency gate is enforced inside the pipeline (lib/discover.mjs).
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      recency_days:
+        description: 'default-branch commit window in days (default 5)'
+        required: false
+        default: '5'
+      max_repos:
+        description: 'max source repos to adopt (default 60)'
+        required: false
+        default: '60'
+
+# needs write to push out/ and to publish the rolling release asset
+permissions:
+  contents: write
+
+# never run two refreshes at once, and never cancel one half way:
+# a cancelled run can leave a half-written provider behind
+concurrency:
+  group: nodepool
+  cancel-in-progress: false
+
+jobs:
+  nodepool:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      RECENCY_DAYS: ${{ inputs.recency_days || '5' }}
+      MAX_REPOS: ${{ inputs.max_repos || '60' }}
+      MAX_LIVE: ${{ vars.MAX_LIVE || '4000' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # a runner has clean egress, so probe wide: 20 in flight keeps 400 nodes
+      # inside a couple of minutes and the deadline is a backstop, not the plan
+      PROBE_CONCURRENCY: '20'
+      PROBE_DEADLINE_MS: '600000'
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: restore cache/
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: nodepool-cache-${{ github.run_id }}
+          restore-keys: |
+            nodepool-cache-
+
+      - name: run pipeline (--ci)
+        run: |
+          node --version
+          curl --version | head -1
+          node pipeline.mjs --ci
+
+      - name: upload artifacts (debug copy, always kept 14 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodepool-out
+          path: |
+            out/
+            registry/
+            .verify/mihomo.log
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: commit out/ when it actually changed
+        run: |
+          set -euo pipefail
+          # 用仓库所有者的身份提交，邮箱是 GitHub 的 noreply 隐私地址：
+          # 既不泄露真实邮箱，提交也能正确归属到 qwqlemon2333 这个账号。
+          git config user.name "qwqlemon2333"
+          git config user.email "80138979+qwqlemon2333@users.noreply.github.com"
+          # registry/ 是「源花名册」：谁进了、谁因为什么被删，都要和 out/ 一起回写，
+          # 这样 git 历史本身就是一份可审计的收录/淘汰记录。
+          git add out/ registry/
+          # a byte-identical rebuild must NOT create a commit
+          if git diff --cached --quiet -- out/ registry/; then
+            echo "out/ and registry/ are unchanged - nothing to commit"
+          else
+            git commit -m "nodepool: refresh ${{ github.run_number }} ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi
+
+      - name: publish out/nodepool.yaml to the rolling tag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TAG=nodepool-latest
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "nodepool latest" \
+              --notes "Rolling latest provider. Overwritten every 6 hours." \
+              --latest=false
+          fi
+          gh release upload "$TAG" out/nodepool.yaml out/nodes.txt --clobber
+          echo "asset url: https://github.com/${{ github.repository }}/releases/download/$TAG/nodepool.yaml"
+
+  # ---------------------------------------------------------------------------
+  # Second tier: does a candidate actually work from mainland China?
+  #
+  # GitHub-hosted runners live in Azure datacenters. A node that answers from a
+  # runner proves the process is up, nothing more: routes toward China are what
+  # actually break, and they cannot be measured from outside. So the mainland
+  # measurement has to run on a machine in mainland China - a self-hosted runner
+  # with the label `china`. A job asking for labels nobody provides would queue
+  # forever, so gate it on a repository variable instead:
+  #
+  #   Settings -> Variables -> New variable:  CN_SELF_HOSTED = true
+  #   (optional) MIHOMO_BIN = C:\\tools\\verge-mihomo.exe   on that runner
+  #
+  # Without the runner the first tier still publishes candidates; you can also run
+  # `node verify-cn.mjs` by hand on any mainland machine and get the same file.
+  # ---------------------------------------------------------------------------
+  verify-cn:
+    needs: nodepool
+    if: vars.CN_SELF_HOSTED == 'true'
+    runs-on: [self-hosted, china]
+    timeout-minutes: 40
+    env:
+      MIHOMO_BIN: ${{ vars.MIHOMO_BIN }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # The candidate list lives on github.com, which may be exactly what is
+      # unreachable from here. gh-proxy.com mirrors it and is reachable directly,
+      # so tier 2 does not need a working node to bootstrap itself.
+      - name: fetch candidates through the mirror
+        run: |
+          mkdir -p out
+          curl -sSL --retry 3 --max-time 120 -o out/nodepool.yaml \
+            "https://gh-proxy.com/https://github.com/${{ github.repository }}/releases/download/nodepool-latest/nodepool.yaml"
+          head -3 out/nodepool.yaml
+
+      - name: measure from this vantage point
+        run: |
+          node verify-cn.mjs --input out/nodepool.yaml \
+            --out out/nodepool-cn.yaml --report out/cn-report.json \
+            --rounds 3 --interval 15000 --throughput 10
+
+      - name: show the survivors
+        if: always()
+        run: |
+          test -f out/cn-report.json && node -e "const r=require('./out/cn-report.json');console.log('verified',r.verified.length+'/'+r.tested);for(const v of r.verified.slice(0,10))console.log(v.median_rtt+'ms',v.passes+'/'+r.rounds,v.name)" || true
+
+      - name: upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodepool-cn
+          path: |
+            out/nodepool-cn.yaml
+            out/cn-report.json
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: publish the mainland-verified provider
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -s out/nodepool-cn.yaml
+          gh release upload nodepool-latest out/nodepool-cn.yaml out/cn-report.json --clobber
+          echo "asset url: https://github.com/${{ github.repository }}/releases/download/nodepool-latest/nodepool-cn.yaml"
