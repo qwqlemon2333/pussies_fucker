@@ -7,3 +7,14 @@ node_modules/
 bin/
 
 # the published outputs in out/ ARE committed on purpose (that is what CI serves)
+
+# except the local-pick results: 那是「这台机器上此刻能用」的个人优选结果，
+# 与仓库内容无关，也不该混进每一次 CI 刷新里。
+out/local.yaml
+out/local-nodes.txt
+out/local-report.json
+
+# tier2（大陆实测）只作为 release 资产发布，不提交：它依赖那台机器，
+# 提交进仓库会让 out/ 里的文件互相矛盾。
+out/nodepool-cn.yaml
+out/cn-report.json
