@@ -6,183 +6,62 @@ proxies:
     password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
     cipher: aes-256-gcm
     udp: true
-  - name: "[www.v2nodes.com]-ss-IT-1602...-#2"
+  - name: "[www.v2nodes.com]-ss-IT-1602...-#3"
     type: ss
     server: 202.50.253.18
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     cipher: aes-256-gcm
     udp: true
-  - name: "[www.v2nodes.com]-ss-IT-1602...-#7"
+  - name: "USA-#4"
     type: ss
     server: 202.50.253.27
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     cipher: aes-256-gcm
     udp: true
-  - name: "[www.v2nodes.com]-ss-IT-1602...-#5"
+  - name: "[www.v2nodes.com]-ss-IT-1602...-#6"
     type: ss
     server: 202.50.253.36
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     cipher: aes-256-gcm
     udp: true
-  - name: "[www.v2nodes.com]-ss"
+  - name: "ITA-#1"
+    type: ss
+    server: 202.50.253.45
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    udp: true
+  - name: "[www.v2nodes.com]-ss-IT-1602"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    udp: true
+  - name: "[www.v2nodes.com]-ss-IT-1602...-#2"
     type: ss
     server: 202.50.253.72
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     cipher: aes-256-gcm
     udp: true
-  - name: _IT-2
-    type: ss
-    server: 202.50.253.81
-    port: 19999
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    cipher: aes-256-gcm
-    udp: true
-  - name: "[www.v2nodes.com]-ss--#1"
+  - name: "[www.v2nodes.com]-ss-IT-1602...-#8"
     type: ss
     server: 202.50.253.90
     port: 19999
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     cipher: aes-256-gcm
     udp: true
-  - name: "ITA-#1"
-    type: ss
-    server: 202.50.253.99
-    port: 19999
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    cipher: aes-256-gcm
-    udp: true
-  - name: shadowsocks-1909214441
-    type: ss
-    server: 46.17.43.227
-    port: 18443
-    password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-    cipher: aes-256-gcm
-    udp: true
-  - name: "[239]-Hetzner-Online-GmbH-SHADOWSOCKS-SN"
-    type: ss
-    server: 49.12.253.100
-    port: 1080
-    password: Ou_n6HeBKQw2d_N0UmTBBDmC
-    cipher: aes-256-gcm
-    udp: true
-  - name: "[159]-G-Core-Labs-S.A.-SHADOWSOCKS-SNI"
-    type: ss
-    server: 78.111.102.80
-    port: 2083
-    password: banJ58KfDF21KoMFZ5TXmg
-    cipher: chacha20-ietf-poly1305
-    udp: true
-  - name: 047-125ms-104.18.1.1
-    type: vless
-    server: 104.18.1.1
-    port: 2087
-    uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
-    udp: true
-    tls: true
-    servername: 1.proxy2.us.ci.
-    network: ws
-    client-fingerprint: ios
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: 1.proxy2.us.ci.
-      max-early-data: 2560
-      path: /
-    encryption: none
-    packet-encoding: xudp
-    sub_tag: R002-260618
-  - name: 104.26.4.2
-    type: vless
-    server: 104.26.4.2
-    port: 443
-    uuid: d342d11e-d224-4463-b982-532309285094
-    udp: true
-    tls: true
-    servername: ccc.010304.xyz
-    network: ws
-    ws-opts:
-      headers:
-        Host: ccc.010304.xyz
-      path: /fp=chrome
-  - name: EPODONIOS-177
-    type: vless
-    server: 138.124.79.6
-    port: 443
-    uuid: ee18d188-14cc-417e-beb1-70e4add6d023
-    udp: true
-    tls: true
-    servername: node-nl-1.nztpro.com
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ydN3DRKjNC6q7JI_Zegj3hhvdHussmralsnSQGQVdws
-      short-id: 25f4a40b9fdd9780
-  - name: "@meliproxyy-2"
-    type: vless
-    server: 163.245.42.48
-    port: 443
-    uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-    udp: true
-    tls: true
-    servername: mother-earth.fyi
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ""
-  - name: "[445]-Datagio-Systems-Ltd.-WS-SNI-TLS"
-    type: vless
-    server: 191.44.114.179
-    port: 2096
-    uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-    udp: true
-    tls: true
-    servername: st33614.rumedia-cdn.com
-    network: ws
-    ws-opts:
-      headers:
-        Host: st33614.rumedia-cdn.com
-      path: /cdn/v3/live
-  - name: vless-1827735107
-    type: vless
-    server: 195.72.166.251
-    port: 443
-    uuid: 64c05afc-ce81-4ba0-b697-afa04da1427e
-    udp: true
-    tls: true
-    servername: www.lloydsbankinggroup.com
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: RKDT6fVgcZS8Qfzhv5rbeHRIflA3UTKD_HNLJyOoUwk
-      short-id: 25349b36802f
-  - name: 200.165.231.209
-    type: vless
-    server: 200.165.231.209
-    port: 443
-    uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-    udp: true
-    tls: true
-    servername: wstg.datasynctrue.online
-    network: ws
-    ws-opts:
-      headers:
-        Host: wstg.datasynctrue.online
-      path: /api/connect
   - name: vmess-1827155985
     type: vmess
     server: 112.132.215.108
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     cipher: auto
-    alterId: 64
+    alterId: "64"
     udp: true
     network: tcp
   - name: vmess-1883518786
@@ -191,25 +70,44 @@ proxies:
     port: 10086
     uuid: a01e5d56-464f-45b9-b600-164db4700162
     cipher: auto
-    alterId: 0
+    alterId: "0"
     udp: true
     network: ws
-  - name: vmess-1920345529
+  - name: RELAY-172.67.167.78-1343
     type: vmess
-    server: 206.1.101.206
-    port: 8080
-    uuid: 01c3e638-85d9-4907-a7cc-9c951a98d255
+    server: 172.67.167.78
+    port: 8443
+    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
     cipher: auto
     alterId: 0
     udp: true
-    network: tcp
+    tls: true
+    servername: v2ray1.dozapp.xyz
+    network: ws
+    ws-opts:
+      headers:
+        Host: v2ray1.dozapp.xyz
+      path: /lMnsZUN4/
+  - name: By-EbraSha-24
+    type: vmess
+    server: 172.67.187.145
+    port: 80
+    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+    cipher: auto
+    alterId: 0
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vmess.lbw666.dpdns.org
+      path: "/ws?ed=2048"
   - name: vmess-1884298776
     type: vmess
     server: 39.108.113.127
     port: 10086
     uuid: 2eb25c1e-c3b5-45cf-9afd-dd3ddc00da10
     cipher: auto
-    alterId: 0
+    alterId: "0"
     udp: true
     network: ws
   - name: vmess-1920345561
@@ -218,6 +116,6 @@ proxies:
     port: 56080
     uuid: f4daaec7-0e1e-4c8e-97e8-cff5347c2dae
     cipher: auto
-    alterId: 0
+    alterId: "0"
     udp: true
     network: tcp

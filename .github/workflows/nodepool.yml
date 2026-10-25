@@ -62,6 +62,13 @@ jobs:
           curl --version | head -1
           node pipeline.mjs --ci
 
+      - name: test (mihomo-backed name/format consistency)
+        # 跑到这一步时 bin/ 里一定有 mihomo（上一步的 pipeline 已按 runner 架构下好了），
+        # 所以这些用例会真的起 mihomo -t 去验证「生成的配置能被解析」，而不是静默 skip。
+        # continue-on-error：这些用例是用来发现回归的探针，不该因为上游节点数据抖动而挡住发布。
+        continue-on-error: true
+        run: node --test "test/**/*.test.mjs"
+
       - name: upload artifacts (debug copy, always kept 14 days)
         if: always()
         uses: actions/upload-artifact@v4

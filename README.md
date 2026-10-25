@@ -294,17 +294,17 @@ REALITY 公钥/短 ID 非法。现在这些条目在发出之前就被丢弃并�
 
 ## 本次运行的真实数据
 
-- 生成时间：`2026-10-25T12:05:15.683Z`，模式 `ci`，耗时 218.9 秒
-- 新鲜度闸门：窗口 5 天，截止 `2026-10-20`；搜索命中 361 个仓库 → 一筛后 361 → 默认分支校验 25 → 5 天内活跃 24 → 最终采用 12 个仓库 / 26 个文件
+- 生成时间：`2026-10-25T18:01:27.755Z`，模式 `ci`，耗时 176.4 秒
+- 新鲜度闸门：窗口 5 天，截止 `2026-10-20`；搜索命中 361 个仓库 → 一筛后 361 → 默认分支校验 25 → 5 天内活跃 24 → 最终采用 14 个仓库 / 28 个文件
 - 因默认分支太旧而丢弃：1 个仓库（明细+提交日期见 `out/sources.json`）
-- 原始文件：26 个（11.95 MiB）
-- 节点：解析 25936 → 去重 4251 → TCP 存活 896 → 真实代理验证 23 → 最终写入 23
-- 真实代理验证：mihomo 逐节点测 896 个，通过 23 个，耗时 104.1 秒
-- 丢弃大类：不安全 3301，内网/回环 0，端口非法 0，重复 17132，TCP 不通 2104
-- 逐项丢弃原因（report.json 的 `drop_reasons` 有完整计数）：tls_disabled=1710、insecure=1591、plaintext_proxy=720、sni_ip_literal=342、weak_ss_cipher=138、trojan_no_tls=45、reality_no_pubkey=4、vmess_weak_cipher=3
-- 存活节点按类型：ss=11, vless=7, vmess=5
+- 原始文件：28 个（11.93 MiB）
+- 节点：解析 25817 → 去重 4247 → TCP 存活 1149 → 真实代理验证 14 → 最终写入 14
+- 真实代理验证：mihomo 逐节点测 400 个，通过 14 个，耗时 44 秒
+- 丢弃大类：不安全 3273，内网/回环 0，端口非法 0，重复 16988，TCP 不通 2851
+- 逐项丢弃原因（report.json 的 `drop_reasons` 有完整计数）：tls_disabled=1678、insecure=1595、plaintext_proxy=724、sni_ip_literal=390、weak_ss_cipher=142、trojan_no_tls=42、vmess_weak_cipher=4、adapter_ss_method=4、reality_no_pubkey=2、adapter_reality_pubkey=1
+- 存活节点按类型：ss=8, vmess=6
 - 真机自检：mihomo -t 通过
-- 发布前加载测试：整份 provider 被 mihomo 逐条解析通过（23 条）
+- 发布前加载测试：整份 provider 被 mihomo 逐条解析通过（14 条）
 - GEOIP：检测到 `C:\Program Files\Clash Verge\resources\Country.mmdb`，片段中含 GEOIP,PRIVATE / GEOIP,LAN
 
 最快 5 个（仅 TCP 握手 RTT，不代表真实下载速度）：
@@ -314,8 +314,8 @@ REALITY 公钥/短 ID 非法。现在这些条目在发出之前就被丢弃并�
 | vmess-1827155985 | vmess | 112.132.215.108 | 50002 | 13.8 ms |
 | vmess-1883518786 | vmess | 120.48.133.162 | 10086 | 32.9 ms |
 | vmess-1884298776 | vmess | 39.108.113.127 | 10086 | 36.2 ms |
-| [www.v2nodes.com]-ss | ss | 202.50.253.72 | 19999 | 187.6 ms |
-| 047-125ms-104.18.1.1 | vless | 104.18.1.1 | 2087 | 204.6 ms |
+| [www.v2nodes.com]-ss-IT-1602...-#2 | ss | 202.50.253.72 | 19999 | 187.6 ms |
+| By-EbraSha-24 | vmess | 172.67.187.145 | 80 | 194.2 ms |
 
 ## 各阶段做了什么
 
@@ -340,6 +340,25 @@ REALITY 公钥/短 ID 非法。现在这些条目在发出之前就被丢弃并�
    - 端口不在 1..65535，或 (type, server, port) 重复
    - 去重两道键：先按 `(type, server, port)` 折叠端点，再按内容 `(type, server, port, uuid/password)` 折叠完全相同的副本；
      排序在去重之前完成，所以「留下哪一个」只由数据决定，与抓取顺序无关。
+3b. **格式兼容性预检（`lib/adapter.mjs`，不是安全策略，而是「mihomo 的解析器能不能读」）**：
+   安全过滤回答「这个节点该不该发布」，这一步回答「这个条目会不会让 mihomo 拒绝整份配置」。
+   两者必须分开：mihomo 遇到第一个致命字段就整份失败，**一个坏节点能拖垮整个测速阶段和发布**
+   （真实事故：`ss … cipher: null` 让 fidelity probe 每次启动即退出，30 次重试预算全烧在剔节点上；
+   `POOL: '14' not found` 让第 9 阶段的 provider 载入测试直接 FATAL）。
+   规则全部是**实测**出来的，不是猜的：把单节点配置喂给本仓库固定的 mihomo 二进制（v1.19.33）跑 `-t`，
+   记录它接受/拒绝哪些写法（见 `.verify/methodprobe*.mjs`、测试用例在 `test/adapter.test.mjs`）：
+   - ss 加密方法白名单（大小写敏感！`AES-256-GCM` 会被判为 unknown method）；
+   - 2022-blake3 的密钥必须是**带 padding 的标准 base64**、长度等于算法要求（16/32 字节），
+     且 `serverkey:userkey` 多段形式每一段都要合法——这是真实节点最常见的写法，只验证整串会误杀；
+   - REALITY 的 `public-key` 必须是 **unpadded base64url** 的 32 字节（用标准 base64 会被判 invalid）；
+     `short-id` 必须是偶数长度的十六进制、2~16 位；
+   - ss 插件的必填项（obfs 需要 mode=tls/http；v2ray-plugin、gost-plugin 需要 mode=websocket；
+     shadow-tls 需要 host；restls 需要 password + version-hint）；
+   - 各类型的必填字段（ss: cipher+password、vmess: uuid+alterId、vless: uuid、trojan: password、anytls: password…）；
+   - 字段形状：`alpn` 写成字符串会被判 not a slice，`ws-opts.headers` 写成字符串会被判 expected a map；
+   - 未知代理类型（unsupport proxy type）。
+   每条丢弃都进 `drop_reasons` 的 `adapter_*` 桶，**能证明致命才丢**：
+   无从证明的写法一律放行，宁可让第 9 阶段的真机载入测试兜底，也不凭猜想丢掉一个可用节点。
 4. **存活性预筛（TCP）**：TCP connect，2000 ms 超时，150 并发，最多 4000 个候选，记录 RTT（失败重试一次）。
    名额按类型轮转分配（`stratifyByType`）：直接截断排序后的列表会让字母序靠前的 http/socks5 吃光全部名额，
    最终池子变成清一色明文代理——这正是早期版本真实发生过的偏差。
@@ -385,25 +404,27 @@ REALITY 公钥/短 ID 非法。现在这些条目在发出之前就被丢弃并�
 
 ## 数据源状态（本次运行）
 
-- `MustafaBaqer/VestraNet-Nodes :: subscriptions/mix-normal.txt` — HTTP 200，2937180 B，解析 8626 个（通道 jsdelivr-proxied）
+- `MustafaBaqer/VestraNet-Nodes :: subscriptions/mix-normal.txt` — HTTP 200，2885858 B，解析 8440 个（通道 ghproxy.net）
 - `MustafaBaqer/VestraNet-Nodes :: protocols/vmess.txt` — HTTP 200，2193003 B，解析 6314 个（通道 jsdelivr-proxied）
 - `Au1rxx/free-vpn-subscriptions :: output/protocol/vmess/clash-0001.yaml` — HTTP 200，237066 B，解析 822 个（通道 jsdelivr-proxied）
-- `Au1rxx/free-vpn-subscriptions :: output/protocol/vless/clash-0001.yaml` — HTTP 200，761474 B，解析 2000 个（通道 jsdelivr-proxied）
 - `Au1rxx/free-vpn-subscriptions :: output/protocol/vless/clash-0002.yaml` — HTTP 200，762042 B，解析 2000 个（通道 jsdelivr-proxied）
+- `Au1rxx/free-vpn-subscriptions :: output/protocol/vless/clash-0001.yaml` — HTTP 200，761474 B，解析 2000 个（通道 jsdelivr-proxied）
 - `Thordata/awesome-free-proxy-list :: proxies/clash/all.yaml` — HTTP 200，90315 B，解析 361 个（通道 jsdelivr-proxied）
 - `Thordata/awesome-free-proxy-list :: proxies/clash/high-anon.yaml` — HTTP 200，77233 B，解析 293 个（通道 jsdelivr-proxied）
-- `chenzhihan1751-cyber/node-sub-zixf :: sub/v2ray.txt` — HTTP 200，414305 B，解析 1880 个（通道 jsdelivr-proxied）
+- `chenzhihan1751-cyber/node-sub-zixf :: sub/v2ray.txt` — HTTP 200，419810 B，解析 1885 个（通道 jsdelivr-proxied）
 - `chenzhihan1751-cyber/node-sub-zixf :: sub/base64.txt` — HTTP 200，535557 B，解析 1818 个（通道 jsdelivr-proxied）
 - `zhangdunlong/free-v2ray-nodes :: nodes_base64.txt` — HTTP 200，17336 B，解析 60 个（通道 jsdelivr-proxied）
 - `zhangdunlong/free-v2ray-nodes :: unique_nodes.txt` — HTTP 200，12914 B，解析 50 个（通道 jsdelivr-proxied）
 - `vincent20240707/free-v2ray-nodes :: nodes.txt` — HTTP 200，8273 B，解析 50 个（通道 jsdelivr-proxied）
-- `xifan001-lab/clash-sub :: clash.yaml` — HTTP 200，53146 B，解析 100 个（通道 jsdelivr-proxied）
 - `LalatinaHub/LatinaSub :: result/clash.yaml` — HTTP 200，199587 B，解析 398 个（通道 jsdelivr-proxied）
 - `LalatinaHub/LatinaSub :: result/nodes` — HTTP 200，101084 B，解析 463 个（通道 jsdelivr-proxied）
 - `LalatinaHub/LatinaSub :: result/sub` — HTTP 200，134780 B，解析 463 个（通道 jsdelivr-proxied）
+- `xifan001-lab/clash-sub :: clash.yaml` — HTTP 200，53593 B，解析 100 个（通道 jsdelivr-proxied）
 - `owenlee3/my-nodes :: output/clash.yaml` — HTTP 200，45603 B，解析 150 个（通道 jsdelivr-proxied）
-- `shifeiquan520/shifeiquan3 :: output/clash.yaml` — HTTP 200，12239 B，解析 28 个（通道 jsdelivr-proxied）
+- `shifeiquan520/shifeiquan3 :: output/clash.yaml` — HTTP 200，12135 B，解析 33 个（通道 jsdelivr-proxied）
 - `longyang1233/free-nodes-sub :: clash.yaml` — HTTP 200，13929 B，解析 60 个（通道 jsdelivr-proxied）
+- `sunmiao4458/free-proxy-airport :: output/clash.yaml` — HTTP 200，16360 B，解析 44 个（通道 jsdelivr-proxied）
+- `Pawdroid/Free-servers :: sub` — HTTP 200，4760 B，解析 13 个（通道 jsdelivr-proxied）
 
 失败 / 跳过：
 

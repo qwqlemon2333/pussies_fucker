@@ -4,6 +4,7 @@
 //   2 transports   raw.githubusercontent first (works from Actions), then jsdelivr, mirrors
 //   3 fetch+parse  reuse lib/parse.mjs, retry the next transport on a 0-node parse
 //   4 safety       reuse lib/safety.mjs unchanged (+ optional --drop-port-110)
+//   4b adapter      drop entries mihomo's parser refuses (lib/adapter.mjs)
 //   5 dedupe       (type,server,port) then content identity; deterministic order
 //   6 tcp          cheap connect prefilter (lib/live.mjs)
 //   7 fidelity     REAL mihomo proxy test per node (lib/probe.mjs)
@@ -22,6 +23,7 @@ import { promisify } from 'node:util';
 import { probeTransports, fetchPath, declaredChain } from './lib/transport.mjs';
 import { detectShape, extractUris, parseUri, parseClashItems, b64decode, makeUri } from './lib/parse.mjs';
 import { safetyCheck, dedupeKey, contentKey } from './lib/safety.mjs';
+import { adapterCheck } from './lib/adapter.mjs';
 import { poolCheck } from './lib/live.mjs';
 import { buildProvider } from './lib/emit.mjs';
 import { writeReadme } from './lib/readme.mjs';
@@ -400,7 +402,7 @@ async function main() {
 
   // ---- 4. safety ----
   const dropReasons = {};
-  const safe = [];
+  let safe = [];
   const safetyOpts = { dropPort110: CFG.dropPort110, allowPlaintext: CFG.allowPlaintext };
   for (const n of nodes) {
     const chk = safetyCheck(n, safetyOpts);
@@ -412,7 +414,32 @@ async function main() {
   }
   const insecureDropped = (dropReasons.insecure || 0) + (dropReasons.tls_disabled || 0);
   const privateDropped = (dropReasons.private || 0) + (dropReasons.localhost || 0);
+  const safeBeforeAdapter = safe.length;
   log('[4/9] after safety ' + safe.length + ' (dropped ' + (nodes.length - safe.length) + ') ' + JSON.stringify(dropReasons));
+
+  // ---- 4b. adapter compatibility ----
+  // A node can pass every policy check and still make mihomo abort while it builds
+  // the config: an unknown shadowsocks method, a malformed 2022-blake3 key, a padded
+  // REALITY public key, a plugin with no mode, a required field missing. mihomo stops
+  // at the FIRST fatal field, so one such node costs the whole measurement stage (and
+  // the publish step) rather than just itself. Drop them here, before they can.
+  const adapterDropped = {};
+  if (safe.length) {
+    const compat = [];
+    for (const n of safe) {
+      const chk = adapterCheck(n);
+      if (!chk.ok) {
+        dropReasons[chk.reason] = (dropReasons[chk.reason] || 0) + 1;
+        adapterDropped[chk.reason] = (adapterDropped[chk.reason] || 0) + 1;
+        continue;
+      }
+      compat.push(n);
+    }
+    safe = compat;
+    if (safeBeforeAdapter !== safe.length) {
+      log('[4/9] adapter-incompatible dropped ' + (safeBeforeAdapter - safe.length) + ' ' + JSON.stringify(adapterDropped));
+    }
+  }
 
   // ---- 5. dedupe (endpoint key, then content key) + deterministic order ----
   // Sort first so "which duplicate survives" is a function of the data, not of the
