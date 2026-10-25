@@ -710,6 +710,11 @@ async function main() {
     }
     log('[9/9] provider: ' + (providerTest.ok === true ? 'OK (' + providerTest.nodes + ' entries load)'
       : providerTest.ok === false ? 'FAILED - ' + providerTest.message : 'skipped (' + providerTest.reason + ')'));
+    // 宁可这次不发布，也不要提交一份客户端读不了的文件：CI 里这一步失败就整轮失败，
+    // 后面的 git commit / release upload 都不会执行，线上仍是上一份已知可用的产物。
+    if (providerTest.ok === false) {
+      throw new Error('provider load test failed, refusing to publish: ' + providerTest.message);
+    }
   }
 
   const byType = countBy(emitted, (n) => n.type);

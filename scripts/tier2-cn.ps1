@@ -3,11 +3,11 @@
 # 用法：
 #   powershell -ExecutionPolicy Bypass -File scripts\tier2-cn.ps1
 #   ... -Rounds 3 -Interval 15 -Throughput 10 -Candidates out\nodepool.yaml
-#   ... -Release <owner>/<repo>      # 没给 -Candidates 时，从 release 拉候选（走 gh-proxy 镜像）
+#   ... -Release qwqlemon2333/pussies_fucker   # 没给 -Candidates 时，从 release 拉候选（走 gh-proxy 镜像）
 #
 # 计划任务（每 2 小时）：
 #   schtasks /Create /TN nodepool-tier2 /SC HOURLY /MO 2 /F /RL LIMITED \
-#     /TR "powershell -ExecutionPolicy Bypass -File C:\UGit\nodepool\scripts\tier2-cn.ps1 -Release <owner>/<repo>"
+#     /TR "powershell -ExecutionPolicy Bypass -File C:\UGit\pussies_fucker\scripts\tier2-cn.ps1 -Release qwqlemon2333/pussies_fucker"
 param(
   [int]$Rounds = 3,
   [int]$Interval = 15,
@@ -28,7 +28,7 @@ function Log($m) { $line = (Get-Date -Format 'HH:mm:ss') + ' ' + $m; Write-Host 
 
 try {
   if (-not $Candidates) {
-    if (-not $Release) { throw 'need -Candidates <file> or -Release <owner>/<repo>' }
+    if (-not $Release) { throw 'need -Candidates <file> or -Release owner/repo (e.g. qwqlemon2333/pussies_fucker)' }
     $Candidates = 'out\nodepool.yaml'
     $url = 'https://gh-proxy.com/https://github.com/' + $Release + '/releases/download/nodepool-latest/nodepool.yaml'
     Log ('fetching candidates via mirror: ' + $url)

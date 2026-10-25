@@ -23,7 +23,7 @@ node verify-cn.mjs                                    # 读 out/nodepool.yaml，
 node verify-cn.mjs --rounds 5 --interval 30000        # 更严格：5 轮、间隔 30s（抗抖动）
 node verify-cn.mjs --throughput 10                    # 顺便对前 10 名做真实下载测速
 node verify-cn.mjs --throughput-only --throughput 20  # 只测速，不重跑轮次
-node verify-cn.mjs --url https://gh-proxy.com/https://github.com/<owner>/<repo>/releases/download/nodepool-latest/nodepool.yaml
+node verify-cn.mjs --url https://gh-proxy.com/https://github.com/qwqlemon2333/pussies_fucker/releases/download/nodepool-latest/nodepool.yaml
                                                       # 直接从 release 拉候选（走大陆可达的镜像前缀）
 ```
 
@@ -62,7 +62,7 @@ RTT 不能当带宽用，速度必须按目标分别量——这也是为什么 
 
 ```bat
 schtasks /Create /TN nodepool-tier2 /SC HOURLY /MO 2 /F /RL LIMITED ^
-  /TR "powershell -ExecutionPolicy Bypass -File C:\UGit\nodepool\scripts\tier2-cn.ps1 -Release <owner>/<repo>"
+  /TR "powershell -ExecutionPolicy Bypass -File C:\UGit\pussies_fucker\scripts\tier2-cn.ps1 -Release qwqlemon2333/pussies_fucker"
 ```
 
 计划任务里的脚本会先用镜像前缀把候选拉到 `out/nodepool.yaml`，再调 `verify-cn.mjs`，
