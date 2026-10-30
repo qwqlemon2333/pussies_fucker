@@ -294,28 +294,28 @@ REALITY 公钥/短 ID 非法。现在这些条目在发出之前就被丢弃并�
 
 ## 本次运行的真实数据
 
-- 生成时间：`2026-10-25T18:01:27.755Z`，模式 `ci`，耗时 176.4 秒
-- 新鲜度闸门：窗口 5 天，截止 `2026-10-20`；搜索命中 361 个仓库 → 一筛后 361 → 默认分支校验 25 → 5 天内活跃 24 → 最终采用 14 个仓库 / 28 个文件
-- 因默认分支太旧而丢弃：1 个仓库（明细+提交日期见 `out/sources.json`）
-- 原始文件：28 个（11.93 MiB）
-- 节点：解析 25817 → 去重 4247 → TCP 存活 1149 → 真实代理验证 14 → 最终写入 14
-- 真实代理验证：mihomo 逐节点测 400 个，通过 14 个，耗时 44 秒
-- 丢弃大类：不安全 3273，内网/回环 0，端口非法 0，重复 16988，TCP 不通 2851
-- 逐项丢弃原因（report.json 的 `drop_reasons` 有完整计数）：tls_disabled=1678、insecure=1595、plaintext_proxy=724、sni_ip_literal=390、weak_ss_cipher=142、trojan_no_tls=42、vmess_weak_cipher=4、adapter_ss_method=4、reality_no_pubkey=2、adapter_reality_pubkey=1
-- 存活节点按类型：ss=8, vmess=6
+- 生成时间：`2026-10-30T17:26:08.915Z`，模式 `ci`，耗时 161.2 秒
+- 新鲜度闸门：窗口 5 天，截止 `2026-10-25`；搜索命中 704 个仓库 → 一筛后 703 → 默认分支校验 140 → 5 天内活跃 136 → 最终采用 60 个仓库 / 148 个文件
+- 因默认分支太旧而丢弃：4 个仓库（明细+提交日期见 `out/sources.json`）
+- 原始文件：148 个（110.09 MiB）
+- 节点：解析 296502 → 去重 53976 → TCP 存活 2134 → 真实代理验证 40 → 最终写入 40
+- 真实代理验证：mihomo 逐节点测 400 个，通过 40 个，耗时 23.9 秒
+- 丢弃大类：不安全 51044，内网/回环 142，端口非法 97，重复 179144，TCP 不通 1866
+- 逐项丢弃原因（report.json 的 `drop_reasons` 有完整计数）：tls_disabled=40326、insecure=10718、trojan_no_tls=3966、sni_ip_literal=3244、reality_no_pubkey=2351、plaintext_proxy=1151、weak_ss_cipher=813、vmess_weak_cipher=373、private=142、adapter_required_field=105、bad_port=95、adapter_ss_method=61、adapter_reality_pubkey=23、adapter_ss2022_key=10、empty_server=2、adapter_reality_shortid=2
+- 存活节点按类型：hysteria2=2, ssr=1, ss=25, trojan=1, vless=2, wireguard=9
 - 真机自检：mihomo -t 通过
-- 发布前加载测试：整份 provider 被 mihomo 逐条解析通过（14 条）
-- GEOIP：检测到 `C:\Program Files\Clash Verge\resources\Country.mmdb`，片段中含 GEOIP,PRIVATE / GEOIP,LAN
+- 发布前加载测试：整份 provider 被 mihomo 逐条解析通过（40 条）
+- GEOIP：未检测到 geoip 数据库，片段中**不含** GEOIP 规则（只保留等价的 IP-CIDR 规则）
 
 最快 5 个（仅 TCP 握手 RTT，不代表真实下载速度）：
 
 | 名称 | 类型 | 服务器 | 端口 | RTT |
 | --- | --- | --- | --- | --- |
-| vmess-1827155985 | vmess | 112.132.215.108 | 50002 | 13.8 ms |
-| vmess-1883518786 | vmess | 120.48.133.162 | 10086 | 32.9 ms |
-| vmess-1884298776 | vmess | 39.108.113.127 | 10086 | 36.2 ms |
-| [www.v2nodes.com]-ss-IT-1602...-#2 | ss | 202.50.253.72 | 19999 | 187.6 ms |
-| By-EbraSha-24 | vmess | 172.67.187.145 | 80 | 194.2 ms |
+| @VPNine1 | trojan | 104.16.122.175 | 443 | 1.6 ms |
+| 196244 | ss | 103.11.76.248 | 28679 | 16.3 ms |
+| Wind18-SantaClara-UnitedStates | wireguard | 167.88.60.244 | 443 | 16.3 ms |
+| SSR--NF-ChatGPT-TikTok-YouTube-107.151.1 | ssr | 107.151.182.253 | 8080 | 25.5 ms |
+| ProxyRift-554 | ss | 149.22.95.183 | 443 | 29.5 ms |
 
 ## 各阶段做了什么
 
@@ -330,7 +330,10 @@ REALITY 公钥/短 ID 非法。现在这些条目在发出之前就被丢弃并�
      或 URI 里带 allowInsecure=1 / insecure=true / skip-cert-verify=true
    - trojan 没有 tls:true（trojan 不带 TLS 等于明文传密码）
    - vless 既无 TLS 也无 REALITY；REALITY 存在但 public-key 为空
-   - ss 用了未认证/已破的加密：none、plain、table、rc4、rc4-md5、des-cfb、bf-cfb、chacha20（非 poly1305）
+   - ss/ssr 用了未认证/已破的加密：none、plain、table、rc4、rc4-md5、des-cfb、bf-cfb、chacha20（非 poly1305），
+     以及 AES 的 CFB/CTR 模式——它们有加密但没有任何完整性校验，中间人可以任意篡改比特而不被发现，
+     shadowsocks 早在 2017 年就把它们和 RC4 一起废弃、只保留 AEAD。ssr 以前完全没检查加密方式，
+     结果真的发布过一条 rc4-md5 的 SSR 节点（2026-10-26 的 nodepool-latest），现在两者共用同一份名单。
    - vmess 的 cipher/security/scy 为 none 或 zero
    - sni / servername / Host 直接写成裸 IP（无法做证书校验，正是把人逼去关校验的元凶）
    - **明文代理**：type 是 http / socks5 / socks4 / socks4a / http-connect 的一律丢弃。
@@ -404,35 +407,155 @@ REALITY 公钥/短 ID 非法。现在这些条目在发出之前就被丢弃并�
 
 ## 数据源状态（本次运行）
 
-- `MustafaBaqer/VestraNet-Nodes :: subscriptions/mix-normal.txt` — HTTP 200，2885858 B，解析 8440 个（通道 ghproxy.net）
-- `MustafaBaqer/VestraNet-Nodes :: protocols/vmess.txt` — HTTP 200，2193003 B，解析 6314 个（通道 jsdelivr-proxied）
-- `Au1rxx/free-vpn-subscriptions :: output/protocol/vmess/clash-0001.yaml` — HTTP 200，237066 B，解析 822 个（通道 jsdelivr-proxied）
-- `Au1rxx/free-vpn-subscriptions :: output/protocol/vless/clash-0002.yaml` — HTTP 200，762042 B，解析 2000 个（通道 jsdelivr-proxied）
-- `Au1rxx/free-vpn-subscriptions :: output/protocol/vless/clash-0001.yaml` — HTTP 200，761474 B，解析 2000 个（通道 jsdelivr-proxied）
-- `Thordata/awesome-free-proxy-list :: proxies/clash/all.yaml` — HTTP 200，90315 B，解析 361 个（通道 jsdelivr-proxied）
-- `Thordata/awesome-free-proxy-list :: proxies/clash/high-anon.yaml` — HTTP 200，77233 B，解析 293 个（通道 jsdelivr-proxied）
-- `chenzhihan1751-cyber/node-sub-zixf :: sub/v2ray.txt` — HTTP 200，419810 B，解析 1885 个（通道 jsdelivr-proxied）
-- `chenzhihan1751-cyber/node-sub-zixf :: sub/base64.txt` — HTTP 200，535557 B，解析 1818 个（通道 jsdelivr-proxied）
-- `zhangdunlong/free-v2ray-nodes :: nodes_base64.txt` — HTTP 200，17336 B，解析 60 个（通道 jsdelivr-proxied）
-- `zhangdunlong/free-v2ray-nodes :: unique_nodes.txt` — HTTP 200，12914 B，解析 50 个（通道 jsdelivr-proxied）
-- `vincent20240707/free-v2ray-nodes :: nodes.txt` — HTTP 200，8273 B，解析 50 个（通道 jsdelivr-proxied）
-- `LalatinaHub/LatinaSub :: result/clash.yaml` — HTTP 200，199587 B，解析 398 个（通道 jsdelivr-proxied）
-- `LalatinaHub/LatinaSub :: result/nodes` — HTTP 200，101084 B，解析 463 个（通道 jsdelivr-proxied）
-- `LalatinaHub/LatinaSub :: result/sub` — HTTP 200，134780 B，解析 463 个（通道 jsdelivr-proxied）
-- `xifan001-lab/clash-sub :: clash.yaml` — HTTP 200，53593 B，解析 100 个（通道 jsdelivr-proxied）
-- `owenlee3/my-nodes :: output/clash.yaml` — HTTP 200，45603 B，解析 150 个（通道 jsdelivr-proxied）
-- `shifeiquan520/shifeiquan3 :: output/clash.yaml` — HTTP 200，12135 B，解析 33 个（通道 jsdelivr-proxied）
-- `longyang1233/free-nodes-sub :: clash.yaml` — HTTP 200，13929 B，解析 60 个（通道 jsdelivr-proxied）
-- `sunmiao4458/free-proxy-airport :: output/clash.yaml` — HTTP 200，16360 B，解析 44 个（通道 jsdelivr-proxied）
-- `Pawdroid/Free-servers :: sub` — HTTP 200，4760 B，解析 13 个（通道 jsdelivr-proxied）
+- `asgharkapk/Sub-Config-Extractor :: output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml` — HTTP 200，715529 B，解析 2550 个（通道 raw-direct）
+- `asgharkapk/Sub-Config-Extractor :: output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vless.txt.yaml` — HTTP 200，76567 B，解析 228 个（通道 raw-direct）
+- `asgharkapk/Sub-Config-Extractor :: output_configs/v2ray/itsyebekhe/PSG/subscriptions/clash/vmess.yaml` — HTTP 200，8398 B，解析 26 个（通道 raw-direct）
+- `rekt0ro/ProxyRift :: subscriptions/all-clash.yaml` — HTTP 200，511600 B，解析 1964 个（通道 raw-direct）
+- `rekt0ro/ProxyRift :: subscriptions/light-clash.yaml` — HTTP 200，43018 B，解析 145 个（通道 raw-direct）
+- `MatinGhanbari/v2ray-configs :: subscriptions/v2ray/all_sub.txt` — HTTP 200，1197712 B，解析 3949 个（通道 raw-direct）
+- `MatinGhanbari/v2ray-configs :: subscriptions/filtered/subs/vmess.txt` — HTTP 200，1383972 B，解析 2638 个（通道 raw-direct）
+- `MatinGhanbari/v2ray-configs :: subscriptions/v2ray/super-sub.txt` — HTTP 200，83140 B，解析 199 个（通道 raw-direct）
+- `morpheusadam/v2ray-config :: subs/bundles/vmess-base64.txt` — HTTP 200，4644584 B，解析 9589 个（通道 raw-direct）
+- `morpheusadam/v2ray-config :: subs/bundles/vmess.txt` — HTTP 200，3483673 B，解析 9589 个（通道 raw-direct）
+- `morpheusadam/v2ray-config :: subs/bundles/vless.txt` — HTTP 200，8115697 B，解析 36112 个（通道 raw-direct）
+- `MustafaBaqer/VestraNet-Nodes :: subscriptions/mix-base64.txt` — HTTP 200，3820108 B，解析 8631 个（通道 raw-direct）
+- `MustafaBaqer/VestraNet-Nodes :: subscriptions/mix-normal.txt` — HTTP 200，2865079 B，解析 8631 个（通道 raw-direct）
+- `MustafaBaqer/VestraNet-Nodes :: protocols/vmess.txt` — HTTP 200，2101636 B，解析 6162 个（通道 raw-direct）
+- `MahanKenway/Freedom-V2Ray :: configs/vmess_sub.txt` — HTTP 200，676652 B，解析 1125 个（通道 raw-direct）
+- `MahanKenway/Freedom-V2Ray :: configs/mix_sub.txt` — HTTP 200，797248 B，解析 1658 个（通道 raw-direct）
+- `MahanKenway/Freedom-V2Ray :: configs/vless_sub.txt` — HTTP 200，50172 B，解析 147 个（通道 raw-direct）
+- `Romaxa55/MegaV_Public :: subs/vless.txt` — HTTP 200，400 B，解析 2 个（通道 raw-direct）
+- `Romaxa55/MegaV_Public :: subs/all.txt` — HTTP 200，1302 B，解析 7 个（通道 raw-direct）
+- `Romaxa55/MegaV_Public :: subs/servers.json` — HTTP 200，3803 B，解析 7 个（通道 raw-direct）
+- `3inker/v2ray-subscription :: subs/all_not_ru.txt` — HTTP 200，113476 B，解析 447 个（通道 raw-direct）
+- `3inker/v2ray-subscription :: subs/all_ru.txt` — HTTP 200，9469 B，解析 37 个（通道 raw-direct）
+- `nostalume/FreeNodes :: nodes/nodev2ray.yaml` — HTTP 200，35499 B，解析 151 个（通道 raw-direct）
+- `nostalume/FreeNodes :: nodes/freeclashnode.yaml` — HTTP 200，36734 B，解析 154 个（通道 raw-direct）
+- `nostalume/FreeNodes :: nodes/clashnode.yaml` — HTTP 200，36734 B，解析 154 个（通道 raw-direct）
+- `hamedcode/port-based-v2ray-configs :: sub/clash.yaml` — HTTP 200，28095 B，解析 100 个（通道 raw-direct）
+- `hamedcode/port-based-v2ray-configs :: sub/vmess.txt` — HTTP 200，673426 B，解析 1568 个（通道 raw-direct）
+- `hamedcode/port-based-v2ray-configs :: sub/vless.txt` — HTTP 200，1578864 B，解析 5835 个（通道 raw-direct）
+- `barry-far/V2ray-Config :: All_Configs_base64_Sub.txt` — HTTP 200，2750132 B，解析 8413 个（通道 raw-direct）
+- `barry-far/V2ray-Config :: All_Configs_Sub.txt` — HTTP 200，2062599 B，解析 8413 个（通道 raw-direct）
+- `barry-far/V2ray-Config :: Base64/Sub21_base64.txt` — HTTP 200，215420 B，解析 109 个（通道 raw-direct）
+- `NiREvil/vless :: sub/clash-meta.yml` — HTTP 200，19115 B，解析 37 个（通道 raw-direct）
+- `Au1rxx/free-vpn-subscriptions :: output/protocol/vmess/clash-0001.yaml` — HTTP 200，261823 B，解析 901 个（通道 raw-direct）
+- `Au1rxx/free-vpn-subscriptions :: output/protocol/vless/clash-0001.yaml` — HTTP 200，766765 B，解析 2000 个（通道 raw-direct）
+- `Au1rxx/free-vpn-subscriptions :: output/protocol/vless/clash-0002.yaml` — HTTP 200，750587 B，解析 2000 个（通道 raw-direct）
+- `Thordata/awesome-free-proxy-list :: proxies/clash/all.yaml` — HTTP 200，69460 B，解析 244 个（通道 raw-direct）
+- `Thordata/awesome-free-proxy-list :: proxies/clash/high-anon.yaml` — HTTP 200，62184 B，解析 209 个（通道 raw-direct）
+- `Mokafela/Config-Finder :: split/sub-ALL.txt` — HTTP 200，37076 B，解析 116 个（通道 raw-direct）
+- `Mokafela/Config-Finder :: split/sub-CA.txt` — HTTP 200，10472 B，解析 30 个（通道 raw-direct）
+- `mahdibland/V2RayAggregator :: sub/splitted/vmess.txt` — HTTP 200，893375 B，解析 1988 个（通道 raw-direct）
+- `mahdibland/V2RayAggregator :: sub/sub_merge_yaml.yml` — HTTP 200，1024004 B，解析 4462 个（通道 raw-direct）
+- `mahdibland/V2RayAggregator :: sub/splitted/trojan.txt` — HTTP 200，66316 B，解析 494 个（通道 raw-direct）
+- `kasesm/Free-Config :: vmess_sub.txt` — HTTP 200，39596 B，解析 49 个（通道 raw-direct）
+- `kasesm/Free-Config :: all_sub.txt` — HTTP 200，248264 B，解析 854 个（通道 raw-direct）
+- `kasesm/Free-Config :: vless_sub.txt` — HTTP 200，173596 B，解析 636 个（通道 raw-direct）
+- `zhangdunlong/free-v2ray-nodes :: unique_nodes.txt` — HTTP 200，17198 B，解析 65 个（通道 raw-direct）
+- `vincent20240707/free-v2ray-nodes :: nodes.txt` — HTTP 200，8273 B，解析 50 个（通道 raw-direct）
+- `VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy :: combine/clash.config.yaml` — HTTP 200，1821016 B，解析 2880 个（通道 raw-direct）
+- `sakha1370/OpenRay :: output/converted/all_valid_proxies_clash_config.yaml` — HTTP 200，4231906 B，解析 2 个（通道 raw-direct）
+- `chenzhihan1751-cyber/node-sub-zixf :: sub/v2ray.txt` — HTTP 200，160749 B，解析 868 个（通道 raw-direct）
+- `chenzhihan1751-cyber/node-sub-zixf :: sub/base64.txt` — HTTP 200，214333 B，解析 868 个（通道 raw-direct）
+- `LalatinaHub/Mineral :: result/nodes` — HTTP 200，4446884 B，解析 18724 个（通道 raw-direct）
+- `mohammadaz2/v2rayConfigsForYou :: sub/vless.txt` — HTTP 200，95925 B，解析 330 个（通道 raw-direct）
+- `mohammadaz2/v2rayConfigsForYou :: sub/vmess.txt` — HTTP 200，14051 B，解析 32 个（通道 raw-direct）
+- `mohammadaz2/v2rayConfigsForYou :: sub/trojan.txt` — HTTP 200，19745 B，解析 77 个（通道 raw-direct）
+- `fmw86/free-proxy-pool :: nodes_detail.json` — HTTP 200，3155027 B，解析 7320 个（通道 raw-direct）
+- `fmw86/free-proxy-pool :: nodes_alive.txt` — HTTP 200，930300 B，解析 3147 个（通道 raw-direct）
+- `free-nodes/clashfree :: clash20261029.yml` — HTTP 200，688511 B，解析 81 个（通道 raw-direct）
+- `free-nodes/clashfree :: clash20261026.yml` — HTTP 200，688207 B，解析 81 个（通道 raw-direct）
+- `free-nodes/clashfree :: clash20261028.yml` — HTTP 200，688207 B，解析 81 个（通道 raw-direct）
+- `mfuu/FreeProxies :: sub.yaml` — HTTP 200，20719 B，解析 112 个（通道 raw-direct）
+- `mfuu/FreeProxies :: sub` — HTTP 200，30784 B，解析 112 个（通道 raw-direct）
+- `0xRadikal/Free-v2ray-Configs :: all/clash.yaml` — HTTP 200，4274104 B，解析 10700 个（通道 raw-direct）
+- `0xRadikal/Free-v2ray-Configs :: heavy/clash.yaml` — HTTP 200，2676899 B，解析 6609 个（通道 raw-direct）
+- `0xRadikal/Free-v2ray-Configs :: light/clash.yaml` — HTTP 200，2063539 B，解析 5274 个（通道 raw-direct）
+- `ninjastrikers/nexus-nodes :: configs/vmess.txt` — HTTP 200，285956 B，解析 500 个（通道 raw-direct）
+- `ninjastrikers/nexus-nodes :: configs/countries/unknown/vmess.txt` — HTTP 200，286016 B，解析 500 个（通道 raw-direct）
+- `ninjastrikers/nexus-nodes :: configs/countries/ca/vmess.txt` — HTTP 200，275276 B，解析 500 个（通道 raw-direct）
+- `LalatinaHub/LatinaSub :: result/clash.yaml` — HTTP 200，248471 B，解析 500 个（通道 raw-direct）
+- `LalatinaHub/LatinaSub :: result/nodes` — HTTP 200，111299 B，解析 500 个（通道 raw-direct）
+- `LalatinaHub/LatinaSub :: result/sub` — HTTP 200，148400 B，解析 500 个（通道 raw-direct）
+- `ZendanTeam/SS44-sub :: SS44-clash.yaml` — HTTP 200，22128 B，解析 101 个（通道 raw-direct）
+- `hamzawih0/zorVPN :: clash.yaml` — HTTP 200，44936 B，解析 104 个（通道 raw-direct）
+- `hamzawih0/zorVPN :: ZorVPN-nodes.txt` — HTTP 200，18190 B，解析 104 个（通道 raw-direct）
+- `xifan001-lab/clash-sub :: clash.yaml` — HTTP 200，43416 B，解析 100 个（通道 raw-direct）
+- `F0rc3Run/F0rc3Run :: Best-Results/clash.yaml` — HTTP 200，98305 B，解析 187 个（通道 raw-direct）
+- `F0rc3Run/F0rc3Run :: Best-Results/clash-provider.yaml` — HTTP 200，44811 B，解析 187 个（通道 raw-direct）
+- `F0rc3Run/F0rc3Run :: Best-Results/sub.txt` — HTTP 200，56848 B，解析 188 个（通道 raw-direct）
+- `wenxig/free-nodes-sub :: clash_template.yaml` — HTTP 200，891 B，解析 2 个（通道 raw-direct）
+- `owenlee3/my-nodes :: output/clash.yaml` — HTTP 200，40412 B，解析 150 个（通道 raw-direct）
+- `shifeiquan520/shifeiquan3 :: output/clash.yaml` — HTTP 200，8949 B，解析 20 个（通道 raw-direct）
+- `zhuhaiuk/free-nodes :: clash_config.yaml` — HTTP 200，4919 B，解析 27 个（通道 raw-direct）
+- `zhuhaiuk/free-nodes :: nodes.txt` — HTTP 200，2744 B，解析 3 个（通道 raw-direct）
+- `zhuhaiuk/free-nodes :: extra_clash_config.yaml` — HTTP 200，441 B，解析 1 个（通道 raw-direct）
+- `Surfboardv2ray/Proxy-sorter :: submerge/converted.txt` — HTTP 200，1530217 B，解析 4153 个（通道 raw-direct）
+- `Surfboardv2ray/Proxy-sorter :: submerge/US.txt` — HTTP 200，157085 B，解析 458 个（通道 raw-direct）
+- `Surfboardv2ray/Proxy-sorter :: xray/configs/all_configs.txt` — HTTP 200，66063 B，解析 273 个（通道 raw-direct）
+- `liMilCo/v2r :: configs.txt` — HTTP 200，6714296 B，解析 13747 个（通道 raw-direct）
+- `liMilCo/v2r :: all_configs.txt` — HTTP 200，5035721 B，解析 13747 个（通道 raw-direct）
+- `liMilCo/v2r :: sub/12.txt` — HTTP 200，190730 B，解析 481 个（通道 raw-direct）
+- `twj0/subseek :: data/sub_github_base64.txt` — HTTP 200，5923796 B，解析 11341 个（通道 raw-direct）
+- `twj0/subseek :: data/sub_github.txt` — HTTP 200，4442845 B，解析 11341 个（通道 raw-direct）
+- `twj0/subseek :: data/github/2026/09/19/sub_github.txt` — HTTP 200，7736387 B，解析 20383 个（通道 raw-direct）
+- `longyang1233/free-nodes-sub :: clash.yaml` — HTTP 200，6857 B，解析 56 个（通道 raw-direct）
+- `v2raydog-node/free-nodes :: clash.yaml` — HTTP 200，4908 B，解析 17 个（通道 raw-direct）
+- `v2raydog-node/free-nodes :: nodes.txt` — HTTP 200，3810 B，解析 17 个（通道 raw-direct）
+- `v2raydog-node/free-nodes :: v2ray.txt` — HTTP 200，5081 B，解析 17 个（通道 raw-direct）
+- `wobushilixi/free-proxy-nodes :: clash.yaml` — HTTP 200，797 B，解析 2 个（通道 raw-direct）
+- `yuluo688/clash-hot-countries :: clash-hot-countries-zh.yaml` — HTTP 200，3277 B，解析 26 个（通道 raw-direct）
+- `yuluo688/clash-hot-countries :: clash-hot-countries.yaml` — HTTP 200，3277 B，解析 26 个（通道 raw-direct）
+- `yuluo688/clash-hot-countries :: clash-hot-countries-en.yaml` — HTTP 200，3147 B，解析 26 个（通道 raw-direct）
+- `sunmiao4458/free-proxy-airport :: output/clash.yaml` — HTTP 200，8767 B，解析 22 个（通道 raw-direct）
+- `Alirewa/V2ray-Configs :: sub3.txt` — HTTP 200，32892 B，解析 100 个（通道 raw-direct）
+- `Alirewa/V2ray-Configs :: sub1.txt` — HTTP 200，30564 B，解析 100 个（通道 raw-direct）
+- `Alirewa/V2ray-Configs :: sub2.txt` — HTTP 200，29504 B，解析 100 个（通道 raw-direct）
+- `nukcrow/black-crow :: sub/general/sub20.txt` — HTTP 200，496637 B，解析 1996 个（通道 raw-direct）
+- `nukcrow/black-crow :: sub/general/sub6.txt` — HTTP 200，491522 B，解析 1994 个（通道 raw-direct）
+- `nukcrow/black-crow :: sub/general/sub5.txt` — HTTP 200，480914 B，解析 1998 个（通道 raw-direct）
+- `skxxxkx666/freeport-manifest :: public/free/20260829/clash.yaml` — HTTP 200，63355 B，解析 120 个（通道 raw-direct）
+- `skxxxkx666/freeport-manifest :: public/free/20260822/clash.yaml` — HTTP 200，63320 B，解析 120 个（通道 raw-direct）
+- `skxxxkx666/freeport-manifest :: public/free/20260901/clash.yaml` — HTTP 200，62571 B，解析 120 个（通道 raw-direct）
+- `ProblemTheCode/SylphNet-public :: sub/sub.txt` — HTTP 200，104296 B，解析 321 个（通道 raw-direct）
+- `ProblemTheCode/SylphNet-public :: sub/sub_plain.txt` — HTTP 200，78222 B，解析 321 个（通道 raw-direct）
+- `mahdyaralipor/v2all :: real_sub.txt` — HTTP 200，6592 B，解析 20 个（通道 raw-direct）
+- `dfhhvc/freenodes :: sub.txt` — HTTP 200，1612 B，解析 5 个（通道 raw-direct）
+- `fushuain-collab/free-nodes :: sub.txt` — HTTP 200，8476 B，解析 50 个（通道 raw-direct）
+- `jwadya089-commits/My-sub :: sub.txt` — HTTP 200，3211 B，解析 11 个（通道 raw-direct）
+- `pashadolf/Eternal-Sub :: gemini-sub.txt` — HTTP 200，17608 B，解析 35 个（通道 raw-direct）
+- `shabane/kamaji :: hub/vmess.txt` — HTTP 200，1080621 B，解析 2232 个（通道 raw-direct）
+- `shabane/kamaji :: hub/b64/vmess.txt` — HTTP 200，1440828 B，解析 2232 个（通道 raw-direct）
+- `shabane/kamaji :: hub/vless.txt` — HTTP 200，4780804 B，解析 14147 个（通道 raw-direct）
 
 失败 / 跳过：
 
-- `MustafaBaqer/VestraNet-Nodes :: subscriptions/mix-base64.txt` — fetched but parsed 0 nodes
+- `rekt0ro/ProxyRift :: subscriptions/all-singbox.json` — fetched but parsed 0 nodes
+- `NiREvil/vless :: sub/clash-meta-wg.yml` — fetched but parsed 0 nodes
+- `NiREvil/vless :: sub/ProxyIP-for-zizifn.json` — fetched but parsed 0 nodes
 - `Thordata/awesome-free-proxy-list :: proxies/subscriptions.json` — fetched but parsed 0 nodes
-- `chenzhihan1751-cyber/node-sub-zixf :: sub/stats.json` — fetched but parsed 0 nodes
+- `Mokafela/Config-Finder :: subs/subs.json` — fetched but parsed 0 nodes
 - `zhangdunlong/free-v2ray-nodes :: subscription.txt` — fetched but parsed 0 nodes
 - `vincent20240707/free-v2ray-nodes :: subscriptions.txt` — fetched but parsed 0 nodes
+- `VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy :: combine/clashsub.txt` — fetched but parsed 0 nodes
+- `VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy :: combine/v2raysub.txt` — fetched but parsed 0 nodes
+- `sakha1370/OpenRay :: output_iran/converted/iran_top100_clash_config.yaml` — fetched but parsed 0 nodes
+- `sakha1370/OpenRay :: output_iran/converted/irancell_top100_clash_config.yaml` — fetched but parsed 0 nodes
+- `chenzhihan1751-cyber/node-sub-zixf :: sub/stats.json` — fetched but parsed 0 nodes
+- `LalatinaHub/Mineral :: result/subs` — fetched but parsed 0 nodes
+- `LalatinaHub/Mineral :: result/sub.json` — fetched but parsed 0 nodes
+- `mfuu/FreeProxies :: list.json` — fetched but parsed 0 nodes
+- `zueston/proxy-hub :: out/nodes.json` — fetched but parsed 0 nodes
+- `zueston/proxy-hub :: out/clash.yaml` — fetched but parsed 0 nodes
+- `yafeisun/v2raynode :: result/20260204/freeclashnode_info.txt` — fetched but parsed 0 nodes
+- `yafeisun/v2raynode :: result/20260826/freeclashnode_info.txt` — fetched but parsed 0 nodes
+- `yafeisun/v2raynode :: result/20260130/freeclashnode_info.txt` — fetched but parsed 0 nodes
+- `wenxig/free-nodes-sub :: data/sub.yaml` — fetched but parsed 0 nodes
+- `wenxig/free-nodes-sub :: data/sub.txt` — fetched but parsed 0 nodes
 - `shifeiquan520/shifeiquan3 :: output/nodes.json` — fetched but parsed 0 nodes
 - `SnapdragonLee/SystemProxy :: clash.config.template.yaml` — fetched but parsed 0 nodes
+- `shenaba/2s-ui :: core/testdata/clean/sub-client.json` — fetched but parsed 0 nodes
+- `shenaba/2s-ui :: core/testdata/clean/hysteria2-realm.json` — fetched but parsed 0 nodes
+- `shenaba/2s-ui :: core/testdata/configs/08-full-protocols.json` — fetched but parsed 0 nodes
 
