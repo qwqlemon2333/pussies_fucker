@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-30T21:47:38.431Z",
+  "generated_at": "2026-10-31T03:02:31.067Z",
   "ci": true,
   "recency_days": 5,
-  "cutoff": "2026-10-25T21:45:37Z",
-  "cutoff_date": "2026-10-25",
+  "cutoff": "2026-10-26T03:01:55Z",
+  "cutoff_date": "2026-10-26",
   "authenticated": true,
   "queries": [
     {
       "query": "topic:v2ray",
       "pages": 3,
       "items": 300,
-      "total_count": 774,
+      "total_count": 696,
       "error": null
     },
     {
@@ -24,14 +24,14 @@
       "query": "topic:clash",
       "pages": 3,
       "items": 300,
-      "total_count": 810,
+      "total_count": 738,
       "error": null
     },
     {
       "query": "topic:clash-config",
       "pages": 1,
-      "items": 13,
-      "total_count": 13,
+      "items": 12,
+      "total_count": 12,
       "error": null
     },
     {
@@ -45,77 +45,77 @@
       "query": "topic:shadowsocks",
       "pages": 3,
       "items": 300,
-      "total_count": 422,
+      "total_count": 402,
       "error": null
     },
     {
       "query": "topic:hysteria",
-      "pages": 1,
-      "items": 35,
-      "total_count": 35,
-      "error": null
-    },
-    {
-      "query": "topic:vmess",
-      "pages": 3,
-      "items": 223,
-      "total_count": 223,
-      "error": null
-    },
-    {
-      "query": "vmess subscription",
-      "pages": 1,
-      "items": 87,
-      "total_count": 87,
-      "error": null
-    },
-    {
-      "query": "free v2ray nodes",
       "pages": 1,
       "items": 33,
       "total_count": 33,
       "error": null
     },
     {
+      "query": "topic:vmess",
+      "pages": 3,
+      "items": 211,
+      "total_count": 211,
+      "error": null
+    },
+    {
+      "query": "vmess subscription",
+      "pages": 1,
+      "items": 82,
+      "total_count": 82,
+      "error": null
+    },
+    {
+      "query": "free v2ray nodes",
+      "pages": 1,
+      "items": 32,
+      "total_count": 32,
+      "error": null
+    },
+    {
       "query": "clash subscription free",
       "pages": 1,
-      "items": 38,
-      "total_count": 38,
+      "items": 36,
+      "total_count": 36,
       "error": null
     },
     {
       "query": "free proxies nodes",
       "pages": 1,
-      "items": 19,
-      "total_count": 19,
+      "items": 17,
+      "total_count": 17,
       "error": null
     }
   ],
   "api": {
     "authenticated": true,
-    "core_requests": 254,
+    "core_requests": 13,
     "core_budget": null,
     "search_requests": 20,
-    "cache_hits": 2,
+    "cache_hits": 117,
     "offline": false,
     "stopped": null,
     "stopped_search": null,
     "stopped_core": null
   },
   "counts": {
-    "discovered": 702,
-    "eligible_stage1": 701,
+    "discovered": 684,
+    "eligible_stage1": 683,
     "commit_verified": 140,
-    "recent": 133,
-    "stale_dropped": 7,
-    "unverified_cap": 561,
+    "recent": 135,
+    "stale_dropped": 5,
+    "unverified_cap": 543,
     "selected": 60,
     "files": 145
   },
   "recent_repos": [
     {
       "full_name": "Pawdroid/Free-servers",
-      "stars": 19713,
+      "stars": 19717,
       "commit_date": "2026-10-30T21:06:23Z",
       "best_score": 14,
       "files": [],
@@ -123,7 +123,7 @@
     },
     {
       "full_name": "Au1rxx/free-vpn-subscriptions",
-      "stars": 1065,
+      "stars": 1066,
       "commit_date": "2026-10-30T10:11:36Z",
       "best_score": 32,
       "files": [
@@ -135,7 +135,7 @@
     },
     {
       "full_name": "mermeroo/V2RAY-CLASH-BASE64-Subscription.Links",
-      "stars": 527,
+      "stars": 526,
       "commit_date": "2026-10-29T06:40:06Z",
       "best_score": 16,
       "files": [],
@@ -226,6 +226,17 @@
       "drop_reason": null
     },
     {
+      "full_name": "vincent20240707/free-v2ray-nodes",
+      "stars": 0,
+      "commit_date": "2026-10-30T01:18:50Z",
+      "best_score": 30,
+      "files": [
+        "subscriptions.txt",
+        "nodes.txt"
+      ],
+      "drop_reason": null
+    },
+    {
       "full_name": "shifeiquan520/shifeiquan3",
       "stars": 0,
       "commit_date": "2026-10-30T17:57:37Z",
@@ -273,17 +284,6 @@
       "best_score": null,
       "files": [],
       "drop_reason": "no_subscription_file"
-    },
-    {
-      "full_name": "vincent20240707/free-v2ray-nodes",
-      "stars": 0,
-      "commit_date": "2026-10-30T01:18:50Z",
-      "best_score": 30,
-      "files": [
-        "subscriptions.txt",
-        "nodes.txt"
-      ],
-      "drop_reason": null
     },
     {
       "full_name": "crossxx-labs/free-proxy",
@@ -343,7 +343,7 @@
     },
     {
       "full_name": "Thordata/awesome-free-proxy-list",
-      "stars": 59,
+      "stars": 60,
       "commit_date": "2026-10-30T18:30:28Z",
       "best_score": 31,
       "files": [
@@ -483,7 +483,7 @@
     },
     {
       "full_name": "free-nodes/v2rayfree",
-      "stars": 14669,
+      "stars": 14674,
       "commit_date": "2026-10-30T20:34:45Z",
       "best_score": null,
       "files": [],
@@ -491,7 +491,7 @@
     },
     {
       "full_name": "sub-store-org/Sub-Store",
-      "stars": 10800,
+      "stars": 10802,
       "commit_date": "2026-10-30T10:33:50Z",
       "best_score": null,
       "files": [],
@@ -527,7 +527,7 @@
     },
     {
       "full_name": "zhuhaiuk/free-nodes",
-      "stars": 387,
+      "stars": 388,
       "commit_date": "2026-10-30T20:05:54Z",
       "best_score": 21,
       "files": [
@@ -739,6 +739,16 @@
       "drop_reason": "no_subscription_file"
     },
     {
+      "full_name": "ZendanTeam/SS44-sub",
+      "stars": 4,
+      "commit_date": "2026-10-30T18:46:38Z",
+      "best_score": 21,
+      "files": [
+        "SS44-clash.yaml"
+      ],
+      "drop_reason": null
+    },
+    {
       "full_name": "nostalume/FreeNodes",
       "stars": 4,
       "commit_date": "2026-10-30T20:57:33Z",
@@ -747,16 +757,6 @@
         "nodes/nodev2ray.yaml",
         "nodes/freeclashnode.yaml",
         "nodes/clashmeta.yaml"
-      ],
-      "drop_reason": null
-    },
-    {
-      "full_name": "ZendanTeam/SS44-sub",
-      "stars": 4,
-      "commit_date": "2026-10-30T18:46:38Z",
-      "best_score": 21,
-      "files": [
-        "SS44-clash.yaml"
       ],
       "drop_reason": null
     },
@@ -793,6 +793,14 @@
       "drop_reason": "no_subscription_file"
     },
     {
+      "full_name": "GitWay0227/sub-filter-private",
+      "stars": 0,
+      "commit_date": "2026-10-28T15:50:58Z",
+      "best_score": null,
+      "files": [],
+      "drop_reason": "no_subscription_file"
+    },
+    {
       "full_name": "nodesradar/nodesradar-my",
       "stars": 0,
       "commit_date": "2026-10-30T21:20:58Z",
@@ -801,12 +809,28 @@
       "drop_reason": "no_subscription_file"
     },
     {
-      "full_name": "GitWay0227/sub-filter-private",
+      "full_name": "wz-node/free-nodes",
       "stars": 0,
-      "commit_date": "2026-10-28T15:50:58Z",
-      "best_score": null,
-      "files": [],
-      "drop_reason": "no_subscription_file"
+      "commit_date": "2026-10-30T12:24:05Z",
+      "best_score": 21,
+      "files": [
+        "clash.yaml",
+        "nodes.txt",
+        "v2ray.txt"
+      ],
+      "drop_reason": null
+    },
+    {
+      "full_name": "v2raydog-node/free-nodes",
+      "stars": 0,
+      "commit_date": "2026-10-31T00:00:19Z",
+      "best_score": 21,
+      "files": [
+        "clash.yaml",
+        "nodes.txt",
+        "v2ray.txt"
+      ],
+      "drop_reason": null
     },
     {
       "full_name": "skxxxkx666/freeport-manifest",
@@ -837,30 +861,6 @@
       "best_score": null,
       "files": [],
       "drop_reason": "no_subscription_file"
-    },
-    {
-      "full_name": "wz-node/free-nodes",
-      "stars": 0,
-      "commit_date": "2026-10-30T12:24:05Z",
-      "best_score": 21,
-      "files": [
-        "clash.yaml",
-        "nodes.txt",
-        "v2ray.txt"
-      ],
-      "drop_reason": null
-    },
-    {
-      "full_name": "v2raydog-node/free-nodes",
-      "stars": 0,
-      "commit_date": "2026-10-30T12:19:08Z",
-      "best_score": 21,
-      "files": [
-        "clash.yaml",
-        "nodes.txt",
-        "v2ray.txt"
-      ],
-      "drop_reason": null
     },
     {
       "full_name": "pashadolf/Eternal-Sub",
@@ -926,7 +926,7 @@
     },
     {
       "full_name": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
-      "stars": 5684,
+      "stars": 5685,
       "commit_date": "2026-10-30T20:37:15Z",
       "best_score": 29,
       "files": [
@@ -962,7 +962,7 @@
     },
     {
       "full_name": "shaoyouvip/free",
-      "stars": 1308,
+      "stars": 1310,
       "commit_date": "2026-10-30T19:45:39Z",
       "best_score": 17,
       "files": [],
@@ -998,7 +998,7 @@
     },
     {
       "full_name": "bq2015/FreeProxies",
-      "stars": 917,
+      "stars": 918,
       "commit_date": "2026-10-30T21:22:36Z",
       "best_score": null,
       "files": [],
@@ -1075,14 +1075,6 @@
         "output_iran/converted/irancell_top100_clash_config.yaml"
       ],
       "drop_reason": null
-    },
-    {
-      "full_name": "free-clash-v2ray/free-clash-v2ray.github.io",
-      "stars": 249,
-      "commit_date": "2026-10-26T02:10:48Z",
-      "best_score": null,
-      "files": [],
-      "drop_reason": "no_subscription_file"
     },
     {
       "full_name": "Surfboardv2ray/Proxy-sorter",
@@ -1258,7 +1250,7 @@
     },
     {
       "full_name": "Mokafela/Config-Finder",
-      "stars": 15,
+      "stars": 16,
       "commit_date": "2026-10-30T18:52:25Z",
       "best_score": 31,
       "files": [
@@ -1282,7 +1274,7 @@
       "full_name": "vluma/free-vpn2clash",
       "stars": 11,
       "commit_date": "2026-10-30T05:12:43Z",
-      "best_score": null,
+      "best_score": 14,
       "files": [],
       "drop_reason": "max_repos_reached"
     },
@@ -1361,7 +1353,7 @@
     {
       "full_name": "vtunx/vtunx-node",
       "stars": 0,
-      "commit_date": "2026-10-30T16:44:28Z",
+      "commit_date": "2026-10-30T19:19:59Z",
       "best_score": null,
       "files": [],
       "drop_reason": "max_repos_reached"
@@ -1381,6 +1373,30 @@
       "best_score": null,
       "files": [],
       "drop_reason": "max_repos_reached"
+    },
+    {
+      "full_name": "HyNetworks/hysteria",
+      "stars": 22808,
+      "commit_date": "2026-10-27T02:44:08Z",
+      "best_score": null,
+      "files": [],
+      "drop_reason": "max_repos_reached"
+    },
+    {
+      "full_name": "mack-a/v2ray-agent",
+      "stars": 22254,
+      "commit_date": "2026-10-30T11:12:28Z",
+      "best_score": null,
+      "files": [],
+      "drop_reason": "max_repos_reached"
+    },
+    {
+      "full_name": "Qv2ray/Qv2ray",
+      "stars": 16880,
+      "commit_date": "2026-10-29T15:08:19Z",
+      "best_score": null,
+      "files": [],
+      "drop_reason": "max_repos_reached"
     }
   ],
   "repos": [
@@ -1388,7 +1404,7 @@
       "full_name": "asgharkapk/Sub-Config-Extractor",
       "stars": 61,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T12:07:13Z",
+      "pushed_at": "2026-10-30T22:19:47Z",
       "listish": 4,
       "commit": {
         "sha": "c37fe8fc739912bc506c8c6b3ab56ad335c4bb8a",
@@ -1410,7 +1426,7 @@
       "full_name": "rekt0ro/ProxyRift",
       "stars": 5,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:01:00Z",
+      "pushed_at": "2026-10-31T02:54:54Z",
       "listish": 4,
       "commit": {
         "sha": "fa791de2c5b5702a96f04eb360717ec9a5e328e4",
@@ -1432,7 +1448,7 @@
       "full_name": "MatinGhanbari/v2ray-configs",
       "stars": 692,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T16:32:23Z",
+      "pushed_at": "2026-10-31T01:25:41Z",
       "listish": 3,
       "commit": {
         "sha": "11f8021d0b405b9478db460d230a72b255aa5e88",
@@ -1453,7 +1469,7 @@
       "full_name": "morpheusadam/v2ray-config",
       "stars": 41,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T18:55:43Z",
+      "pushed_at": "2026-10-30T23:23:51Z",
       "listish": 5,
       "commit": {
         "sha": "753e0a6e1967733a4ebb3fc2973faade80fb2a4a",
@@ -1477,7 +1493,7 @@
       "full_name": "MustafaBaqer/VestraNet-Nodes",
       "stars": 91,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:43:18Z",
+      "pushed_at": "2026-10-31T02:58:17Z",
       "listish": 5,
       "commit": {
         "sha": "60947b7f698d0a452132889fac3e660df11c6f25",
@@ -1500,7 +1516,7 @@
       "full_name": "MahanKenway/Freedom-V2Ray",
       "stars": 118,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T19:04:29Z",
+      "pushed_at": "2026-10-30T23:33:18Z",
       "listish": 3,
       "commit": {
         "sha": "5bea4c136905aae381049c87b66b9ef845c21ed9",
@@ -1521,7 +1537,7 @@
       "full_name": "Romaxa55/MegaV_Public",
       "stars": 98,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T20:00:46Z",
+      "pushed_at": "2026-10-31T00:00:39Z",
       "listish": 3,
       "commit": {
         "sha": "5638793cbadb39931646bb1dfdd00cc000562297",
@@ -1582,7 +1598,7 @@
       "full_name": "hamedcode/port-based-v2ray-configs",
       "stars": 136,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T17:25:04Z",
+      "pushed_at": "2026-10-30T23:23:01Z",
       "listish": 3,
       "commit": {
         "sha": "cd4a079dcc9681a344190fda78652f74554f4bc8",
@@ -1602,7 +1618,7 @@
       "full_name": "barry-far/V2ray-Config",
       "stars": 2614,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T20:38:12Z",
+      "pushed_at": "2026-10-31T00:03:20Z",
       "listish": 3,
       "commit": {
         "sha": "1a8b453b0bbe7a43ee9dbc8db89b32b99f5402b7",
@@ -1621,7 +1637,7 @@
       "full_name": "NiREvil/vless",
       "stars": 1362,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T20:57:04Z",
+      "pushed_at": "2026-10-30T22:31:16Z",
       "listish": 4,
       "commit": {
         "sha": "79bbfca9333fd4d83e3840b76b6af451f54bc7fc",
@@ -1639,7 +1655,7 @@
     },
     {
       "full_name": "Au1rxx/free-vpn-subscriptions",
-      "stars": 1065,
+      "stars": 1066,
       "default_branch": "main",
       "pushed_at": "2026-10-30T10:11:46Z",
       "listish": 6,
@@ -1662,9 +1678,9 @@
     },
     {
       "full_name": "Thordata/awesome-free-proxy-list",
-      "stars": 59,
+      "stars": 60,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T18:30:30Z",
+      "pushed_at": "2026-10-31T00:46:37Z",
       "listish": 5,
       "commit": {
         "sha": "211cf159a701ec3a669cabe292161d78b0c070fe",
@@ -1683,9 +1699,9 @@
     },
     {
       "full_name": "Mokafela/Config-Finder",
-      "stars": 15,
+      "stars": 16,
       "default_branch": "master",
-      "pushed_at": "2026-10-30T18:52:26Z",
+      "pushed_at": "2026-10-31T01:50:15Z",
       "listish": 3,
       "commit": {
         "sha": "ece1751b368c81b2b4da60fa4dbd65c152dc19e8",
@@ -1727,7 +1743,7 @@
       "full_name": "kasesm/Free-Config",
       "stars": 43,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T20:16:19Z",
+      "pushed_at": "2026-10-31T01:11:28Z",
       "listish": 3,
       "commit": {
         "sha": "2ebde1818ee24e6d83585eb94874f242b0d0e063",
@@ -1769,7 +1785,7 @@
       "full_name": "vincent20240707/free-v2ray-nodes",
       "stars": 0,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T01:18:50Z",
+      "pushed_at": "2026-10-31T01:20:11Z",
       "listish": 6,
       "commit": {
         "sha": "27caa60248f396428cdff57c84b707ec2b079d6d",
@@ -1786,7 +1802,7 @@
     },
     {
       "full_name": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
-      "stars": 5684,
+      "stars": 5685,
       "default_branch": "main",
       "pushed_at": "2026-10-30T20:37:16Z",
       "listish": 3,
@@ -1811,7 +1827,7 @@
       "full_name": "sakha1370/OpenRay",
       "stars": 251,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:07:43Z",
+      "pushed_at": "2026-10-31T01:07:12Z",
       "listish": 3,
       "commit": {
         "sha": "234c4ae186d7a1147ecbc3614bfba7cc7cd34c3a",
@@ -1832,7 +1848,7 @@
       "full_name": "chenzhihan1751-cyber/node-sub-zixf",
       "stars": 4,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T13:12:10Z",
+      "pushed_at": "2026-10-30T22:29:54Z",
       "listish": 6,
       "commit": {
         "sha": "43e3bca2ce73cd1c5a0c691023b66c84197a9640",
@@ -1855,7 +1871,7 @@
       "full_name": "LalatinaHub/Mineral",
       "stars": 89,
       "default_branch": "master",
-      "pushed_at": "2026-10-30T17:45:07Z",
+      "pushed_at": "2026-10-30T21:58:08Z",
       "listish": 3,
       "commit": {
         "sha": "a7e5472d07706ba749b34cfdd06913a87469a9a5",
@@ -1876,7 +1892,7 @@
       "full_name": "mohammadaz2/v2rayConfigsForYou",
       "stars": 16,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:16:47Z",
+      "pushed_at": "2026-10-31T01:18:00Z",
       "listish": 4,
       "commit": {
         "sha": "a2e626647ef6810014088f419475ad789fff3649",
@@ -1899,7 +1915,7 @@
       "full_name": "fmw86/free-proxy-pool",
       "stars": 8,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T18:32:13Z",
+      "pushed_at": "2026-10-30T22:57:46Z",
       "listish": 4,
       "commit": {
         "sha": "896ed345f925f8ff0e1fbba7ebbec1744bd77cf3",
@@ -1936,7 +1952,7 @@
       "full_name": "mfuu/FreeProxies",
       "stars": 931,
       "default_branch": "master",
-      "pushed_at": "2026-10-30T18:19:46Z",
+      "pushed_at": "2026-10-31T00:14:52Z",
       "listish": 3,
       "commit": {
         "sha": "c1bdc499fa4723432689830aff35c00fc19baf97",
@@ -1956,7 +1972,7 @@
       "full_name": "0xRadikal/Free-v2ray-Configs",
       "stars": 779,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:35:33Z",
+      "pushed_at": "2026-10-31T02:50:29Z",
       "listish": 3,
       "commit": {
         "sha": "b8a7c99a065f09d2c5a02e5520b9bdf327f42c78",
@@ -2000,7 +2016,7 @@
       "full_name": "LalatinaHub/LatinaSub",
       "stars": 12,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T17:30:21Z",
+      "pushed_at": "2026-10-30T21:50:11Z",
       "listish": 6,
       "commit": {
         "sha": "b42549d884c04c808a85ff33e37e4036dfbd738d",
@@ -2079,7 +2095,7 @@
       "full_name": "hamzawih0/zorVPN",
       "stars": 1,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:44:55Z",
+      "pushed_at": "2026-10-31T03:00:12Z",
       "listish": 5,
       "commit": {
         "sha": "ecd56e02ae2ebc13721663375a2592772df34ba9",
@@ -2115,7 +2131,7 @@
       "full_name": "F0rc3Run/F0rc3Run",
       "stars": 321,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:45:25Z",
+      "pushed_at": "2026-10-31T02:53:10Z",
       "listish": 3,
       "commit": {
         "sha": "95feed196b43c45b16e848b16f63211d5ac93d86",
@@ -2137,7 +2153,7 @@
       "full_name": "wenxig/free-nodes-sub",
       "stars": 107,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:20:51Z",
+      "pushed_at": "2026-10-31T01:23:42Z",
       "listish": 4,
       "commit": {
         "sha": "ef577428d63128c9a9fa641222ef46a7d3c3259c",
@@ -2158,7 +2174,7 @@
       "full_name": "owenlee3/my-nodes",
       "stars": 0,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T17:42:54Z",
+      "pushed_at": "2026-10-30T21:51:54Z",
       "listish": 6,
       "commit": {
         "sha": "711dbce94795c267a0815479bd5182cbde1ad250",
@@ -2175,7 +2191,7 @@
       "full_name": "shifeiquan520/shifeiquan3",
       "stars": 0,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T17:57:38Z",
+      "pushed_at": "2026-10-30T22:13:43Z",
       "listish": 6,
       "commit": {
         "sha": "1992d686da9abb848cc5ad03a98bc742e1cd6c15",
@@ -2192,9 +2208,9 @@
     },
     {
       "full_name": "zhuhaiuk/free-nodes",
-      "stars": 387,
+      "stars": 388,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T20:05:55Z",
+      "pushed_at": "2026-10-31T02:40:58Z",
       "listish": 4,
       "commit": {
         "sha": "2de85148dd4b661ebb06e282021baa7c18a50ac9",
@@ -2219,7 +2235,7 @@
       "full_name": "Surfboardv2ray/Proxy-sorter",
       "stars": 239,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T20:15:41Z",
+      "pushed_at": "2026-10-31T00:19:38Z",
       "listish": 3,
       "commit": {
         "sha": "36f1fff7bf9c8ba1bb5df2f1b703845845d36d45",
@@ -2296,7 +2312,7 @@
       "full_name": "ZendanTeam/SS44-sub",
       "stars": 4,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T18:46:39Z",
+      "pushed_at": "2026-10-31T02:06:33Z",
       "listish": 4,
       "commit": {
         "sha": "7d317497c712071cdbef8b544ebc84a42da29769",
@@ -2333,11 +2349,11 @@
       "full_name": "v2raydog-node/free-nodes",
       "stars": 0,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T12:19:09Z",
+      "pushed_at": "2026-10-31T00:00:20Z",
       "listish": 4,
       "commit": {
-        "sha": "9b913766a8dddef3aa391b42fce927250ab6c7fe",
-        "date": "2026-10-30T12:19:08Z"
+        "sha": "47fd3279a245cf8df1be6129a78be3a48d48e278",
+        "date": "2026-10-31T00:00:19Z"
       },
       "files": [
         "clash.yaml",
@@ -2371,7 +2387,7 @@
       "full_name": "wz-node/free-nodes",
       "stars": 0,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T12:24:06Z",
+      "pushed_at": "2026-10-31T00:00:21Z",
       "listish": 4,
       "commit": {
         "sha": "c9156b47026436ed430e3fb4ba50feb93058db59",
@@ -2409,7 +2425,7 @@
       "full_name": "sunmiao4458/free-proxy-airport",
       "stars": 556,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T18:43:40Z",
+      "pushed_at": "2026-10-31T01:59:55Z",
       "listish": 5,
       "commit": {
         "sha": "eee8bc789f9d5ffa7f777af433b8bdf2af818c10",
@@ -2426,7 +2442,7 @@
       "full_name": "Alirewa/V2ray-Configs",
       "stars": 32,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T20:40:00Z",
+      "pushed_at": "2026-10-31T02:42:01Z",
       "listish": 5,
       "commit": {
         "sha": "a6e204a5e3da78a3309f05ae1b23d9c3db8e8a9e",
@@ -2449,7 +2465,7 @@
       "full_name": "nukcrow/black-crow",
       "stars": 10,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T18:04:08Z",
+      "pushed_at": "2026-10-30T22:19:48Z",
       "listish": 4,
       "commit": {
         "sha": "b3b41eb0f3fd25c0cb9224012b757154ff41d116",
@@ -2469,7 +2485,7 @@
       "full_name": "skxxxkx666/freeport-manifest",
       "stars": 0,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T15:08:33Z",
+      "pushed_at": "2026-10-30T23:55:05Z",
       "listish": 4,
       "commit": {
         "sha": "08e071bdc246c78f9d50513cb5669953c1d11a9b",
@@ -2488,7 +2504,7 @@
       "full_name": "ProblemTheCode/SylphNet-public",
       "stars": 14,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T21:36:08Z",
+      "pushed_at": "2026-10-31T02:59:53Z",
       "listish": 5,
       "commit": {
         "sha": "724f8205be6bdad54459a13ab0f8a86e1b815229",
@@ -2509,7 +2525,7 @@
       "full_name": "mahdyaralipor/v2all",
       "stars": 5,
       "default_branch": "main",
-      "pushed_at": "2026-10-30T17:23:47Z",
+      "pushed_at": "2026-10-31T02:59:54Z",
       "listish": 5,
       "commit": {
         "sha": "9aa5938041cb4776a5c1b4629c02ffe3820b0ae5",
@@ -2606,98 +2622,23 @@
       ]
     },
     {
-      "full_name": "clashxw/clashxw.github.io",
-      "stars": 7,
-      "pushed_at": "2026-10-25T04:36:38Z",
+      "full_name": "free-clash-v2ray/free-clash-v2ray.github.io",
+      "stars": 249,
+      "pushed_at": "2026-10-26T02:11:00Z",
       "reason": "stale_default_branch",
       "commit": {
-        "sha": "bcb50aa4c4ed644ae603f57a94f92af2994f1ef1",
-        "date": "2026-10-25T04:36:29Z"
+        "sha": "be2947b8ec63feb08dee7bc8ff8aa180a22ac349",
+        "date": "2026-10-26T02:10:48Z"
       },
-      "commit_date": "2026-10-25T04:36:29Z",
-      "matched_queries": [
-        "free v2ray nodes",
-        "clash subscription free"
-      ]
-    },
-    {
-      "full_name": "SuhasChand35/TrafficSlasher_A_LoadBalancer",
-      "stars": 0,
-      "pushed_at": "2026-10-25T18:05:03Z",
-      "reason": "stale_default_branch",
-      "commit": {
-        "sha": "50cd9095a13714a064ff6c49ea8dc6ad2829641e",
-        "date": "2026-10-25T18:04:47Z"
-      },
-      "commit_date": "2026-10-25T18:04:47Z",
-      "matched_queries": [
-        "free proxies nodes"
-      ]
-    },
-    {
-      "full_name": "Nks-tech-ctrl/EduSphere",
-      "stars": 0,
-      "pushed_at": "2026-10-25T08:55:31Z",
-      "reason": "stale_default_branch",
-      "commit": {
-        "sha": "598ad0ab86d0697de303b9b908e4e3bbf9dcec67",
-        "date": "2026-10-25T08:54:11Z"
-      },
-      "commit_date": "2026-10-25T08:54:11Z",
-      "matched_queries": [
-        "free proxies nodes"
-      ]
-    },
-    {
-      "full_name": "pornnewbee/free-vless-VPN",
-      "stars": 70,
-      "pushed_at": "2026-10-25T02:10:59Z",
-      "reason": "stale_default_branch",
-      "commit": {
-        "sha": "7745a80e1f8c5fc82b4a78970836f6c71e02b96a",
-        "date": "2026-10-25T02:10:58Z"
-      },
-      "commit_date": "2026-10-25T02:10:58Z",
+      "commit_date": "2026-10-26T02:10:48Z",
       "matched_queries": [
         "topic:v2ray",
-        "topic:clash",
-        "topic:clash-config"
-      ]
-    },
-    {
-      "full_name": "frank0live/onyxwing-gate",
-      "stars": 4,
-      "pushed_at": "2026-10-25T14:40:41Z",
-      "reason": "stale_default_branch",
-      "commit": {
-        "sha": "e43dadb719af9f8e9635cb33492afd6042cdb9cf",
-        "date": "2026-10-25T15:26:00Z"
-      },
-      "commit_date": "2026-10-25T15:26:00Z",
-      "matched_queries": [
-        "topic:shadowsocks",
-        "topic:vmess",
-        "vmess subscription"
-      ]
-    },
-    {
-      "full_name": "FijshH/nevpn-releases",
-      "stars": 1,
-      "pushed_at": "2026-10-29T07:20:49Z",
-      "reason": "stale_default_branch",
-      "commit": {
-        "sha": "8d26ba2a5800ba31c9926518ea53b6695e1fae77",
-        "date": "2026-10-25T19:42:45Z"
-      },
-      "commit_date": "2026-10-25T19:42:45Z",
-      "matched_queries": [
-        "topic:shadowsocks",
-        "vmess subscription"
+        "topic:clash"
       ]
     },
     {
       "full_name": "MHSanaei/3x-ui",
-      "stars": 48941,
+      "stars": 48948,
       "pushed_at": "2026-10-29T09:09:29Z",
       "reason": "stale_default_branch",
       "commit": {
@@ -2712,11 +2653,14 @@
     },
     {
       "full_name": "v2fly/v2ray-core",
-      "stars": 34732,
-      "pushed_at": "2026-10-29T22:53:12Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
+      "stars": 34733,
+      "pushed_at": "2026-10-30T22:53:34Z",
+      "reason": "stale_default_branch",
+      "commit": {
+        "sha": "de610153d59ee0bc9222a17680061d732fa14e7b",
+        "date": "2026-10-20T18:55:54Z"
+      },
+      "commit_date": "2026-10-20T18:55:54Z",
       "matched_queries": [
         "topic:v2ray",
         "topic:shadowsocks",
@@ -2727,59 +2671,31 @@
       "full_name": "Z-Siqi/Clash-for-Windows_Chinese",
       "stars": 28638,
       "pushed_at": "2026-10-28T07:07:25Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
+      "reason": "stale_default_branch",
+      "commit": {
+        "sha": "c81e0c4f6d2ac2bf6c3dd9e1073f6942f1c44101",
+        "date": "2026-10-25T15:56:03Z"
+      },
+      "commit_date": "2026-10-25T15:56:03Z",
       "matched_queries": [
         "topic:clash",
         "topic:shadowsocks"
       ]
     },
     {
-      "full_name": "HyNetworks/hysteria",
-      "stars": 22803,
-      "pushed_at": "2026-10-27T02:44:10Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:hysteria"
-      ]
-    },
-    {
-      "full_name": "mack-a/v2ray-agent",
-      "stars": 22251,
-      "pushed_at": "2026-10-30T11:13:32Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "yanue/V2rayU",
       "stars": 20178,
       "pushed_at": "2026-10-30T16:36:00Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
+      "reason": "stale_default_branch",
+      "commit": {
+        "sha": "43b709fdbf7346441f0d541b898dcd09a4741c47",
+        "date": "2020-10-29T03:17:44Z"
+      },
+      "commit_date": "2020-10-29T03:17:44Z",
       "matched_queries": [
         "topic:v2ray",
         "topic:clash",
         "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "Qv2ray/Qv2ray",
-      "stars": 16879,
-      "pushed_at": "2026-10-29T15:08:19Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray"
       ]
     },
     {
@@ -2807,7 +2723,7 @@
     {
       "full_name": "libnyanpasu/clash-nyanpasu",
       "stars": 13270,
-      "pushed_at": "2026-10-30T21:31:22Z",
+      "pushed_at": "2026-10-31T03:01:53Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2818,7 +2734,7 @@
     {
       "full_name": "shadowsocks/shadowsocks-rust",
       "stars": 10956,
-      "pushed_at": "2026-10-28T12:16:26Z",
+      "pushed_at": "2026-10-31T01:25:55Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2851,7 +2767,7 @@
     {
       "full_name": "ermaozi/get_subscribe",
       "stars": 9411,
-      "pushed_at": "2026-10-30T12:18:54Z",
+      "pushed_at": "2026-10-31T00:26:45Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2861,19 +2777,8 @@
       ]
     },
     {
-      "full_name": "ACL4SSR/ACL4SSR",
-      "stars": 6878,
-      "pushed_at": "2026-10-25T02:43:33Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash"
-      ]
-    },
-    {
       "full_name": "awesome-vpn/awesome-vpn",
-      "stars": 6818,
+      "stars": 6819,
       "pushed_at": "2026-10-30T03:48:15Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -2889,7 +2794,7 @@
     },
     {
       "full_name": "TG-Twilight/AWAvenue-Ads-Rule",
-      "stars": 6720,
+      "stars": 6723,
       "pushed_at": "2026-10-26T14:03:29Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -2900,8 +2805,8 @@
     },
     {
       "full_name": "Aethersailor/Custom_OpenClash_Rules",
-      "stars": 6704,
-      "pushed_at": "2026-10-30T19:42:03Z",
+      "stars": 6705,
+      "pushed_at": "2026-10-31T02:53:08Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2911,8 +2816,8 @@
     },
     {
       "full_name": "OpenRunner/clash-freenode",
-      "stars": 6507,
-      "pushed_at": "2026-10-29T23:49:12Z",
+      "stars": 6508,
+      "pushed_at": "2026-10-30T23:29:25Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2923,8 +2828,8 @@
     },
     {
       "full_name": "daeuniverse/dae",
-      "stars": 6376,
-      "pushed_at": "2026-10-30T14:37:06Z",
+      "stars": 6377,
+      "pushed_at": "2026-10-30T23:40:07Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2935,7 +2840,7 @@
     },
     {
       "full_name": "fscarmen/sing-box",
-      "stars": 5943,
+      "stars": 5944,
       "pushed_at": "2026-10-30T16:48:01Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -2947,8 +2852,8 @@
     },
     {
       "full_name": "GMOogway/shadowrocket-rules",
-      "stars": 5687,
-      "pushed_at": "2026-10-30T02:07:53Z",
+      "stars": 5689,
+      "pushed_at": "2026-10-31T01:47:24Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2959,7 +2864,7 @@
     {
       "full_name": "nikkinikki-org/OpenWrt-nikki",
       "stars": 5430,
-      "pushed_at": "2026-10-29T00:25:47Z",
+      "pushed_at": "2026-10-31T00:21:19Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2969,7 +2874,7 @@
     },
     {
       "full_name": "Barabama/FreeNodes",
-      "stars": 3351,
+      "stars": 3353,
       "pushed_at": "2026-10-30T10:44:04Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -2983,8 +2888,8 @@
     },
     {
       "full_name": "Alvin9999-newpac/fanqiang",
-      "stars": 3163,
-      "pushed_at": "2026-10-30T21:45:08Z",
+      "stars": 3164,
+      "pushed_at": "2026-10-31T03:00:09Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -2996,7 +2901,7 @@
     {
       "full_name": "enfein/mieru",
       "stars": 2652,
-      "pushed_at": "2026-10-28T23:54:39Z",
+      "pushed_at": "2026-10-30T23:58:49Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3021,7 +2926,7 @@
     {
       "full_name": "snakem982/proxypool",
       "stars": 2229,
-      "pushed_at": "2026-10-30T14:15:05Z",
+      "pushed_at": "2026-10-31T00:15:05Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3104,7 +3009,7 @@
     },
     {
       "full_name": "nevertoday/xiaoxiaodong-vps",
-      "stars": 1051,
+      "stars": 1077,
       "pushed_at": "2026-10-30T02:49:36Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -3115,7 +3020,7 @@
     },
     {
       "full_name": "ihmily/network-proxy-guide",
-      "stars": 798,
+      "stars": 799,
       "pushed_at": "2026-10-28T11:57:40Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -3129,7 +3034,7 @@
     {
       "full_name": "Chocolate4U/Iran-v2ray-rules",
       "stars": 783,
-      "pushed_at": "2026-10-30T11:00:59Z",
+      "pushed_at": "2026-10-31T02:35:48Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3139,7 +3044,7 @@
     },
     {
       "full_name": "xmdhs/clash2sfa",
-      "stars": 781,
+      "stars": 782,
       "pushed_at": "2026-10-29T00:21:58Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -3161,8 +3066,8 @@
     },
     {
       "full_name": "QuixoticHeart/rule-set",
-      "stars": 696,
-      "pushed_at": "2026-10-30T02:48:51Z",
+      "stars": 697,
+      "pushed_at": "2026-10-31T02:39:49Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3173,7 +3078,7 @@
     {
       "full_name": "gslege/CloudflareIP",
       "stars": 677,
-      "pushed_at": "2026-10-30T21:29:35Z",
+      "pushed_at": "2026-10-31T02:10:43Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3184,8 +3089,8 @@
     },
     {
       "full_name": "VPSDance/ai-proxy-rules",
-      "stars": 669,
-      "pushed_at": "2026-10-30T02:16:53Z",
+      "stars": 670,
+      "pushed_at": "2026-10-31T01:55:51Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3196,7 +3101,7 @@
     {
       "full_name": "OpenNetCN/clash",
       "stars": 641,
-      "pushed_at": "2026-10-30T13:01:44Z",
+      "pushed_at": "2026-10-31T02:02:22Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3234,7 +3139,7 @@
     {
       "full_name": "mmpx12/proxy-list",
       "stars": 439,
-      "pushed_at": "2026-10-30T21:30:23Z",
+      "pushed_at": "2026-10-31T02:30:15Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3245,7 +3150,7 @@
     {
       "full_name": "ALIILAPRO/v2rayNG-Config",
       "stars": 372,
-      "pushed_at": "2026-10-30T21:39:42Z",
+      "pushed_at": "2026-10-31T02:54:16Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3256,7 +3161,7 @@
     {
       "full_name": "ovmvo/FreeSub",
       "stars": 351,
-      "pushed_at": "2026-10-30T21:30:35Z",
+      "pushed_at": "2026-10-31T01:47:56Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3295,7 +3200,7 @@
     {
       "full_name": "WLget/V2Ray_configs_64",
       "stars": 314,
-      "pushed_at": "2026-10-30T21:45:27Z",
+      "pushed_at": "2026-10-30T23:33:20Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3320,7 +3225,7 @@
     },
     {
       "full_name": "ArasTey/ArasClient",
-      "stars": 308,
+      "stars": 309,
       "pushed_at": "2026-10-30T17:58:39Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -3344,7 +3249,7 @@
     {
       "full_name": "Surfboardv2ray/TGParse",
       "stars": 294,
-      "pushed_at": "2026-10-30T21:21:45Z",
+      "pushed_at": "2026-10-31T01:24:43Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3379,7 +3284,7 @@
     {
       "full_name": "wenxig/dongtai-sub",
       "stars": 267,
-      "pushed_at": "2026-10-30T20:29:14Z",
+      "pushed_at": "2026-10-31T00:29:56Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3392,7 +3297,7 @@
     {
       "full_name": "mphin/proxy_tools",
       "stars": 262,
-      "pushed_at": "2026-10-29T00:30:40Z",
+      "pushed_at": "2026-10-31T00:14:14Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3403,7 +3308,7 @@
     {
       "full_name": "Argh94/Proxy-List",
       "stars": 242,
-      "pushed_at": "2026-10-30T20:00:53Z",
+      "pushed_at": "2026-10-31T02:00:58Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3416,7 +3321,7 @@
     {
       "full_name": "miladtahanian/V2RayCFGDumper",
       "stars": 234,
-      "pushed_at": "2026-10-30T21:20:25Z",
+      "pushed_at": "2026-10-31T01:23:17Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3427,7 +3332,7 @@
     {
       "full_name": "MhdiTaheri/V2rayCollector_Py",
       "stars": 229,
-      "pushed_at": "2026-10-30T20:30:27Z",
+      "pushed_at": "2026-10-31T00:28:57Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3438,7 +3343,7 @@
     },
     {
       "full_name": "Q3dlaXpoaQ/V2rayN_Clash_Node_Getter",
-      "stars": 225,
+      "stars": 226,
       "pushed_at": "2026-10-29T15:58:09Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -3531,7 +3436,7 @@
     },
     {
       "full_name": "jacobax/snippets",
-      "stars": 175,
+      "stars": 176,
       "pushed_at": "2026-10-30T06:22:25Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -3553,7 +3458,7 @@
     },
     {
       "full_name": "clashnodev2ray/clashnodev2ray.github.io",
-      "stars": 164,
+      "stars": 165,
       "pushed_at": "2026-10-30T02:02:43Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -3566,7 +3471,7 @@
     {
       "full_name": "Firmfox/Proxify",
       "stars": 146,
-      "pushed_at": "2026-10-30T20:24:54Z",
+      "pushed_at": "2026-10-31T00:22:31Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3648,8 +3553,8 @@
     },
     {
       "full_name": "tiagorrg/vless-checker",
-      "stars": 100,
-      "pushed_at": "2026-10-30T20:02:30Z",
+      "stars": 101,
+      "pushed_at": "2026-10-30T23:58:50Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3660,7 +3565,7 @@
     {
       "full_name": "mohamadfg-dev/telegram-v2ray-configs-collector",
       "stars": 100,
-      "pushed_at": "2026-10-30T18:17:15Z",
+      "pushed_at": "2026-10-30T22:43:32Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3709,7 +3614,7 @@
     {
       "full_name": "histeenn/VLESS-PO-GRIBI",
       "stars": 87,
-      "pushed_at": "2026-10-30T17:45:39Z",
+      "pushed_at": "2026-10-30T21:57:53Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3756,7 +3661,7 @@
     {
       "full_name": "v2raynnodes/v2rayfree",
       "stars": 74,
-      "pushed_at": "2026-10-30T19:48:31Z",
+      "pushed_at": "2026-10-30T23:25:47Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3790,7 +3695,7 @@
     {
       "full_name": "luxxuria/harvester",
       "stars": 57,
-      "pushed_at": "2026-10-30T19:33:31Z",
+      "pushed_at": "2026-10-31T02:35:07Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3815,7 +3720,7 @@
     {
       "full_name": "SoliSpirit/SolVPN",
       "stars": 55,
-      "pushed_at": "2026-10-30T21:33:06Z",
+      "pushed_at": "2026-10-31T03:01:56Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3826,7 +3731,7 @@
     {
       "full_name": "miladtahanian/V2RayScrapeByCountry",
       "stars": 53,
-      "pushed_at": "2026-10-30T18:38:06Z",
+      "pushed_at": "2026-10-31T01:51:11Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3837,7 +3742,7 @@
     {
       "full_name": "lanzm/MetaFetch",
       "stars": 51,
-      "pushed_at": "2026-10-30T19:40:31Z",
+      "pushed_at": "2026-10-31T00:01:36Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3860,7 +3765,7 @@
     {
       "full_name": "miladtahanian/Config-Collector",
       "stars": 46,
-      "pushed_at": "2026-10-30T19:58:03Z",
+      "pushed_at": "2026-10-31T02:33:13Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3885,7 +3790,7 @@
     {
       "full_name": "VOID-Anonymity/V.O.I.D-VPN_Bypass",
       "stars": 45,
-      "pushed_at": "2026-10-30T20:03:22Z",
+      "pushed_at": "2026-10-30T23:35:24Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3907,7 +3812,7 @@
     {
       "full_name": "TG-NAV/clashnode",
       "stars": 44,
-      "pushed_at": "2026-10-30T03:39:45Z",
+      "pushed_at": "2026-10-30T22:04:23Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3930,7 +3835,7 @@
     {
       "full_name": "ANDY202301S/Clashverge",
       "stars": 37,
-      "pushed_at": "2026-10-30T09:47:07Z",
+      "pushed_at": "2026-10-31T02:11:57Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3942,7 +3847,7 @@
     {
       "full_name": "Jungley8/subconverter-ng",
       "stars": 36,
-      "pushed_at": "2026-10-30T16:03:55Z",
+      "pushed_at": "2026-10-31T02:50:55Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3953,8 +3858,8 @@
     },
     {
       "full_name": "LeilaoMi/AutoMergePublicNodes-Optimized",
-      "stars": 33,
-      "pushed_at": "2026-10-30T13:17:11Z",
+      "stars": 34,
+      "pushed_at": "2026-10-30T22:34:10Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -3991,6 +3896,17 @@
       ]
     },
     {
+      "full_name": "qq5460168/AD886",
+      "stars": 31,
+      "pushed_at": "2026-10-31T02:03:10Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
       "full_name": "you-oops-dev/ipranges-shadowsocks",
       "stars": 31,
       "pushed_at": "2026-10-30T09:53:53Z",
@@ -4002,14 +3918,14 @@
       ]
     },
     {
-      "full_name": "qq5460168/AD886",
-      "stars": 31,
-      "pushed_at": "2026-10-30T02:25:22Z",
+      "full_name": "Arianlavi/RebeldevConfig",
+      "stars": 30,
+      "pushed_at": "2026-10-31T00:29:04Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
-        "topic:clash"
+        "topic:v2ray"
       ]
     },
     {
@@ -4022,17 +3938,6 @@
       "matched_queries": [
         "topic:v2ray",
         "topic:clash"
-      ]
-    },
-    {
-      "full_name": "Arianlavi/RebeldevConfig",
-      "stars": 30,
-      "pushed_at": "2026-10-30T20:30:39Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray"
       ]
     },
     {
@@ -4049,7 +3954,7 @@
     {
       "full_name": "clashv2rayu/clashv2rayu.github.io",
       "stars": 28,
-      "pushed_at": "2026-10-30T03:28:07Z",
+      "pushed_at": "2026-10-30T23:21:23Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4189,7 +4094,7 @@
     {
       "full_name": "10Dream/sub-mod",
       "stars": 22,
-      "pushed_at": "2026-10-30T21:29:59Z",
+      "pushed_at": "2026-10-31T01:28:39Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4213,22 +4118,9 @@
       ]
     },
     {
-      "full_name": "DisruptorProxy/Core",
-      "stars": 21,
-      "pushed_at": "2026-10-25T07:06:08Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:vmess",
-        "vmess subscription"
-      ]
-    },
-    {
       "full_name": "guiforcores/clientsradar-zh",
       "stars": 20,
-      "pushed_at": "2026-10-30T21:06:29Z",
+      "pushed_at": "2026-10-31T01:50:30Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4237,21 +4129,9 @@
       ]
     },
     {
-      "full_name": "XVSVTsama/XVSVT-Clash-Config",
-      "stars": 19,
-      "pushed_at": "2026-10-30T21:43:30Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash",
-        "topic:clash-config"
-      ]
-    },
-    {
       "full_name": "T3stAcc/V2Ray",
       "stars": 19,
-      "pushed_at": "2026-10-30T18:49:21Z",
+      "pushed_at": "2026-10-31T02:07:39Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4262,21 +4142,21 @@
       ]
     },
     {
-      "full_name": "vpnsubscribe/vpnsubscribe.github.io",
+      "full_name": "XVSVTsama/XVSVT-Clash-Config",
       "stars": 19,
-      "pushed_at": "2026-10-25T05:05:32Z",
+      "pushed_at": "2026-10-30T21:46:21Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
+        "topic:clash",
+        "topic:clash-config"
       ]
     },
     {
       "full_name": "hm4reggggg/jichang",
       "stars": 18,
-      "pushed_at": "2026-10-30T15:54:07Z",
+      "pushed_at": "2026-10-31T02:42:43Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4357,6 +4237,17 @@
       ]
     },
     {
+      "full_name": "RzMY/IOS-AntiRevoke-DNS-Rules",
+      "stars": 16,
+      "pushed_at": "2026-10-31T03:01:16Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
       "full_name": "Fu021/Clash-of-Rust",
       "stars": 16,
       "pushed_at": "2026-10-30T07:58:58Z",
@@ -4365,17 +4256,6 @@
       "commit_date": null,
       "matched_queries": [
         "topic:clash"
-      ]
-    },
-    {
-      "full_name": "RzMY/IOS-AntiRevoke-DNS-Rules",
-      "stars": 16,
-      "pushed_at": "2026-10-30T03:17:56Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
       ]
     },
     {
@@ -4519,7 +4399,7 @@
     {
       "full_name": "v2raynnodes/clashfree",
       "stars": 11,
-      "pushed_at": "2026-10-30T03:15:37Z",
+      "pushed_at": "2026-10-31T02:59:12Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4538,6 +4418,17 @@
         "topic:shadowsocks",
         "topic:vmess",
         "vmess subscription"
+      ]
+    },
+    {
+      "full_name": "CRThu/clash-rules-mrs",
+      "stars": 10,
+      "pushed_at": "2026-10-31T02:03:43Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
       ]
     },
     {
@@ -4564,9 +4455,20 @@
       ]
     },
     {
+      "full_name": "MohammadBahemmat/npvt-collector",
+      "stars": 9,
+      "pushed_at": "2026-10-31T01:08:35Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray"
+      ]
+    },
+    {
       "full_name": "cook369/proxy-collect",
       "stars": 9,
-      "pushed_at": "2026-10-30T19:04:59Z",
+      "pushed_at": "2026-10-30T23:33:43Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4597,9 +4499,9 @@
       ]
     },
     {
-      "full_name": "superqiuc/fnos-proxyhub",
-      "stars": 9,
-      "pushed_at": "2026-10-25T06:44:59Z",
+      "full_name": "gdfsnhsw/AutoClash",
+      "stars": 8,
+      "pushed_at": "2026-10-30T21:57:20Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4615,17 +4517,7 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "gdfsnhsw/AutoClash",
-      "stars": 8,
-      "pushed_at": "2026-10-30T09:03:17Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
+        "topic:v2ray",
         "topic:clash"
       ]
     },
@@ -4637,7 +4529,19 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash"
+      ]
+    },
+    {
+      "full_name": "TheLouisMahdi/npvt-terminal-converter",
+      "stars": 8,
+      "pushed_at": "2026-10-28T04:47:39Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray"
       ]
     },
     {
@@ -4648,30 +4552,53 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash"
+      ]
+    },
+    {
+      "full_name": "hesanyue50-lang/balance-widget",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:55:52Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
+      "full_name": "giantlucy/latest_jichang",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:54:17Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
+      "full_name": "zerodenet/core",
+      "stars": 7,
+      "pushed_at": "2026-10-30T22:58:45Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:vmess"
       ]
     },
     {
       "full_name": "kudryash0vv/kudryash0vv.YKTFLOW",
       "stars": 7,
-      "pushed_at": "2026-10-30T17:41:43Z",
+      "pushed_at": "2026-10-30T22:39:28Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:shadowsocks",
         "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "giantlucy/latest_jichang",
-      "stars": 7,
-      "pushed_at": "2026-10-30T15:58:04Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash"
       ]
     },
     {
@@ -4683,17 +4610,6 @@
       "commit_date": null,
       "matched_queries": [
         "topic:clash"
-      ]
-    },
-    {
-      "full_name": "zerodenet/core",
-      "stars": 7,
-      "pushed_at": "2026-10-30T02:04:54Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:vmess"
       ]
     },
     {
@@ -4710,9 +4626,23 @@
       ]
     },
     {
-      "full_name": "v2rayios/v2rayios.github.io",
-      "stars": 7,
-      "pushed_at": "2026-10-25T04:34:16Z",
+      "full_name": "o3ku/SongBird",
+      "stars": 6,
+      "pushed_at": "2026-10-31T02:42:16Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks",
+        "topic:vmess",
+        "vmess subscription"
+      ]
+    },
+    {
+      "full_name": "farshidmousavii/iran-ip-ranges",
+      "stars": 6,
+      "pushed_at": "2026-10-30T22:05:41Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4721,33 +4651,53 @@
       ]
     },
     {
-      "full_name": "o3ku/SongBird",
+      "full_name": "skullvek/Mihomo-RouteKit",
       "stars": 6,
-      "pushed_at": "2026-10-30T14:34:29Z",
+      "pushed_at": "2026-10-30T13:42:19Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
-        "topic:shadowsocks",
-        "topic:vmess",
-        "vmess subscription"
+        "topic:clash"
+      ]
+    },
+    {
+      "full_name": "jiasuqiapp/jiasuqiapp.github.io",
+      "stars": 6,
+      "pushed_at": "2026-10-28T05:56:16Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
+      "full_name": "fanqiang2025/fanqiang2025.github.io",
+      "stars": 6,
+      "pushed_at": "2026-10-28T03:51:36Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
+      "full_name": "adaex/mihomo-cli",
+      "stars": 6,
+      "pushed_at": "2026-10-28T03:07:34Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
       ]
     },
     {
       "full_name": "esrrhs/spp-shadowsocks-plugin",
       "stars": 6,
       "pushed_at": "2026-10-26T12:58:42Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "Amesu-afk/TarnVPN",
-      "stars": 6,
-      "pushed_at": "2026-10-25T07:51:13Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4780,7 +4730,7 @@
     {
       "full_name": "nodesradar/nodesradar-zh",
       "stars": 4,
-      "pushed_at": "2026-10-30T21:20:30Z",
+      "pushed_at": "2026-10-31T02:08:25Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4788,6 +4738,17 @@
         "topic:shadowsocks",
         "topic:vmess",
         "vmess subscription"
+      ]
+    },
+    {
+      "full_name": "KH-Danial/my.vtoray.con",
+      "stars": 4,
+      "pushed_at": "2026-10-30T21:58:09Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:vmess"
       ]
     },
     {
@@ -4802,20 +4763,9 @@
       ]
     },
     {
-      "full_name": "KH-Danial/my.vtoray.con",
-      "stars": 4,
-      "pushed_at": "2026-10-30T17:40:42Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "pie-with-jam/PulseProxy",
       "stars": 3,
-      "pushed_at": "2026-10-30T21:39:47Z",
+      "pushed_at": "2026-10-31T02:38:30Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4838,37 +4788,25 @@
       ]
     },
     {
-      "full_name": "aleksandr-miheichev/v2rayN-oldos",
-      "stars": 3,
-      "pushed_at": "2026-10-25T20:44:48Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks",
-        "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "B3B3097/REMAININGCONNECTIONS",
-      "stars": 2,
-      "pushed_at": "2026-10-30T21:08:05Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "sivpn/sivpn.github.io",
       "stars": 2,
-      "pushed_at": "2026-10-30T21:00:41Z",
+      "pushed_at": "2026-10-31T03:00:43Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "B3B3097/REMAININGCONNECTIONS",
+      "stars": 2,
+      "pushed_at": "2026-10-31T02:33:54Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:vmess"
       ]
     },
     {
@@ -4919,7 +4857,7 @@
     {
       "full_name": "Edsel-Rahimi/Ariston",
       "stars": 1,
-      "pushed_at": "2026-10-30T21:29:01Z",
+      "pushed_at": "2026-10-31T02:39:59Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -4931,13 +4869,35 @@
     {
       "full_name": "nodesradar/nodesradar-fa",
       "stars": 1,
-      "pushed_at": "2026-10-30T21:20:45Z",
+      "pushed_at": "2026-10-31T02:08:29Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:vmess",
         "vmess subscription"
+      ]
+    },
+    {
+      "full_name": "alariclin/A-Box",
+      "stars": 1,
+      "pushed_at": "2026-10-31T00:28:45Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "chethober/xtune",
+      "stars": 1,
+      "pushed_at": "2026-10-29T19:35:23Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
       ]
     },
     {
@@ -4949,6 +4909,17 @@
       "commit_date": null,
       "matched_queries": [
         "free proxies nodes"
+      ]
+    },
+    {
+      "full_name": "mofan9625-bit/nodecc",
+      "stars": 1,
+      "pushed_at": "2026-10-28T13:57:04Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
       ]
     },
     {
@@ -4988,31 +4959,9 @@
       ]
     },
     {
-      "full_name": "Regan7777/tizijiedian",
-      "stars": 1,
-      "pushed_at": "2026-10-25T07:33:09Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "6667084/ANS-GO",
-      "stars": 1,
-      "pushed_at": "2026-10-25T03:12:16Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
       "full_name": "nodesradar/nodesradar-es",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:21:02Z",
+      "pushed_at": "2026-10-31T02:08:46Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5024,7 +4973,7 @@
     {
       "full_name": "nodesradar/nodesradar-vi",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:20:56Z",
+      "pushed_at": "2026-10-31T02:08:40Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5036,7 +4985,7 @@
     {
       "full_name": "nodesradar/nodesradar-ur",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:20:53Z",
+      "pushed_at": "2026-10-31T02:08:36Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5048,7 +4997,7 @@
     {
       "full_name": "nodesradar/nodesradar-ar",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:20:51Z",
+      "pushed_at": "2026-10-31T02:08:34Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5060,7 +5009,7 @@
     {
       "full_name": "nodesradar/nodesradar-tr",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:20:49Z",
+      "pushed_at": "2026-10-31T02:08:32Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5072,13 +5021,24 @@
     {
       "full_name": "nodesradar/nodesradar-ru",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:20:47Z",
+      "pushed_at": "2026-10-31T02:08:31Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:vmess",
         "vmess subscription"
+      ]
+    },
+    {
+      "full_name": "sgr997/proxy-rule",
+      "stars": 0,
+      "pushed_at": "2026-10-31T01:51:59Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash-config"
       ]
     },
     {
@@ -5101,17 +5061,6 @@
       "commit_date": null,
       "matched_queries": [
         "free proxies nodes"
-      ]
-    },
-    {
-      "full_name": "sgr997/proxy-rule",
-      "stars": 0,
-      "pushed_at": "2026-10-30T04:59:46Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash-config"
       ]
     },
     {
@@ -5217,20 +5166,9 @@
       ]
     },
     {
-      "full_name": "ciweihaha/v2ray",
-      "stars": 0,
-      "pushed_at": "2026-10-25T12:11:44Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "hiddify/hiddify-app",
-      "stars": 33535,
-      "pushed_at": "2026-10-30T19:13:22Z",
+      "stars": 33540,
+      "pushed_at": "2026-10-31T01:17:06Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5244,8 +5182,8 @@
     },
     {
       "full_name": "igareck/vpn-configs-for-russia",
-      "stars": 9383,
-      "pushed_at": "2026-10-30T21:18:00Z",
+      "stars": 9385,
+      "pushed_at": "2026-10-31T03:01:16Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5257,7 +5195,7 @@
     {
       "full_name": "OutlineFoundation/outline-apps",
       "stars": 9268,
-      "pushed_at": "2026-10-30T19:00:16Z",
+      "pushed_at": "2026-10-30T23:07:56Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5268,7 +5206,7 @@
     {
       "full_name": "Hidashimora/free-vpn-anti-rkn",
       "stars": 1103,
-      "pushed_at": "2026-10-30T20:34:41Z",
+      "pushed_at": "2026-10-31T00:00:57Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5295,7 +5233,7 @@
     {
       "full_name": "hello-world-1989/cn-news",
       "stars": 640,
-      "pushed_at": "2026-10-30T21:44:13Z",
+      "pushed_at": "2026-10-31T02:54:16Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5321,7 +5259,7 @@
     {
       "full_name": "nikita29a/FreeProxyList",
       "stars": 265,
-      "pushed_at": "2026-10-30T18:44:25Z",
+      "pushed_at": "2026-10-31T02:03:17Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5333,7 +5271,7 @@
     {
       "full_name": "pog7x/vpn-configs",
       "stars": 64,
-      "pushed_at": "2026-10-30T17:34:24Z",
+      "pushed_at": "2026-10-30T21:51:11Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5344,7 +5282,7 @@
     {
       "full_name": "aviamastersgh/vpn-free-russia",
       "stars": 59,
-      "pushed_at": "2026-10-30T21:01:13Z",
+      "pushed_at": "2026-10-31T03:01:07Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5357,7 +5295,7 @@
     {
       "full_name": "batonogov/terraform-provider-threexui",
       "stars": 57,
-      "pushed_at": "2026-10-30T08:36:26Z",
+      "pushed_at": "2026-10-31T02:17:22Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5394,7 +5332,7 @@
     {
       "full_name": "svinakraft-maker/FlareFeed",
       "stars": 27,
-      "pushed_at": "2026-10-30T20:28:04Z",
+      "pushed_at": "2026-10-31T02:19:40Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5428,24 +5366,9 @@
       ]
     },
     {
-      "full_name": "sakazxc1400-creator/free-vpn-sub",
-      "stars": 7,
-      "pushed_at": "2026-10-30T21:25:26Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash",
-        "topic:shadowsocks",
-        "topic:vmess",
-        "vmess subscription",
-        "clash subscription free"
-      ]
-    },
-    {
       "full_name": "TelegaVPN/free-vpn-keys",
       "stars": 7,
-      "pushed_at": "2026-10-30T21:12:11Z",
+      "pushed_at": "2026-10-31T02:12:08Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5513,8 +5436,8 @@
     },
     {
       "full_name": "clash-verge-rev/clash-verge-rev",
-      "stars": 155167,
-      "pushed_at": "2026-10-30T21:01:30Z",
+      "stars": 155189,
+      "pushed_at": "2026-10-31T01:03:22Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5524,7 +5447,7 @@
     },
     {
       "full_name": "2dust/v2rayN",
-      "stars": 119562,
+      "stars": 119581,
       "pushed_at": "2026-10-29T18:48:08Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5537,7 +5460,7 @@
     },
     {
       "full_name": "2dust/v2rayNG",
-      "stars": 65012,
+      "stars": 65019,
       "pushed_at": "2026-10-28T03:06:38Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5550,7 +5473,7 @@
     },
     {
       "full_name": "XTLS/Xray-core",
-      "stars": 42490,
+      "stars": 42495,
       "pushed_at": "2026-10-30T13:02:30Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5562,7 +5485,7 @@
     },
     {
       "full_name": "shadowsocks/ShadowsocksX-NG",
-      "stars": 32860,
+      "stars": 32861,
       "pushed_at": "2026-10-30T12:40:37Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5573,8 +5496,8 @@
     },
     {
       "full_name": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
-      "stars": 31691,
-      "pushed_at": "2026-10-29T23:03:05Z",
+      "stars": 31697,
+      "pushed_at": "2026-10-30T23:03:03Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5584,8 +5507,8 @@
     },
     {
       "full_name": "Loyalsoldier/clash-rules",
-      "stars": 29062,
-      "pushed_at": "2026-10-29T22:36:05Z",
+      "stars": 29064,
+      "pushed_at": "2026-10-30T22:34:50Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5597,7 +5520,7 @@
     },
     {
       "full_name": "vernesong/OpenClash",
-      "stars": 28011,
+      "stars": 28014,
       "pushed_at": "2026-10-30T20:19:02Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5623,7 +5546,7 @@
     {
       "full_name": "Loyalsoldier/v2ray-rules-dat",
       "stars": 20980,
-      "pushed_at": "2026-10-29T22:05:47Z",
+      "pushed_at": "2026-10-30T22:04:30Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5634,7 +5557,7 @@
     },
     {
       "full_name": "DiningFactory/panda-vpn-pro",
-      "stars": 17149,
+      "stars": 17157,
       "pushed_at": "2026-10-30T08:43:07Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5659,7 +5582,7 @@
     },
     {
       "full_name": "v2rayA/v2rayA",
-      "stars": 15775,
+      "stars": 15777,
       "pushed_at": "2026-10-27T23:19:16Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5686,7 +5609,7 @@
     },
     {
       "full_name": "go-gost/gost",
-      "stars": 7760,
+      "stars": 7763,
       "pushed_at": "2026-10-27T15:06:18Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5697,7 +5620,7 @@
     },
     {
       "full_name": "217heidai/adblockfilters",
-      "stars": 7735,
+      "stars": 7738,
       "pushed_at": "2026-10-30T20:36:37Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5709,7 +5632,7 @@
     },
     {
       "full_name": "limbopro/Paolujichang",
-      "stars": 7713,
+      "stars": 7715,
       "pushed_at": "2026-10-29T01:57:36Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5722,7 +5645,7 @@
     {
       "full_name": "Hackl0us/GeoIP2-CN",
       "stars": 7442,
-      "pushed_at": "2026-10-28T02:18:49Z",
+      "pushed_at": "2026-10-31T02:15:04Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5733,7 +5656,7 @@
     },
     {
       "full_name": "Loyalsoldier/geoip",
-      "stars": 6646,
+      "stars": 6647,
       "pushed_at": "2026-10-29T00:23:49Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5757,7 +5680,7 @@
     },
     {
       "full_name": "free18/v2ray",
-      "stars": 5799,
+      "stars": 5801,
       "pushed_at": "2026-10-30T04:39:59Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5770,7 +5693,7 @@
     },
     {
       "full_name": "xjasonlyu/tun2socks",
-      "stars": 5556,
+      "stars": 5558,
       "pushed_at": "2026-10-29T02:04:15Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5793,7 +5716,7 @@
     },
     {
       "full_name": "SukkaW/Surge",
-      "stars": 4612,
+      "stars": 4613,
       "pushed_at": "2026-10-30T12:53:31Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5816,7 +5739,7 @@
     {
       "full_name": "peasoft/NoMoreWalls",
       "stars": 3582,
-      "pushed_at": "2026-10-30T17:44:38Z",
+      "pushed_at": "2026-10-30T21:57:14Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5842,7 +5765,7 @@
     },
     {
       "full_name": "GUI-for-Cores/GUI.for.Clash",
-      "stars": 2832,
+      "stars": 2833,
       "pushed_at": "2026-10-30T09:16:59Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5876,7 +5799,7 @@
     },
     {
       "full_name": "KaWaIDeSuNe/dijiajichang",
-      "stars": 2228,
+      "stars": 2229,
       "pushed_at": "2026-10-30T02:43:58Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5899,18 +5822,6 @@
       ]
     },
     {
-      "full_name": "PuddinCat/BestClash",
-      "stars": 2050,
-      "pushed_at": "2026-10-25T11:13:15Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
       "full_name": "Ghost-Clocker/V2raySSSSRShare",
       "stars": 1874,
       "pushed_at": "2026-10-29T08:26:57Z",
@@ -5925,7 +5836,7 @@
     },
     {
       "full_name": "DustinWin/dustinwin.github.io",
-      "stars": 1589,
+      "stars": 1590,
       "pushed_at": "2026-10-29T07:01:43Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5937,7 +5848,7 @@
     {
       "full_name": "Leon406/SubCrawler",
       "stars": 1575,
-      "pushed_at": "2026-10-30T19:50:29Z",
+      "pushed_at": "2026-10-30T23:29:54Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -5959,7 +5870,7 @@
     },
     {
       "full_name": "everett7623/airport-recommendations-2026",
-      "stars": 1463,
+      "stars": 1464,
       "pushed_at": "2026-10-29T07:08:43Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -5972,7 +5883,7 @@
     },
     {
       "full_name": "jdnei/JiChangTuiJian",
-      "stars": 1399,
+      "stars": 1400,
       "pushed_at": "2026-10-30T03:52:25Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6025,7 +5936,7 @@
     },
     {
       "full_name": "alecthw/mmdb_china_ip_list",
-      "stars": 1135,
+      "stars": 1136,
       "pushed_at": "2026-10-29T23:05:07Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6036,7 +5947,7 @@
     },
     {
       "full_name": "myikuns/jichangtz-tuijian",
-      "stars": 1092,
+      "stars": 1093,
       "pushed_at": "2026-10-28T07:05:23Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6062,7 +5973,7 @@
     },
     {
       "full_name": "jdnei/mojie",
-      "stars": 950,
+      "stars": 951,
       "pushed_at": "2026-10-30T08:57:35Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6087,7 +5998,7 @@
     {
       "full_name": "whoahaow/rjsxrd",
       "stars": 873,
-      "pushed_at": "2026-10-30T21:43:32Z",
+      "pushed_at": "2026-10-31T02:46:25Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6100,7 +6011,7 @@
     },
     {
       "full_name": "sinavm/sinavm",
-      "stars": 860,
+      "stars": 861,
       "pushed_at": "2026-10-30T14:41:28Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6145,20 +6056,9 @@
       ]
     },
     {
-      "full_name": "Begzar/BegzarApp",
-      "stars": 686,
-      "pushed_at": "2026-10-25T05:01:12Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray"
-      ]
-    },
-    {
       "full_name": "Leadaxe/LxBox",
       "stars": 682,
-      "pushed_at": "2026-10-30T10:57:54Z",
+      "pushed_at": "2026-10-30T23:25:01Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6170,7 +6070,7 @@
     {
       "full_name": "dahaha-365/YaNet",
       "stars": 675,
-      "pushed_at": "2026-10-30T02:16:50Z",
+      "pushed_at": "2026-10-31T01:56:16Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6191,7 +6091,7 @@
     },
     {
       "full_name": "jdnei/liangxin",
-      "stars": 600,
+      "stars": 601,
       "pushed_at": "2026-10-30T10:28:35Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6214,19 +6114,8 @@
       ]
     },
     {
-      "full_name": "liudf0716/xkcptun",
-      "stars": 496,
-      "pushed_at": "2026-10-25T03:52:29Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
       "full_name": "denpiligrim/3dp-manager",
-      "stars": 469,
+      "stars": 471,
       "pushed_at": "2026-10-30T19:48:01Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6250,7 +6139,7 @@
     {
       "full_name": "sinavm/SVM",
       "stars": 443,
-      "pushed_at": "2026-10-30T17:34:56Z",
+      "pushed_at": "2026-10-30T21:52:06Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6273,8 +6162,8 @@
     },
     {
       "full_name": "cbusifabcap/daily_free_vpn",
-      "stars": 378,
-      "pushed_at": "2026-10-30T21:45:07Z",
+      "stars": 379,
+      "pushed_at": "2026-10-31T03:00:08Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6288,7 +6177,7 @@
     {
       "full_name": "ShatakVPN/ConfigForge-V2Ray",
       "stars": 376,
-      "pushed_at": "2026-10-30T17:23:57Z",
+      "pushed_at": "2026-10-31T02:07:49Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6301,7 +6190,7 @@
     {
       "full_name": "REIJI007/AdBlock_Rule_For_Clash",
       "stars": 374,
-      "pushed_at": "2026-10-30T21:00:46Z",
+      "pushed_at": "2026-10-31T02:32:54Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6338,7 +6227,7 @@
     {
       "full_name": "MhdiTaheri/V2rayCollector",
       "stars": 322,
-      "pushed_at": "2026-10-30T21:19:05Z",
+      "pushed_at": "2026-10-31T01:22:13Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6352,7 +6241,7 @@
     {
       "full_name": "Potterli20/hosts",
       "stars": 314,
-      "pushed_at": "2026-10-30T21:16:31Z",
+      "pushed_at": "2026-10-31T01:17:43Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6363,7 +6252,7 @@
     {
       "full_name": "linzjian666/chromego_extractor",
       "stars": 311,
-      "pushed_at": "2026-10-30T17:17:09Z",
+      "pushed_at": "2026-10-31T02:52:58Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6424,26 +6313,13 @@
     {
       "full_name": "tawroot/antigravity-cleaner",
       "stars": 252,
-      "pushed_at": "2026-10-29T15:33:11Z",
+      "pushed_at": "2026-10-31T00:51:38Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:v2ray",
         "topic:clash"
-      ]
-    },
-    {
-      "full_name": "OpenNetCN/freego",
-      "stars": 245,
-      "pushed_at": "2026-10-25T08:25:18Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash",
-        "topic:shadowsocks"
       ]
     },
     {
@@ -6471,7 +6347,7 @@
     },
     {
       "full_name": "jdnei/FlowerCloud",
-      "stars": 193,
+      "stars": 194,
       "pushed_at": "2026-10-30T05:53:32Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6480,18 +6356,6 @@
         "topic:v2ray",
         "topic:clash",
         "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "Loyalsoldier/cn-blocked-domain",
-      "stars": 182,
-      "pushed_at": "2026-10-25T00:54:24Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
       ]
     },
     {
@@ -6566,7 +6430,7 @@
     },
     {
       "full_name": "jdnei/chuixuecloud",
-      "stars": 118,
+      "stars": 119,
       "pushed_at": "2026-10-30T07:01:00Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6580,7 +6444,7 @@
     {
       "full_name": "ChaselDutt/VPN-Deep-Test",
       "stars": 106,
-      "pushed_at": "2026-10-30T18:28:11Z",
+      "pushed_at": "2026-10-31T02:07:27Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6592,7 +6456,7 @@
     {
       "full_name": "rtwo2/FastNodes",
       "stars": 101,
-      "pushed_at": "2026-10-30T21:12:29Z",
+      "pushed_at": "2026-10-31T01:10:15Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6714,7 +6578,7 @@
     {
       "full_name": "toml66l/fanqiang",
       "stars": 74,
-      "pushed_at": "2026-10-30T15:52:18Z",
+      "pushed_at": "2026-10-31T02:47:56Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6724,7 +6588,7 @@
     },
     {
       "full_name": "kyoresuas/ru-direct",
-      "stars": 71,
+      "stars": 72,
       "pushed_at": "2026-10-30T09:28:20Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -6747,7 +6611,7 @@
     {
       "full_name": "Shayanthn/V2ray-Tester-Pro",
       "stars": 69,
-      "pushed_at": "2026-10-30T20:46:46Z",
+      "pushed_at": "2026-10-31T02:03:53Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6758,7 +6622,7 @@
     {
       "full_name": "ianjamescampbell0-gif/bloxbridge-launcher-core",
       "stars": 68,
-      "pushed_at": "2026-10-30T20:26:03Z",
+      "pushed_at": "2026-10-31T00:25:02Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6769,7 +6633,7 @@
     {
       "full_name": "Elegying/SSRVPN",
       "stars": 64,
-      "pushed_at": "2026-10-30T14:07:00Z",
+      "pushed_at": "2026-10-31T02:50:00Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6865,7 +6729,7 @@
     {
       "full_name": "dlsrms/clash-for-windows-rule-manager",
       "stars": 51,
-      "pushed_at": "2026-10-30T20:31:09Z",
+      "pushed_at": "2026-10-31T00:31:46Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6878,7 +6742,7 @@
     {
       "full_name": "Mr-Meshky/vify",
       "stars": 50,
-      "pushed_at": "2026-10-30T21:21:45Z",
+      "pushed_at": "2026-10-31T01:24:25Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6902,18 +6766,6 @@
       "full_name": "abcskjowjeoj/Speed17",
       "stars": 47,
       "pushed_at": "2026-10-27T12:18:37Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "vpntaiwan/vpntaiwan.github.io",
-      "stars": 47,
-      "pushed_at": "2026-10-25T05:50:19Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -6947,7 +6799,7 @@
     {
       "full_name": "dreamboxone/zirgozar",
       "stars": 45,
-      "pushed_at": "2026-10-30T13:02:41Z",
+      "pushed_at": "2026-10-30T22:25:51Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -7028,29 +6880,6 @@
       ]
     },
     {
-      "full_name": "qoli/SyncnextClash",
-      "stars": 36,
-      "pushed_at": "2026-10-25T12:54:07Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "freeclashpro/freeclashpro.github.io",
-      "stars": 35,
-      "pushed_at": "2026-10-25T05:34:51Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
       "full_name": "yarikov/kvn",
       "stars": 34,
       "pushed_at": "2026-10-29T15:12:04Z",
@@ -7065,7 +6894,7 @@
     {
       "full_name": "wlunlocker/vpn-configs",
       "stars": 31,
-      "pushed_at": "2026-10-30T21:15:24Z",
+      "pushed_at": "2026-10-31T02:09:16Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -7121,34 +6950,9 @@
       ]
     },
     {
-      "full_name": "begoniacommunity/MaterialXray",
-      "stars": 28,
-      "pushed_at": "2026-10-25T16:46:03Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks",
-        "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "Banten-IT-Solutions/BITS-VPN-Cloudflare",
-      "stars": 27,
-      "pushed_at": "2026-10-30T17:30:17Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash",
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "BX-Team/Nyx",
       "stars": 27,
-      "pushed_at": "2026-10-28T21:59:02Z",
+      "pushed_at": "2026-10-31T02:02:22Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -7156,6 +6960,19 @@
         "topic:clash",
         "topic:shadowsocks",
         "topic:hysteria",
+        "topic:vmess"
+      ]
+    },
+    {
+      "full_name": "Banten-IT-Solutions/BITS-VPN-Cloudflare",
+      "stars": 27,
+      "pushed_at": "2026-10-30T21:49:20Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray",
+        "topic:clash",
         "topic:vmess"
       ]
     },
@@ -7253,18 +7070,6 @@
       ]
     },
     {
-      "full_name": "v2raywfree/v2raywfree.github.io",
-      "stars": 23,
-      "pushed_at": "2026-10-25T05:09:04Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
       "full_name": "jdnei/guga",
       "stars": 22,
       "pushed_at": "2026-10-30T10:26:12Z",
@@ -7287,30 +7092,6 @@
       "matched_queries": [
         "topic:shadowsocks",
         "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "koreavpn/koreavpn.github.io",
-      "stars": 22,
-      "pushed_at": "2026-10-25T04:23:42Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "jiedianvpn/jiedianvpn.github.io",
-      "stars": 21,
-      "pushed_at": "2026-10-25T06:16:24Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
       ]
     },
     {
@@ -7351,29 +7132,6 @@
       ]
     },
     {
-      "full_name": "wenfer/mymihomo",
-      "stars": 19,
-      "pushed_at": "2026-10-25T15:42:46Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "vpnamerica/vpnamerica.github.io",
-      "stars": 19,
-      "pushed_at": "2026-10-25T05:59:32Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
       "full_name": "jichangyyds/jichang-tuijian",
       "stars": 17,
       "pushed_at": "2026-10-27T08:21:56Z",
@@ -7385,26 +7143,26 @@
       ]
     },
     {
+      "full_name": "XigmaDev/cf2tg",
+      "stars": 16,
+      "pushed_at": "2026-10-31T01:49:07Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray"
+      ]
+    },
+    {
       "full_name": "flaafix/AetrisVPN-white-list-lite",
       "stars": 16,
-      "pushed_at": "2026-10-30T20:00:47Z",
+      "pushed_at": "2026-10-30T23:57:47Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:v2ray",
         "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "XigmaDev/cf2tg",
-      "stars": 16,
-      "pushed_at": "2026-10-30T18:50:49Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray"
       ]
     },
     {
@@ -7481,7 +7239,7 @@
     {
       "full_name": "loss-and-quick/Kasumi-Proxy",
       "stars": 14,
-      "pushed_at": "2026-10-30T17:44:57Z",
+      "pushed_at": "2026-10-31T02:54:24Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -7591,12 +7349,23 @@
     {
       "full_name": "DarkRoyalty/shnajder-vpn-configs",
       "stars": 12,
-      "pushed_at": "2026-10-30T21:27:29Z",
+      "pushed_at": "2026-10-31T00:56:32Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "MFSGA/AChimera",
+      "stars": 12,
+      "pushed_at": "2026-10-30T23:22:14Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
       ]
     },
     {
@@ -7608,17 +7377,6 @@
       "commit_date": null,
       "matched_queries": [
         "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "MFSGA/AChimera",
-      "stars": 12,
-      "pushed_at": "2026-10-30T11:16:30Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash"
       ]
     },
     {
@@ -7646,33 +7404,9 @@
       ]
     },
     {
-      "full_name": "vpndog/vpndog.github.io",
-      "stars": 12,
-      "pushed_at": "2026-10-25T06:09:40Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "freevpnlist/freevpnlist.github.io",
-      "stars": 12,
-      "pushed_at": "2026-10-25T05:37:17Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
       "full_name": "YawStar/Proxy-Hunter",
       "stars": 11,
-      "pushed_at": "2026-10-30T19:40:12Z",
+      "pushed_at": "2026-10-31T02:40:57Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -7731,26 +7465,25 @@
       ]
     },
     {
-      "full_name": "freejichang/freejichang.github.io",
-      "stars": 11,
-      "pushed_at": "2026-10-25T06:07:51Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
-      ]
-    },
-    {
       "full_name": "flaafix/AetrisVPN-black-list",
       "stars": 10,
-      "pushed_at": "2026-10-30T21:11:42Z",
+      "pushed_at": "2026-10-31T01:11:08Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
         "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "yaoiwi/VpnAutoSwitch",
+      "stars": 10,
+      "pushed_at": "2026-10-31T01:08:50Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
       ]
     },
     {
@@ -7762,6 +7495,17 @@
       "commit_date": null,
       "matched_queries": [
         "topic:clash"
+      ]
+    },
+    {
+      "full_name": "byx020119/Shadowrocket-Siri",
+      "stars": 10,
+      "pushed_at": "2026-10-30T10:28:52Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
       ]
     },
     {
@@ -7832,18 +7576,8 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash",
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "byx020119/Shadowrocket-Siri",
-      "stars": 9,
-      "pushed_at": "2026-10-30T10:28:52Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
         "topic:shadowsocks"
       ]
     },
@@ -7855,6 +7589,7 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash",
         "topic:vmess"
       ]
@@ -7867,6 +7602,7 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash",
         "topic:shadowsocks"
       ]
@@ -7907,6 +7643,32 @@
       ]
     },
     {
+      "full_name": "ivel-mind/mitce",
+      "stars": 8,
+      "pushed_at": "2026-10-31T02:37:56Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray",
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "jdnei/linkcube",
+      "stars": 8,
+      "pushed_at": "2026-10-30T07:51:15Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray",
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
       "full_name": "jdnei/niva",
       "stars": 8,
       "pushed_at": "2026-10-30T06:20:34Z",
@@ -7914,6 +7676,7 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash",
         "topic:shadowsocks"
       ]
@@ -7926,6 +7689,7 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash",
         "topic:shadowsocks"
       ]
@@ -7949,6 +7713,7 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash"
       ]
     },
@@ -7960,6 +7725,7 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash"
       ]
     },
@@ -7971,13 +7737,14 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:v2ray",
         "topic:clash"
       ]
     },
     {
-      "full_name": "vpnforiphone/vpnforiphone.github.io",
-      "stars": 8,
-      "pushed_at": "2026-10-25T06:11:47Z",
+      "full_name": "professionalvpn/professionalvpn.github.io",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:48:50Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -7986,9 +7753,143 @@
       ]
     },
     {
-      "full_name": "freevpnshare/freevpnshare.github.io",
-      "stars": 8,
-      "pushed_at": "2026-10-25T05:04:07Z",
+      "full_name": "ivel-mind/chatvpn",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:36:46Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/muniucloud",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:36:07Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray",
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/hongxingyun",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:33:59Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/bygcloud",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:31:40Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/nexitally",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:30:10Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/naixi",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:29:17Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray",
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/naiyu",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:28:18Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/naiyun",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:27:12Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/liangxinyun",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:26:35Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/liangxin",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:25:52Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "ivel-mind/jichang-tuijian",
+      "stars": 7,
+      "pushed_at": "2026-10-31T02:24:41Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "YangLang116/auto_gen",
+      "stars": 7,
+      "pushed_at": "2026-10-30T22:05:24Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -8020,150 +7921,14 @@
       ]
     },
     {
-      "full_name": "jdnei/linkcube",
+      "full_name": "clashbest/clashbest.github.io",
       "stars": 7,
-      "pushed_at": "2026-10-30T07:51:15Z",
+      "pushed_at": "2026-10-30T05:23:16Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/chatvpn",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:52:38Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/muniucloud",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:51:53Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash",
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/hongxingyun",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:51:14Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash",
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/mitce",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:50:36Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/bygcloud",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:49:59Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/nexitally",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:49:24Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash",
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/naixi",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:48:47Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/naiyu",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:47:59Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/naiyun",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:47:03Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/liangxinyun",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:46:18Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash",
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/liangxin",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:45:31Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "ivel-mind/jichang-tuijian",
-      "stars": 7,
-      "pushed_at": "2026-10-30T03:44:36Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
+        "topic:clash"
       ]
     },
     {
@@ -8189,35 +7954,14 @@
       ]
     },
     {
-      "full_name": "freevpnnode/freevpnnode.github.io",
+      "full_name": "jichangmianfei/jichangmianfei.github.io",
       "stars": 7,
-      "pushed_at": "2026-10-25T06:14:46Z",
+      "pushed_at": "2026-10-26T03:48:56Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "topvpnlist/topvpnlist.github.io",
-      "stars": 7,
-      "pushed_at": "2026-10-25T05:40:51Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash"
-      ]
-    },
-    {
-      "full_name": "vpnforandroid/vpnforandroid.github.io",
-      "stars": 7,
-      "pushed_at": "2026-10-25T05:21:46Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
+        "topic:v2ray",
         "topic:clash"
       ]
     },
@@ -8233,9 +7977,43 @@
       ]
     },
     {
+      "full_name": "app-vpn/app-vpn.github.io",
+      "stars": 6,
+      "pushed_at": "2026-10-28T06:46:34Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
       "full_name": "winston779/besnow",
       "stars": 6,
       "pushed_at": "2026-10-27T05:55:13Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "vpnmac/vpnmac.github.io",
+      "stars": 6,
+      "pushed_at": "2026-10-26T04:31:58Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
+      "full_name": "JasperYubo/Fanqiang-Guide",
+      "stars": 5,
+      "pushed_at": "2026-10-31T01:37:46Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -8247,17 +8025,6 @@
       "full_name": "jdnei/nianyun",
       "stars": 5,
       "pushed_at": "2026-10-30T07:15:02Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "JasperYubo/Fanqiang-Guide",
-      "stars": 5,
-      "pushed_at": "2026-10-30T01:59:12Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -8278,9 +8045,9 @@
       ]
     },
     {
-      "full_name": "Shawshank01/proxy_sh",
-      "stars": 5,
-      "pushed_at": "2026-10-25T21:22:02Z",
+      "full_name": "Makhkets/commy",
+      "stars": 4,
+      "pushed_at": "2026-10-31T00:35:30Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -8393,6 +8160,17 @@
       ]
     },
     {
+      "full_name": "margbug01/ShoesGUI",
+      "stars": 4,
+      "pushed_at": "2026-10-29T04:00:58Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
       "full_name": "wectazz/v2rayMD",
       "stars": 4,
       "pushed_at": "2026-10-28T14:38:02Z",
@@ -8472,17 +8250,6 @@
       ]
     },
     {
-      "full_name": "margbug01/ShoesGUI",
-      "stars": 3,
-      "pushed_at": "2026-10-29T04:00:58Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks"
-      ]
-    },
-    {
       "full_name": "Portunus-org/Portunus",
       "stars": 3,
       "pushed_at": "2026-10-28T18:50:11Z",
@@ -8502,19 +8269,6 @@
       "commit_date": null,
       "matched_queries": [
         "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "TuftyTech/ShellShift",
-      "stars": 2,
-      "pushed_at": "2026-10-30T20:50:23Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks",
-        "topic:vmess",
-        "vmess subscription"
       ]
     },
     {
@@ -8617,6 +8371,28 @@
       ]
     },
     {
+      "full_name": "bimeron/bimeron-core",
+      "stars": 1,
+      "pushed_at": "2026-10-30T13:56:38Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "jdnei/98k",
+      "stars": 1,
+      "pushed_at": "2026-10-30T10:12:31Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
       "full_name": "jdnei/crush",
       "stars": 1,
       "pushed_at": "2026-10-30T09:06:38Z",
@@ -8628,9 +8404,31 @@
       ]
     },
     {
+      "full_name": "jdnei/jeeyio",
+      "stars": 1,
+      "pushed_at": "2026-10-30T08:58:08Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
       "full_name": "jdnei/yinyun",
       "stars": 1,
       "pushed_at": "2026-10-30T08:48:23Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "jdnei/1yunti",
+      "stars": 1,
+      "pushed_at": "2026-10-30T07:45:27Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -8661,6 +8459,17 @@
       ]
     },
     {
+      "full_name": "jdnei/sulian",
+      "stars": 1,
+      "pushed_at": "2026-10-30T06:29:31Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
       "full_name": "pashaee/V2m",
       "stars": 1,
       "pushed_at": "2026-10-29T18:28:22Z",
@@ -8679,8 +8488,53 @@
       "commit": null,
       "commit_date": null,
       "matched_queries": [
+        "topic:shadowsocks",
         "topic:vmess",
         "vmess subscription"
+      ]
+    },
+    {
+      "full_name": "cashlau/OpenWrt-Build",
+      "stars": 1,
+      "pushed_at": "2026-10-29T15:15:29Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "OriginVorfeed/shadowrocket-china-list",
+      "stars": 1,
+      "pushed_at": "2026-10-28T02:54:16Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "zhaoke923/2027VPN",
+      "stars": 1,
+      "pushed_at": "2026-10-27T05:02:33Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
+      ]
+    },
+    {
+      "full_name": "hgkbz114514/vpnkit",
+      "stars": 1,
+      "pushed_at": "2026-10-26T15:16:38Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:shadowsocks"
       ]
     },
     {
@@ -8695,20 +8549,9 @@
       ]
     },
     {
-      "full_name": "geekdada/hysterical-panel",
-      "stars": 1,
-      "pushed_at": "2026-10-25T16:53:41Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:hysteria"
-      ]
-    },
-    {
       "full_name": "nodesradar/nodesradar-id",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:20:57Z",
+      "pushed_at": "2026-10-31T02:08:42Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -8796,30 +8639,8 @@
       ]
     },
     {
-      "full_name": "lensiao/shenlong-jichang",
-      "stars": 0,
-      "pushed_at": "2026-10-25T08:46:01Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "splatedk-web/splatevpn-xray-client-windows",
-      "stars": 0,
-      "pushed_at": "2026-10-25T07:52:55Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "amnezia-vpn/amnezia-client",
-      "stars": 15617,
+      "stars": 15619,
       "pushed_at": "2026-10-29T14:20:36Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -8829,21 +8650,8 @@
       ]
     },
     {
-      "full_name": "alireza0/s-ui",
-      "stars": 10211,
-      "pushed_at": "2026-10-25T22:26:23Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:shadowsocks",
-        "topic:hysteria",
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "029danio/fly",
-      "stars": 3178,
+      "stars": 3179,
       "pushed_at": "2026-10-30T13:42:57Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -8856,7 +8664,7 @@
     {
       "full_name": "Loyalsoldier/surge-rules",
       "stars": 3170,
-      "pushed_at": "2026-10-29T22:32:49Z",
+      "pushed_at": "2026-10-30T22:32:30Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -8868,7 +8676,7 @@
     },
     {
       "full_name": "KaWaIDeSuNe/xingjiabijichang",
-      "stars": 1880,
+      "stars": 1881,
       "pushed_at": "2026-10-30T02:41:41Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -8876,18 +8684,6 @@
       "matched_queries": [
         "topic:v2ray",
         "topic:clash",
-        "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "vpnfast/vpnfast.github.io",
-      "stars": 1700,
-      "pushed_at": "2026-10-25T08:07:35Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
         "topic:shadowsocks"
       ]
     },
@@ -8906,21 +8702,8 @@
       ]
     },
     {
-      "full_name": "HamedAp/ShahanPanel",
-      "stars": 1201,
-      "pushed_at": "2026-10-25T21:07:08Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:shadowsocks",
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "chatgpt-helper-tech/airport-access",
-      "stars": 788,
+      "stars": 787,
       "pushed_at": "2026-10-30T14:32:44Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -8933,7 +8716,7 @@
     },
     {
       "full_name": "CluvexStudio/ZedSecure",
-      "stars": 623,
+      "stars": 631,
       "pushed_at": "2026-10-30T20:03:41Z",
       "reason": "not_verified_cap",
       "commit": null,
@@ -9009,7 +8792,7 @@
     {
       "full_name": "MonadBoxLab/MonadBox",
       "stars": 120,
-      "pushed_at": "2026-10-28T22:26:15Z",
+      "pushed_at": "2026-10-30T22:19:45Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -9050,17 +8833,6 @@
       "commit_date": null,
       "matched_queries": [
         "topic:v2ray"
-      ]
-    },
-    {
-      "full_name": "Aethersailor/Rule-Bot",
-      "stars": 74,
-      "pushed_at": "2026-10-25T20:22:38Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:clash"
       ]
     },
     {
@@ -9128,18 +8900,6 @@
       ]
     },
     {
-      "full_name": "snarefps/NullVPN",
-      "stars": 19,
-      "pushed_at": "2026-10-25T10:35:04Z",
-      "reason": "not_verified_cap",
-      "commit": null,
-      "commit_date": null,
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:vmess"
-      ]
-    },
-    {
       "full_name": "v74all/Spiritus",
       "stars": 13,
       "pushed_at": "2026-10-30T21:36:54Z",
@@ -9162,6 +8922,19 @@
       ]
     },
     {
+      "full_name": "feiniao25789/feiniao-vpn",
+      "stars": 12,
+      "pushed_at": "2026-10-31T01:42:34Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:v2ray",
+        "topic:clash",
+        "topic:shadowsocks"
+      ]
+    },
+    {
       "full_name": "JustRin/aurora-vpn",
       "stars": 12,
       "pushed_at": "2026-10-30T21:26:53Z",
@@ -9177,22 +8950,20 @@
       ]
     },
     {
-      "full_name": "feiniao25789/feiniao-vpn",
-      "stars": 12,
-      "pushed_at": "2026-10-30T18:15:32Z",
+      "full_name": "link-kuajing/awesome-network-optimization",
+      "stars": 11,
+      "pushed_at": "2026-10-31T02:00:58Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
       "matched_queries": [
-        "topic:v2ray",
-        "topic:clash",
-        "topic:shadowsocks"
+        "topic:v2ray"
       ]
     },
     {
-      "full_name": "link-kuajing/awesome-network-optimization",
-      "stars": 11,
-      "pushed_at": "2026-10-30T02:00:59Z",
+      "full_name": "derundevu/yaxc",
+      "stars": 7,
+      "pushed_at": "2026-10-30T23:59:09Z",
       "reason": "not_verified_cap",
       "commit": null,
       "commit_date": null,
@@ -9231,6 +9002,17 @@
       "commit_date": null,
       "matched_queries": [
         "topic:hysteria"
+      ]
+    },
+    {
+      "full_name": "flyzstu/xhttp-box",
+      "stars": 3,
+      "pushed_at": "2026-10-31T02:23:22Z",
+      "reason": "not_verified_cap",
+      "commit": null,
+      "commit_date": null,
+      "matched_queries": [
+        "topic:vmess"
       ]
     },
     {
@@ -9342,7 +9124,7 @@
     {
       "full_name": "skka3134/Free-servers",
       "stars": 41,
-      "pushed_at": "2026-10-30T12:01:00Z",
+      "pushed_at": "2026-10-31T00:00:59Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "75ba6178596dac465db0c54fe1b9b7ad78729e59",
@@ -9362,7 +9144,7 @@
     {
       "full_name": "lerjtl/Testfree",
       "stars": 23,
-      "pushed_at": "2026-10-30T18:00:26Z",
+      "pushed_at": "2026-10-31T00:00:26Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "8052615e33629ef2974bbeb840adb5cc84152cfb",
@@ -9399,7 +9181,7 @@
     {
       "full_name": "nodesradar/nodesradar-en",
       "stars": 7,
-      "pushed_at": "2026-10-30T21:20:42Z",
+      "pushed_at": "2026-10-31T02:08:27Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "0017ab418fa468dbdce22095fbe7b8c01e7c643e",
@@ -9407,6 +9189,7 @@
       },
       "commit_date": "2026-10-30T21:20:41Z",
       "matched_queries": [
+        "topic:clash",
         "topic:shadowsocks",
         "topic:vmess",
         "vmess subscription",
@@ -9447,7 +9230,7 @@
     {
       "full_name": "crossxx-labs/free-proxy",
       "stars": 1849,
-      "pushed_at": "2026-10-30T20:00:07Z",
+      "pushed_at": "2026-10-31T00:00:08Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "3674979cfb3fb2412aff2ca728a007f46dd56169",
@@ -9526,7 +9309,7 @@
     },
     {
       "full_name": "free-nodes/v2rayfree",
-      "stars": 14669,
+      "stars": 14674,
       "pushed_at": "2026-10-30T20:34:45Z",
       "reason": "no_subscription_file",
       "commit": {
@@ -9541,8 +9324,8 @@
     },
     {
       "full_name": "sub-store-org/Sub-Store",
-      "stars": 10800,
-      "pushed_at": "2026-10-30T10:33:51Z",
+      "stars": 10802,
+      "pushed_at": "2026-10-31T00:30:32Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "352f01b7091c99f4e219c44e4ec96f3288059843",
@@ -9573,7 +9356,7 @@
     {
       "full_name": "Silentely/AdBlock-Acceleration",
       "stars": 555,
-      "pushed_at": "2026-10-30T17:44:02Z",
+      "pushed_at": "2026-10-30T21:51:42Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "cb3edaa87eaab1e9c288a318478cc6b796248fe9",
@@ -9587,7 +9370,7 @@
     {
       "full_name": "crashgfw/free-airport-nodes",
       "stars": 299,
-      "pushed_at": "2026-10-30T18:26:22Z",
+      "pushed_at": "2026-10-31T01:26:12Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "de39d8e1a89c69b1ec4ff967ac32a1b96838383a",
@@ -9635,7 +9418,7 @@
     {
       "full_name": "HakurouKen/free-node",
       "stars": 181,
-      "pushed_at": "2026-10-30T12:18:10Z",
+      "pushed_at": "2026-10-31T00:25:14Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "3d3442aa093ed91decace39847db8ac6a1985e6a",
@@ -9649,7 +9432,7 @@
     {
       "full_name": "VoroninaYanina/free-nodes",
       "stars": 103,
-      "pushed_at": "2026-10-30T18:26:31Z",
+      "pushed_at": "2026-10-31T01:26:20Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "0cded1e7fd852a90f46d575e23df9f30e137e08d",
@@ -9679,7 +9462,7 @@
     {
       "full_name": "free-proxy-nodes/free-nodes",
       "stars": 41,
-      "pushed_at": "2026-10-30T18:26:27Z",
+      "pushed_at": "2026-10-31T01:26:15Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "91dc364ca3ebc71fbfc09755f838803a30f082b7",
@@ -9707,7 +9490,7 @@
     {
       "full_name": "jafarm83/ConfigV2Ray",
       "stars": 7,
-      "pushed_at": "2026-10-30T21:33:21Z",
+      "pushed_at": "2026-10-31T03:01:00Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "dbc292ba839730a443465fb6dc1db208f5bd3dc2",
@@ -9765,7 +9548,7 @@
     {
       "full_name": "Agumuzi/crhopper",
       "stars": 1,
-      "pushed_at": "2026-10-30T21:23:19Z",
+      "pushed_at": "2026-10-31T01:32:29Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "7e2978a196542c180244471a56d7244e1855e1ef",
@@ -9793,9 +9576,23 @@
       ]
     },
     {
+      "full_name": "GitWay0227/sub-filter-private",
+      "stars": 0,
+      "pushed_at": "2026-10-31T02:38:59Z",
+      "reason": "no_subscription_file",
+      "commit": {
+        "sha": "b3d5c58f0ee6ab989d841ee5efaf7f188522b7e6",
+        "date": "2026-10-28T15:50:58Z"
+      },
+      "commit_date": "2026-10-28T15:50:58Z",
+      "matched_queries": [
+        "free proxies nodes"
+      ]
+    },
+    {
       "full_name": "nodesradar/nodesradar-my",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:20:59Z",
+      "pushed_at": "2026-10-31T02:08:44Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "554bc6d38784ceb915f419cd4e9c48c5ef714d62",
@@ -9805,20 +9602,6 @@
       "matched_queries": [
         "topic:vmess",
         "vmess subscription"
-      ]
-    },
-    {
-      "full_name": "GitWay0227/sub-filter-private",
-      "stars": 0,
-      "pushed_at": "2026-10-30T20:52:49Z",
-      "reason": "no_subscription_file",
-      "commit": {
-        "sha": "b3d5c58f0ee6ab989d841ee5efaf7f188522b7e6",
-        "date": "2026-10-28T15:50:58Z"
-      },
-      "commit_date": "2026-10-28T15:50:58Z",
-      "matched_queries": [
-        "free proxies nodes"
       ]
     },
     {
@@ -9895,8 +9678,8 @@
     },
     {
       "full_name": "bq2015/FreeProxies",
-      "stars": 917,
-      "pushed_at": "2026-10-30T21:22:40Z",
+      "stars": 918,
+      "pushed_at": "2026-10-31T02:54:48Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "c45405c0fd8a3dcd2a17d1290719bcc334a10808",
@@ -9921,21 +9704,6 @@
       "commit_date": "2026-10-30T18:20:01Z",
       "matched_queries": [
         "topic:shadowsocks"
-      ]
-    },
-    {
-      "full_name": "free-clash-v2ray/free-clash-v2ray.github.io",
-      "stars": 249,
-      "pushed_at": "2026-10-26T02:11:00Z",
-      "reason": "no_subscription_file",
-      "commit": {
-        "sha": "be2947b8ec63feb08dee7bc8ff8aa180a22ac349",
-        "date": "2026-10-26T02:10:48Z"
-      },
-      "commit_date": "2026-10-26T02:10:48Z",
-      "matched_queries": [
-        "topic:v2ray",
-        "topic:clash"
       ]
     },
     {
@@ -9989,7 +9757,7 @@
     {
       "full_name": "flaafix/AetrisVPN",
       "stars": 25,
-      "pushed_at": "2026-10-30T20:55:34Z",
+      "pushed_at": "2026-10-31T00:14:15Z",
       "reason": "no_subscription_file",
       "commit": {
         "sha": "01969afced0a03d0b118ac1f459570855e993dbf",
@@ -10003,7 +9771,7 @@
     {
       "full_name": "crackbest/V2ray-Config",
       "stars": 68,
-      "pushed_at": "2026-10-30T20:24:07Z",
+      "pushed_at": "2026-10-30T23:57:36Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "b6c0f796a8b86caa1b472a295d35a9487b808838",
@@ -10017,7 +9785,7 @@
     {
       "full_name": "V2RayRoot/V2RayConfig",
       "stars": 175,
-      "pushed_at": "2026-10-30T18:43:44Z",
+      "pushed_at": "2026-10-31T02:01:20Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "def1b38615176bfa280831b136d50210d6649957",
@@ -10033,7 +9801,7 @@
     {
       "full_name": "iboxz/free-v2ray-collector",
       "stars": 191,
-      "pushed_at": "2026-10-30T21:36:04Z",
+      "pushed_at": "2026-10-31T02:56:04Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "159f891083725351b6a35725d3be70905a252b06",
@@ -10048,7 +9816,7 @@
     {
       "full_name": "gfpcom/free-proxy-list",
       "stars": 434,
-      "pushed_at": "2026-10-30T21:07:13Z",
+      "pushed_at": "2026-10-31T00:44:17Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "a50795bc8d9382dc2e46583b871a6d1966411dcd",
@@ -10076,6 +9844,20 @@
       ]
     },
     {
+      "full_name": "vluma/free-vpn2clash",
+      "stars": 11,
+      "pushed_at": "2026-10-30T05:12:44Z",
+      "reason": "max_repos_reached",
+      "commit": {
+        "sha": "6dd13b21c15563fbf13a95d8fcafbab1e8513c0e",
+        "date": "2026-10-30T05:12:43Z"
+      },
+      "commit_date": "2026-10-30T05:12:43Z",
+      "matched_queries": [
+        "topic:clash"
+      ]
+    },
+    {
       "full_name": "currycan/sb-xray",
       "stars": 11,
       "pushed_at": "2026-10-30T08:38:16Z",
@@ -10092,7 +9874,7 @@
     {
       "full_name": "mheidari98/.proxy",
       "stars": 191,
-      "pushed_at": "2026-10-30T21:15:32Z",
+      "pushed_at": "2026-10-31T01:15:39Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "1ce1173585c3c3473cc80d1e3c96b86b376408c8",
@@ -10105,8 +9887,8 @@
     },
     {
       "full_name": "Pawdroid/Free-servers",
-      "stars": 19713,
-      "pushed_at": "2026-10-30T21:06:25Z",
+      "stars": 19717,
+      "pushed_at": "2026-10-31T02:06:12Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "45d279d6962946414880830edbefa46a40657bf3",
@@ -10140,7 +9922,7 @@
     {
       "full_name": "MohammadBahemmat/V2ray-Collector",
       "stars": 87,
-      "pushed_at": "2026-10-30T21:44:28Z",
+      "pushed_at": "2026-10-31T02:48:24Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "966a38773abe411dbb6bb0b8eb50ca85d5cdedf0",
@@ -10155,7 +9937,7 @@
     },
     {
       "full_name": "mermeroo/V2RAY-CLASH-BASE64-Subscription.Links",
-      "stars": 527,
+      "stars": 526,
       "pushed_at": "2026-10-29T06:40:07Z",
       "reason": "max_repos_reached",
       "commit": {
@@ -10176,7 +9958,7 @@
     {
       "full_name": "roosterkid/openproxylist",
       "stars": 941,
-      "pushed_at": "2026-10-30T21:00:36Z",
+      "pushed_at": "2026-10-31T03:00:48Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "085f0240993b81a5aaafc4a6703c6cbcf4cc4461",
@@ -10192,7 +9974,7 @@
     {
       "full_name": "LoneKingCode/free-proxy-db",
       "stars": 44,
-      "pushed_at": "2026-10-30T12:00:17Z",
+      "pushed_at": "2026-10-31T00:00:18Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "67221e659be3c2014569298c15fef4ffce125281",
@@ -10237,8 +10019,8 @@
     },
     {
       "full_name": "shaoyouvip/free",
-      "stars": 1308,
-      "pushed_at": "2026-10-30T19:45:43Z",
+      "stars": 1310,
+      "pushed_at": "2026-10-31T00:31:32Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "2634941b80d40f09379a88680da2a48533136ade",
@@ -10248,20 +10030,6 @@
       "matched_queries": [
         "topic:v2ray",
         "topic:vmess"
-      ]
-    },
-    {
-      "full_name": "vluma/free-vpn2clash",
-      "stars": 11,
-      "pushed_at": "2026-10-30T05:12:44Z",
-      "reason": "max_repos_reached",
-      "commit": {
-        "sha": "6dd13b21c15563fbf13a95d8fcafbab1e8513c0e",
-        "date": "2026-10-30T05:12:43Z"
-      },
-      "commit_date": "2026-10-30T05:12:43Z",
-      "matched_queries": [
-        "topic:clash"
       ]
     },
     {
@@ -10326,7 +10094,7 @@
     {
       "full_name": "alireza786786/Free-V2ray-Configs",
       "stars": 2,
-      "pushed_at": "2026-10-30T21:09:51Z",
+      "pushed_at": "2026-10-31T02:22:54Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "70b513f4ba5ec980facfbf6417f0bd9ef14fa4b1",
@@ -10372,7 +10140,7 @@
     {
       "full_name": "lorenzazy7kenyon/free-vpn-subscriptions",
       "stars": 0,
-      "pushed_at": "2026-10-30T21:40:55Z",
+      "pushed_at": "2026-10-31T01:45:54Z",
       "reason": "max_repos_reached",
       "commit": {
         "sha": "b0796516112c5f7f0bef8c84f2be0bfb2f41cfa5",
@@ -10403,10 +10171,10 @@
       "pushed_at": "2026-10-30T19:20:00Z",
       "reason": "max_repos_reached",
       "commit": {
-        "sha": "562267addc1e10d9a3586b7d87dc53dda9e55129",
-        "date": "2026-10-30T16:44:28Z"
+        "sha": "cddc331fd415551c5ad5a6adfd8fe547d20978b2",
+        "date": "2026-10-30T19:19:59Z"
       },
-      "commit_date": "2026-10-30T16:44:28Z",
+      "commit_date": "2026-10-30T19:19:59Z",
       "matched_queries": [
         "topic:vmess"
       ]
@@ -10442,6 +10210,49 @@
         "topic:vmess",
         "vmess subscription"
       ]
+    },
+    {
+      "full_name": "HyNetworks/hysteria",
+      "stars": 22808,
+      "pushed_at": "2026-10-27T02:44:10Z",
+      "reason": "max_repos_reached",
+      "commit": {
+        "sha": "fb25dc852ebbc70658e67889f411887a82b7c281",
+        "date": "2026-10-27T02:44:08Z"
+      },
+      "commit_date": "2026-10-27T02:44:08Z",
+      "matched_queries": [
+        "topic:hysteria"
+      ]
+    },
+    {
+      "full_name": "mack-a/v2ray-agent",
+      "stars": 22254,
+      "pushed_at": "2026-10-30T11:13:32Z",
+      "reason": "max_repos_reached",
+      "commit": {
+        "sha": "876ed197c4a5fc386793f7eb17a9688e466c1ce5",
+        "date": "2026-10-30T11:12:28Z"
+      },
+      "commit_date": "2026-10-30T11:12:28Z",
+      "matched_queries": [
+        "topic:v2ray",
+        "topic:vmess"
+      ]
+    },
+    {
+      "full_name": "Qv2ray/Qv2ray",
+      "stars": 16880,
+      "pushed_at": "2026-10-29T15:08:19Z",
+      "reason": "max_repos_reached",
+      "commit": {
+        "sha": "9880c8d3ec4057952849905c5cbcd95edc042bfa",
+        "date": "2026-10-29T15:08:19Z"
+      },
+      "commit_date": "2026-10-29T15:08:19Z",
+      "matched_queries": [
+        "topic:v2ray"
+      ]
     }
   ],
   "files": [
@@ -10453,8 +10264,8 @@
       "commit": "2026-10-30T12:07:09Z",
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 715529,
-      "parsed": 2550,
+      "bytes": 702866,
+      "parsed": 2509,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -10467,8 +10278,8 @@
       "commit": "2026-10-30T12:07:09Z",
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vless.txt.yaml",
       "status": 200,
-      "bytes": 76567,
-      "parsed": 228,
+      "bytes": 80466,
+      "parsed": 239,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -10481,7 +10292,7 @@
       "commit": "2026-10-30T12:07:09Z",
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/v2ray/itsyebekhe/PSG/subscriptions/clash/vmess.yaml",
       "status": 200,
-      "bytes": 8398,
+      "bytes": 8430,
       "parsed": 26,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -10495,8 +10306,8 @@
       "commit": "2026-10-30T21:00:56Z",
       "url": "https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/all-clash.yaml",
       "status": 200,
-      "bytes": 525805,
-      "parsed": 1999,
+      "bytes": 558241,
+      "parsed": 1998,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -10509,8 +10320,8 @@
       "commit": "2026-10-30T21:00:56Z",
       "url": "https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/light-clash.yaml",
       "status": 200,
-      "bytes": 49777,
-      "parsed": 166,
+      "bytes": 43899,
+      "parsed": 148,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -10523,7 +10334,7 @@
       "commit": "2026-10-30T21:00:56Z",
       "url": "https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/all-singbox.json",
       "status": 200,
-      "bytes": 669004,
+      "bytes": 651324,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -10538,8 +10349,8 @@
       "commit": "2026-10-30T16:32:21Z",
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
       "status": 200,
-      "bytes": 1197712,
-      "parsed": 3949,
+      "bytes": 1218022,
+      "parsed": 3961,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -10552,8 +10363,8 @@
       "commit": "2026-10-30T16:32:21Z",
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/vmess.txt",
       "status": 200,
-      "bytes": 1383972,
-      "parsed": 2638,
+      "bytes": 1383340,
+      "parsed": 2632,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -10566,8 +10377,8 @@
       "commit": "2026-10-30T16:32:21Z",
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
       "status": 200,
-      "bytes": 83140,
-      "parsed": 199,
+      "bytes": 83548,
+      "parsed": 198,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -10622,12 +10433,11 @@
       "commit": "2026-10-30T21:43:14Z",
       "url": "https://raw.githubusercontent.com/MustafaBaqer/VestraNet-Nodes/main/subscriptions/mix-base64.txt",
       "status": 200,
-      "bytes": 3942196,
-      "parsed": 0,
+      "bytes": 3763040,
+      "parsed": 8908,
       "transport": "raw-direct",
-      "shape": "unknown",
-      "attempts_tried": 1,
-      "error": "fetched but parsed 0 nodes"
+      "shape": "base64-list",
+      "attempts_tried": 1
     },
     {
       "repo": "MustafaBaqer/VestraNet-Nodes",
@@ -10637,8 +10447,8 @@
       "commit": "2026-10-30T21:43:14Z",
       "url": "https://raw.githubusercontent.com/MustafaBaqer/VestraNet-Nodes/main/subscriptions/mix-normal.txt",
       "status": 200,
-      "bytes": 2956646,
-      "parsed": 8448,
+      "bytes": 2822279,
+      "parsed": 8908,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -10651,8 +10461,8 @@
       "commit": "2026-10-30T21:43:14Z",
       "url": "https://raw.githubusercontent.com/MustafaBaqer/VestraNet-Nodes/main/protocols/vmess.txt",
       "status": 200,
-      "bytes": 2119881,
-      "parsed": 6047,
+      "bytes": 2114619,
+      "parsed": 6286,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -10665,7 +10475,7 @@
       "commit": "2026-10-30T19:04:27Z",
       "url": "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/vmess_sub.txt",
       "status": 200,
-      "bytes": 679348,
+      "bytes": 679476,
       "parsed": 1131,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -10679,8 +10489,8 @@
       "commit": "2026-10-30T19:04:27Z",
       "url": "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix_sub.txt",
       "status": 200,
-      "bytes": 801540,
-      "parsed": 1676,
+      "bytes": 804620,
+      "parsed": 1683,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -10693,8 +10503,8 @@
       "commit": "2026-10-30T19:04:27Z",
       "url": "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/vless_sub.txt",
       "status": 200,
-      "bytes": 50380,
-      "parsed": 150,
+      "bytes": 51572,
+      "parsed": 148,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -10707,7 +10517,7 @@
       "commit": "2026-10-30T20:00:44Z",
       "url": "https://raw.githubusercontent.com/Romaxa55/MegaV_Public/main/subs/vless.txt",
       "status": 200,
-      "bytes": 443,
+      "bytes": 422,
       "parsed": 2,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -10721,7 +10531,7 @@
       "commit": "2026-10-30T20:00:44Z",
       "url": "https://raw.githubusercontent.com/Romaxa55/MegaV_Public/main/subs/all.txt",
       "status": 200,
-      "bytes": 1274,
+      "bytes": 1271,
       "parsed": 6,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -10735,7 +10545,7 @@
       "commit": "2026-10-30T20:00:44Z",
       "url": "https://raw.githubusercontent.com/Romaxa55/MegaV_Public/main/subs/servers.json",
       "status": 200,
-      "bytes": 3542,
+      "bytes": 3535,
       "parsed": 6,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -10819,8 +10629,8 @@
       "commit": "2026-10-30T17:25:02Z",
       "url": "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/clash.yaml",
       "status": 200,
-      "bytes": 27333,
-      "parsed": 99,
+      "bytes": 28187,
+      "parsed": 100,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -10833,8 +10643,8 @@
       "commit": "2026-10-30T17:25:02Z",
       "url": "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vmess.txt",
       "status": 200,
-      "bytes": 612817,
-      "parsed": 1424,
+      "bytes": 719007,
+      "parsed": 1669,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -10847,8 +10657,8 @@
       "commit": "2026-10-30T17:25:02Z",
       "url": "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vless.txt",
       "status": 200,
-      "bytes": 1412552,
-      "parsed": 5223,
+      "bytes": 1704817,
+      "parsed": 6301,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -10861,8 +10671,8 @@
       "commit": "2026-10-30T20:38:10Z",
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_base64_Sub.txt",
       "status": 200,
-      "bytes": 2770828,
-      "parsed": 8474,
+      "bytes": 2757432,
+      "parsed": 8425,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -10875,8 +10685,8 @@
       "commit": "2026-10-30T20:38:10Z",
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
       "status": 200,
-      "bytes": 2078120,
-      "parsed": 8474,
+      "bytes": 2068072,
+      "parsed": 8425,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -10889,8 +10699,8 @@
       "commit": "2026-10-30T20:38:10Z",
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Base64/Sub16_base64.txt",
       "status": 200,
-      "bytes": 242236,
-      "parsed": 492,
+      "bytes": 227240,
+      "parsed": 494,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -10989,7 +10799,7 @@
       "commit": "2026-10-30T18:30:28Z",
       "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/subscriptions.json",
       "status": 200,
-      "bytes": 5790,
+      "bytes": 5793,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -11004,8 +10814,8 @@
       "commit": "2026-10-30T18:30:28Z",
       "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/clash/all.yaml",
       "status": 200,
-      "bytes": 63640,
-      "parsed": 214,
+      "bytes": 107896,
+      "parsed": 500,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11018,8 +10828,8 @@
       "commit": "2026-10-30T18:30:28Z",
       "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/clash/high-anon.yaml",
       "status": 200,
-      "bytes": 54518,
-      "parsed": 180,
+      "bytes": 110522,
+      "parsed": 500,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11047,8 +10857,8 @@
       "commit": "2026-10-30T18:52:25Z",
       "url": "https://raw.githubusercontent.com/Mokafela/Config-Finder/master/split/sub-ALL.txt",
       "status": 200,
-      "bytes": 38596,
-      "parsed": 120,
+      "bytes": 39716,
+      "parsed": 124,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -11061,7 +10871,7 @@
       "commit": "2026-10-30T18:52:25Z",
       "url": "https://raw.githubusercontent.com/Mokafela/Config-Finder/master/split/sub-CA.txt",
       "status": 200,
-      "bytes": 10476,
+      "bytes": 10480,
       "parsed": 30,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -11203,7 +11013,7 @@
       "commit": "2026-10-30T01:18:50Z",
       "url": "https://raw.githubusercontent.com/vincent20240707/free-v2ray-nodes/main/subscriptions.txt",
       "status": 200,
-      "bytes": 2256,
+      "bytes": 2456,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -11276,7 +11086,7 @@
       "commit": "2026-10-30T21:07:40Z",
       "url": "https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/converted/all_valid_proxies_clash_config.yaml",
       "status": 200,
-      "bytes": 4332619,
+      "bytes": 4251689,
       "parsed": 2,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -11320,8 +11130,8 @@
       "commit": "2026-10-30T13:12:08Z",
       "url": "https://raw.githubusercontent.com/chenzhihan1751-cyber/node-sub-zixf/main/sub/v2ray.txt",
       "status": 200,
-      "bytes": 160749,
-      "parsed": 868,
+      "bytes": 167114,
+      "parsed": 892,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11334,8 +11144,8 @@
       "commit": "2026-10-30T13:12:08Z",
       "url": "https://raw.githubusercontent.com/chenzhihan1751-cyber/node-sub-zixf/main/sub/base64.txt",
       "status": 200,
-      "bytes": 214333,
-      "parsed": 868,
+      "bytes": 222821,
+      "parsed": 892,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -11348,7 +11158,7 @@
       "commit": "2026-10-30T13:12:08Z",
       "url": "https://raw.githubusercontent.com/chenzhihan1751-cyber/node-sub-zixf/main/sub/stats.json",
       "status": 200,
-      "bytes": 3125,
+      "bytes": 3384,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -11393,8 +11203,8 @@
       "commit": "2026-10-30T17:45:06Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes",
       "status": 200,
-      "bytes": 4458340,
-      "parsed": 18782,
+      "bytes": 4470628,
+      "parsed": 18833,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11407,8 +11217,8 @@
       "commit": "2026-10-30T21:16:46Z",
       "url": "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/sub/vless.txt",
       "status": 200,
-      "bytes": 104354,
-      "parsed": 326,
+      "bytes": 104201,
+      "parsed": 323,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11421,8 +11231,8 @@
       "commit": "2026-10-30T21:16:46Z",
       "url": "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/sub/trojan.txt",
       "status": 200,
-      "bytes": 21272,
-      "parsed": 80,
+      "bytes": 21279,
+      "parsed": 79,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11435,8 +11245,8 @@
       "commit": "2026-10-30T21:16:46Z",
       "url": "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/sub/vmess.txt",
       "status": 200,
-      "bytes": 15711,
-      "parsed": 36,
+      "bytes": 15350,
+      "parsed": 35,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11449,8 +11259,8 @@
       "commit": "2026-10-30T18:32:13Z",
       "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/nodes_detail.json",
       "status": 200,
-      "bytes": 3171147,
-      "parsed": 7375,
+      "bytes": 3198060,
+      "parsed": 7406,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11463,8 +11273,8 @@
       "commit": "2026-10-30T18:32:13Z",
       "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/nodes_alive.txt",
       "status": 200,
-      "bytes": 936435,
-      "parsed": 3175,
+      "bytes": 950698,
+      "parsed": 3220,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11505,8 +11315,8 @@
       "commit": "2026-10-30T18:19:45Z",
       "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub.yaml",
       "status": 200,
-      "bytes": 22253,
-      "parsed": 121,
+      "bytes": 22121,
+      "parsed": 120,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11519,8 +11329,8 @@
       "commit": "2026-10-30T18:19:45Z",
       "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
       "status": 200,
-      "bytes": 33164,
-      "parsed": 121,
+      "bytes": 32924,
+      "parsed": 120,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -11548,8 +11358,8 @@
       "commit": "2026-10-30T21:35:28Z",
       "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
       "status": 200,
-      "bytes": 4222025,
-      "parsed": 10568,
+      "bytes": 4265264,
+      "parsed": 10669,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11562,8 +11372,8 @@
       "commit": "2026-10-30T21:35:28Z",
       "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml",
       "status": 200,
-      "bytes": 2660659,
-      "parsed": 6576,
+      "bytes": 2656247,
+      "parsed": 6564,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11576,8 +11386,8 @@
       "commit": "2026-10-30T21:35:28Z",
       "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml",
       "status": 200,
-      "bytes": 2062958,
-      "parsed": 5263,
+      "bytes": 2116549,
+      "parsed": 5387,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11632,7 +11442,7 @@
       "commit": "2026-10-30T17:30:17Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/LatinaSub/main/result/clash.yaml",
       "status": 200,
-      "bytes": 245835,
+      "bytes": 245701,
       "parsed": 500,
       "transport": "raw-direct",
       "shape": "clash-yaml",
@@ -11646,7 +11456,7 @@
       "commit": "2026-10-30T17:30:17Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/LatinaSub/main/result/nodes",
       "status": 200,
-      "bytes": 107780,
+      "bytes": 108339,
       "parsed": 500,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -11660,7 +11470,7 @@
       "commit": "2026-10-30T17:30:17Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/LatinaSub/main/result/sub",
       "status": 200,
-      "bytes": 143708,
+      "bytes": 144452,
       "parsed": 500,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -11763,8 +11573,8 @@
       "commit": "2026-10-30T21:44:53Z",
       "url": "https://raw.githubusercontent.com/hamzawih0/zorVPN/main/clash.yaml",
       "status": 200,
-      "bytes": 23007,
-      "parsed": 50,
+      "bytes": 62404,
+      "parsed": 146,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11777,8 +11587,8 @@
       "commit": "2026-10-30T21:44:53Z",
       "url": "https://raw.githubusercontent.com/hamzawih0/zorVPN/main/ZorVPN-nodes.txt",
       "status": 200,
-      "bytes": 6497,
-      "parsed": 50,
+      "bytes": 26879,
+      "parsed": 146,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -11805,8 +11615,8 @@
       "commit": "2026-10-30T21:45:23Z",
       "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/clash.yaml",
       "status": 200,
-      "bytes": 116509,
-      "parsed": 223,
+      "bytes": 120589,
+      "parsed": 230,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11819,8 +11629,8 @@
       "commit": "2026-10-30T21:45:23Z",
       "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/clash-provider.yaml",
       "status": 200,
-      "bytes": 54025,
-      "parsed": 223,
+      "bytes": 56899,
+      "parsed": 230,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11833,8 +11643,8 @@
       "commit": "2026-10-30T21:45:23Z",
       "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/sub.txt",
       "status": 200,
-      "bytes": 71784,
-      "parsed": 224,
+      "bytes": 73636,
+      "parsed": 231,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -11876,7 +11686,7 @@
       "commit": "2026-10-30T17:42:53Z",
       "url": "https://raw.githubusercontent.com/owenlee3/my-nodes/main/output/clash.yaml",
       "status": 200,
-      "bytes": 39967,
+      "bytes": 39667,
       "parsed": 150,
       "transport": "raw-direct",
       "shape": "clash-yaml",
@@ -11890,7 +11700,7 @@
       "commit": "2026-10-30T17:57:37Z",
       "url": "https://raw.githubusercontent.com/shifeiquan520/shifeiquan3/main/output/nodes.json",
       "status": 200,
-      "bytes": 4882,
+      "bytes": 6207,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -11905,8 +11715,8 @@
       "commit": "2026-10-30T17:57:37Z",
       "url": "https://raw.githubusercontent.com/shifeiquan520/shifeiquan3/main/output/clash.yaml",
       "status": 200,
-      "bytes": 8922,
-      "parsed": 18,
+      "bytes": 10106,
+      "parsed": 23,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11919,8 +11729,8 @@
       "commit": "2026-10-30T20:05:54Z",
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
       "status": 200,
-      "bytes": 5612,
-      "parsed": 31,
+      "bytes": 4813,
+      "parsed": 26,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -11933,8 +11743,8 @@
       "commit": "2026-10-30T20:05:54Z",
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
       "status": 200,
-      "bytes": 2488,
-      "parsed": 2,
+      "bytes": 2704,
+      "parsed": 3,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -11961,8 +11771,8 @@
       "commit": "2026-10-30T20:15:40Z",
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt",
       "status": 200,
-      "bytes": 1557609,
-      "parsed": 4204,
+      "bytes": 1518349,
+      "parsed": 4084,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -12102,8 +11912,8 @@
       "commit": "2026-10-30T18:46:38Z",
       "url": "https://raw.githubusercontent.com/ZendanTeam/SS44-sub/main/SS44-clash.yaml",
       "status": 200,
-      "bytes": 19238,
-      "parsed": 82,
+      "bytes": 30828,
+      "parsed": 128,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -12127,11 +11937,11 @@
       "canonical": "v2raydog-node/free-nodes",
       "branch": "main",
       "path": "clash.yaml",
-      "commit": "2026-10-30T12:19:08Z",
+      "commit": "2026-10-31T00:00:19Z",
       "url": "https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/clash.yaml",
       "status": 200,
-      "bytes": 4908,
-      "parsed": 17,
+      "bytes": 8996,
+      "parsed": 28,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -12141,11 +11951,11 @@
       "canonical": "v2raydog-node/free-nodes",
       "branch": "main",
       "path": "nodes.txt",
-      "commit": "2026-10-30T12:19:08Z",
+      "commit": "2026-10-31T00:00:19Z",
       "url": "https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/nodes.txt",
       "status": 200,
-      "bytes": 3810,
-      "parsed": 17,
+      "bytes": 6894,
+      "parsed": 28,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -12155,11 +11965,11 @@
       "canonical": "v2raydog-node/free-nodes",
       "branch": "main",
       "path": "v2ray.txt",
-      "commit": "2026-10-30T12:19:08Z",
+      "commit": "2026-10-31T00:00:19Z",
       "url": "https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/v2ray.txt",
       "status": 200,
-      "bytes": 5081,
-      "parsed": 17,
+      "bytes": 9193,
+      "parsed": 28,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -12186,8 +11996,8 @@
       "commit": "2026-10-30T12:24:05Z",
       "url": "https://raw.githubusercontent.com/wz-node/free-nodes/main/clash.yaml",
       "status": 200,
-      "bytes": 5206,
-      "parsed": 18,
+      "bytes": 9108,
+      "parsed": 28,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -12200,8 +12010,8 @@
       "commit": "2026-10-30T12:24:05Z",
       "url": "https://raw.githubusercontent.com/wz-node/free-nodes/main/nodes.txt",
       "status": 200,
-      "bytes": 4027,
-      "parsed": 18,
+      "bytes": 6952,
+      "parsed": 28,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -12214,8 +12024,8 @@
       "commit": "2026-10-30T12:24:05Z",
       "url": "https://raw.githubusercontent.com/wz-node/free-nodes/main/v2ray.txt",
       "status": 200,
-      "bytes": 5373,
-      "parsed": 18,
+      "bytes": 9273,
+      "parsed": 28,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -12270,8 +12080,8 @@
       "commit": "2026-10-30T18:43:39Z",
       "url": "https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/output/clash.yaml",
       "status": 200,
-      "bytes": 12789,
-      "parsed": 33,
+      "bytes": 19905,
+      "parsed": 54,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -12284,7 +12094,7 @@
       "commit": "2026-10-30T20:39:59Z",
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub3.txt",
       "status": 200,
-      "bytes": 36348,
+      "bytes": 34852,
       "parsed": 100,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -12298,7 +12108,7 @@
       "commit": "2026-10-30T20:39:59Z",
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub1.txt",
       "status": 200,
-      "bytes": 30220,
+      "bytes": 30468,
       "parsed": 100,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -12312,7 +12122,7 @@
       "commit": "2026-10-30T20:39:59Z",
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub2.txt",
       "status": 200,
-      "bytes": 28392,
+      "bytes": 28776,
       "parsed": 100,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -12326,8 +12136,8 @@
       "commit": "2026-10-30T18:04:05Z",
       "url": "https://raw.githubusercontent.com/nukcrow/black-crow/main/sub/general/sub20.txt",
       "status": 200,
-      "bytes": 491848,
-      "parsed": 1996,
+      "bytes": 496128,
+      "parsed": 1993,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -12340,7 +12150,7 @@
       "commit": "2026-10-30T18:04:05Z",
       "url": "https://raw.githubusercontent.com/nukcrow/black-crow/main/sub/general/sub16.txt",
       "status": 200,
-      "bytes": 490969,
+      "bytes": 439526,
       "parsed": 1997,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -12354,8 +12164,8 @@
       "commit": "2026-10-30T18:04:05Z",
       "url": "https://raw.githubusercontent.com/nukcrow/black-crow/main/sub/general/sub6.txt",
       "status": 200,
-      "bytes": 488956,
-      "parsed": 1989,
+      "bytes": 482927,
+      "parsed": 1992,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -12410,8 +12220,8 @@
       "commit": "2026-10-30T21:36:07Z",
       "url": "https://raw.githubusercontent.com/ProblemTheCode/SylphNet-public/main/sub/sub.txt",
       "status": 200,
-      "bytes": 110132,
-      "parsed": 329,
+      "bytes": 142212,
+      "parsed": 446,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -12424,8 +12234,8 @@
       "commit": "2026-10-30T21:36:07Z",
       "url": "https://raw.githubusercontent.com/ProblemTheCode/SylphNet-public/main/sub/sub_plain.txt",
       "status": 200,
-      "bytes": 82597,
-      "parsed": 329,
+      "bytes": 106659,
+      "parsed": 446,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -12438,8 +12248,8 @@
       "commit": "2026-10-30T17:23:46Z",
       "url": "https://raw.githubusercontent.com/mahdyaralipor/v2all/main/real_sub.txt",
       "status": 200,
-      "bytes": 8576,
-      "parsed": 26,
+      "bytes": 10564,
+      "parsed": 36,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -12503,129 +12313,81 @@
   ],
   "registry": {
     "total": 60,
-    "refreshed": 52,
+    "refreshed": 60,
     "added": [
       "Romaxa55/MegaV_Public",
-      "NiREvil/vless",
-      "vincent20240707/free-v2ray-nodes",
       "sakha1370/OpenRay",
       "zueston/proxy-hub",
       "yafeisun/v2raynode",
       "wenxig/free-nodes-sub",
       "shifeiquan520/shifeiquan3",
-      "zhuhaiuk/free-nodes",
       "SnapdragonLee/SystemProxy",
-      "longyang1233/free-nodes-sub",
-      "v2raydog-node/free-nodes",
       "wobushilixi/free-proxy-nodes",
-      "wz-node/free-nodes",
       "sunmiao4458/free-proxy-airport",
       "mahdyaralipor/v2all",
       "dfhhvc/freenodes",
-      "fushuain-collab/free-nodes",
-      "jwadya089-commits/My-sub",
-      "pashadolf/Eternal-Sub"
+      "jwadya089-commits/My-sub"
     ],
     "removed": [
       {
-        "repo": "ALIILAPRO/v2rayNG-Config",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
-        "repo": "Barabama/FreeNodes",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
-        "repo": "Mahdi0024/ProxyCollector",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
-        "repo": "MhdiTaheri/V2rayCollector_Py",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
-        "repo": "awesome-vpn/awesome-vpn",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
-        "repo": "ermaozi/get_subscribe",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
-        "repo": "ovmvo/FreeSub",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
-        "repo": "snakem982/proxypool",
-        "reason": "forgotten_unverified",
-        "at": "2026-10-30T21:49:15.243Z"
-      },
-      {
         "repo": "zueston/proxy-hub",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "yafeisun/v2raynode",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "SnapdragonLee/SystemProxy",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "sakha1370/OpenRay",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "wenxig/free-nodes-sub",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "wobushilixi/free-proxy-nodes",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "dfhhvc/freenodes",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "jwadya089-commits/My-sub",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "Romaxa55/MegaV_Public",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
         "repo": "shifeiquan520/shifeiquan3",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
-        "repo": "mahdyaralipor/v2all",
+        "repo": "zhuhaiuk/free-nodes",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       },
       {
-        "repo": "sunmiao4458/free-proxy-airport",
+        "repo": "pashadolf/Eternal-Sub",
         "reason": "evicted_max_sources",
-        "at": "2026-10-30T21:49:15.243Z"
+        "at": "2026-10-31T03:03:59.843Z"
       }
     ],
     "evicted": [
@@ -12639,8 +12401,8 @@
       "jwadya089-commits/My-sub",
       "Romaxa55/MegaV_Public",
       "shifeiquan520/shifeiquan3",
-      "mahdyaralipor/v2all",
-      "sunmiao4458/free-proxy-airport"
+      "zhuhaiuk/free-nodes",
+      "pashadolf/Eternal-Sub"
     ],
     "unverified": [],
     "note": "removed = 本轮被请出花名册的源（stale/404/archived/连续未验证/超上限）"
