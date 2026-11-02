@@ -1,18 +1,11 @@
 proxies:
-  - name: 204271-Telegram-=-t.me/S
+  - name: "SWE-#3"
     type: hysteria2
-    server: 195.63.146.10
+    server: 192.142.23.46
     port: 443
-    password: 6da2c981-8c77-4340-bda3-93399b7aea26
+    password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
     udp: true
-    sni: video.blog-forme.ru
-  - name: "USA-#13"
-    type: hysteria2
-    server: 217.60.73.56
-    port: 443
-    password: 69e41e64-a832-471a-b740-94577ca85520
-    udp: true
-    sni: forshynewh.duckdns.org
+    sni: diffoscope.com
   - name: hysteria2-1104857510
     type: hysteria2
     server: de-tg.fastlanehosting.ru
@@ -20,27 +13,19 @@ proxies:
     password: M2NbFywBXjS9Ova8SgqRrQkp
     udp: true
     sni: de-tg.fastlanehosting.ru
-  - name: 70@oneclickvpnkeys
-    type: hysteria2
-    server: hy2.aspidnet.xyz
-    port: 443
-    password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-    udp: true
-    obfs: salamander
-    obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  - name: 102.133.165.160
+  - name: ZA-102.133.165.160-0170
     type: ss
     server: 102.133.165.160
     port: 16233
     password: Xsy8Ox4yOV3xLlpxtjzs3X
     cipher: chacha20-ietf-poly1305
     udp: true
-  - name: ZA-102.37.156.224-0206
-    type: ss
-    server: 102.37.156.224
+  - name: ProxyRift-1698
+    type: 'ss'
+    server: '102.37.156.224'
     port: 443
-    password: aduB9HGxQHjA2SBMRjkHX6
-    cipher: chacha20-ietf-poly1305
+    cipher: 'chacha20-ietf-poly1305'
+    password: 'aduB9HGxQHjA2SBMRjkHX6'
     udp: true
   - name: GB-104.239.12.81-0476
     type: ss
@@ -49,33 +34,26 @@ proxies:
     password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
     cipher: chacha20-ietf-poly1305
     udp: true
-  - name: MY-U0001F1F2U0001F1FE-@Raydikalx-75DBAB
-    server: 130.94.69.15
+  - name: ProxyRift-338
+    type: 'ss'
+    server: '129.150.59.74'
+    port: 14384
+    cipher: '2022-blake3-aes-256-gcm'
+    password: 'sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA='
+    udp: true
+  - name: ProxyRift-1993
+    type: 'ss'
+    server: '130.94.69.15'
     port: 7001
-    type: ss
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
+    cipher: 'aes-256-gcm'
+    password: 'RexnBgU7EV5ADxG'
     udp: true
-  - name: AetrisVPN-2
-    type: ss
-    server: 141.164.45.187
-    port: 2376
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-    udp: true
-  - name: ">>@shadowproxy66::XX"
-    type: ss
-    server: 141.164.45.187
-    port: 5498
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-    udp: true
-  - name: KR-141.164.45.187-6025
-    type: ss
-    server: 141.164.45.187
-    port: 6679
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
+  - name: ProxyRift-051
+    type: 'ss'
+    server: '138.197.89.234'
+    port: 28960
+    cipher: 'chacha20-ietf-poly1305'
+    password: 'DZRy4Q3QH0jUGfKFl2jDCZ'
     udp: true
   - name: 141.164.45.187
     type: ss
@@ -84,7 +62,7 @@ proxies:
     password: TEzjfAYq2IjtuoS
     cipher: aes-256-gcm
     udp: true
-  - name: KR-141.164.45.187-0142
+  - name: KR-141.164.45.187-0208
     type: ss
     server: 141.164.45.187
     port: 7001
@@ -105,18 +83,25 @@ proxies:
     cipher: aes-256-gcm
     password: XKFKl2rULjIp74
     udp: true
-  - name: nukcrow-3
-    type: ss
+  - name: KR-U0001F1F0U0001F1F7-@Raydikalx-37341B
     server: 141.164.45.187
     port: 8091
-    password: PCnnH6SQSnfoS27
+    type: ss
     cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
     udp: true
-  - name: ","
+  - name: 141.164.45.187-2
     type: ss
     server: 141.164.45.187
-    port: 8119
-    password: cdBIDV42DCwnfIN
+    port: 8888
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+    udp: true
+  - name: ">>@shadowproxy66::KR"
+    type: ss
+    server: 141.164.45.187
+    port: 9090
+    password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
     udp: true
   - name: "Channel-id:-@ShadowProxy66"
@@ -126,42 +111,42 @@ proxies:
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
     udp: true
-  - name: ProxyRift-561
+  - name: ProxyRift-1569
     type: 'ss'
     server: '141.98.101.181'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-540
+  - name: ProxyRift-128
     type: 'ss'
     server: '149.104.107.41'
     port: 8090
     cipher: 'aes-256-gcm'
     password: 'PCnnH6SQSnfoS27'
     udp: true
-  - name: 149.104.109.252
-    type: ss
-    server: 149.104.109.252
+  - name: ProxyRift-340
+    type: 'ss'
+    server: '149.104.109.252'
     port: 8882
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
+    cipher: 'aes-256-gcm'
+    password: 'kDWvXYZoTBcGkC4'
     udp: true
-  - name: ProxyRift-567
+  - name: ProxyRift-362
     type: 'ss'
     server: '149.22.87.204'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-566
+  - name: ProxyRift-363
     type: 'ss'
     server: '149.22.87.240'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-569
+  - name: ProxyRift-361
     type: 'ss'
     server: '149.22.87.241'
     port: 443
@@ -182,19 +167,26 @@ proxies:
     password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
     udp: true
-  - name: AetrisVPN-3
-    type: ss
-    server: 15.204.246.107
-    port: 8888
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-    udp: true
-  - name: AetrisVPN-4
-    type: ss
-    server: 15.204.246.132
+  - name: ProxyRift-1981
+    type: 'ss'
+    server: '15.204.246.132'
     port: 7307
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
+    cipher: 'aes-256-gcm'
+    password: 'FoOiGlkAA9yPEGP'
+    udp: true
+  - name: ProxyRift-1979
+    type: 'ss'
+    server: '15.204.247.124'
+    port: 2375
+    cipher: 'aes-256-gcm'
+    password: 'faBAoD54k87UJG7'
+    udp: true
+  - name: ProxyRift-342
+    type: 'ss'
+    server: '15.204.247.175'
+    port: 8008
+    cipher: 'aes-256-gcm'
+    password: 'XKFKl2rULjIp74'
     udp: true
   - name: 15.204.247.206
     type: ss
@@ -203,40 +195,46 @@ proxies:
     password: pKEW8JPByTVTLtM
     cipher: aes-256-gcm
     udp: true
-  - name: "Channel-id:-@ShadowProxy66-2"
+  - name: ProxyRift-360
+    type: 'ss'
+    server: '15.204.247.244'
+    port: 443
+    cipher: 'aes-256-gcm'
+    password: 'pKEW8JPByTVTLtM'
+    udp: true
+  - name: AetrisVPN-4
     type: ss
     server: 15.204.247.244
-    port: 443
+    port: 4444
     password: pKEW8JPByTVTLtM
     cipher: aes-256-gcm
     udp: true
-  - name: 154.36.158.197
-    type: ss
-    server: 154.36.158.197
-    port: 8388
-    password: BeaUf9c0AEWH40Pu
-    cipher: aes-256-gcm
-    udp: true
-  - name: ProxyRift-565
+  - name: ProxyRift-330
     type: 'ss'
-    server: '154.46.31.106'
-    port: 443
+    server: '152.53.1.57'
+    port: 8388
     cipher: 'chacha20-ietf-poly1305'
-    password: 'QFWzCw2uX9B9i6qAYeFBIE'
+    password: 'AdawffFMHymlasRb0VOP3HFf7sTG5sJx'
     udp: true
-  - name: HK-U0001F1EDU0001F1F0-@Raydikalx-68ACB0
-    server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
-    port: 443
+  - name: ProxyRift-341
+    type: 'ss'
+    server: '154.36.158.197'
+    port: 8388
+    cipher: 'aes-256-gcm'
+    password: 'BeaUf9c0AEWH40Pu'
+    udp: true
+  - name: USA-2
     type: vless
-    uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    server: 102.177.189.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-    tls: true
-    servername: download.windowsupdate.com
-    reality-opts:
-      public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-      short-id: ''
-    client-fingerprint: chrome
-    network: tcp
+    tls: false
+    network: ws
+    ws-opts:
+      headers:
+        Host: vms.lifetime29.workers.dev
+      path: /
   - name: SG
     type: vless
     server: 103.106.229.177
@@ -327,75 +325,116 @@ proxies:
     reality-opts:
       public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
       short-id: bab49aa4c2a88d27
-  - name: Japan---Tokyo-0a459on-g05.jp07-sh-vm0.en
-    type: vmess
-    server: 0a459on-g05.jp07-sh-vm0.entry.fr0528.art
-    port: 28787
-    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
-    cipher: auto
-    alterId: 1
+  - name: vless-1382598518
+    type: vless
+    server: 103.116.7.100
+    port: 2087
+    uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
     udp: true
-    network: tcp
-  - name: JP-VMESS-04
-    type: vmess
-    server: 0a45mf2-g05.jp07-sh-vm0.entry.fr0528.art
-    port: 28787
-    udp: true
-    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
-    network: tcp
-    tls: false
-    alterId: 1
-    cipher: auto
-  - name: JP-VMESS-02
-    type: vmess
-    server: 0az2yf2-g05.jp07-sh-vm0.entry.fr0528.art
-    port: 28787
-    udp: true
-    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
-    network: tcp
-    tls: false
-    alterId: 1
-    cipher: auto
-  - name: JP-VMESS-03
-    type: vmess
-    server: 0az5mwn-g05.jp04-1d-vm0.entry.fr0528.art
-    port: 448
-    udp: true
-    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
-    network: tcp
-    tls: false
-    alterId: 1
-    cipher: auto
-  - name: JP-VMESS-09
-    type: vmess
-    server: 0qa2yon-g05.jp04-1d-vm0.entry.fr0528.art
-    port: 448
-    udp: true
-    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
-    network: tcp
-    tls: false
-    alterId: 1
-    cipher: auto
-  - name: JP-VMESS-06
-    type: vmess
-    server: 0qa59in-g05.jp04-1d-vm0.entry.fr0528.art
-    port: 448
-    udp: true
-    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
-    network: tcp
-    tls: false
-    alterId: 1
-    cipher: auto
-  - name: JP-VMESS-13
-    type: vmess
-    server: 0y7ymo2-g05.jp01-nn-vm0.entry.fr0528.art
-    port: 21585
-    udp: true
-    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
-    network: tcp
     tls: true
-    alterId: 1
-    cipher: auto
+    servername: proxy-34l.pages.dev
+    network: ws
+    client-fingerprint: random
+    ws-opts:
+      headers:
+        Host: proxy-34l.pages.dev
+      path: /
+  - name: vless-1380366755
+    type: vless
+    server: 103.116.7.133
+    port: 2083
+    uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+    udp: true
+    tls: true
+    servername: proxy-34l.pages.dev
+    network: ws
+    client-fingerprint: qq
+    ws-opts:
+      headers:
+        Host: proxy-34l.pages.dev
+      path: /
+  - name: vless-1380366773
+    type: vless
+    server: 103.116.7.220
+    port: 2096
+    uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+    udp: true
+    tls: true
+    servername: proxy-34l.pages.dev
+    network: ws
+    client-fingerprint: random
+    ws-opts:
+      headers:
+        Host: proxy-34l.pages.dev
+      path: /
+  - name: US-U0001F1FAU0001F1F8-@Raydikalx-964DB4
+    server: 103.116.7.30
+    port: 8880
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    tls: false
+    servername: vms.lifetime35.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime35.workers.dev
+  - name: US-U0001F1FAU0001F1F8-@Raydikalx-751892
+    server: 103.133.1.160
+    port: 80
+    type: vless
+    uuid: eaf76557-2219-4799-8171-d7020adfefd0
+    udp: true
+    tls: false
+    servername: soft-shadow-1e33.xicav73335.workers.dev
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: soft-shadow-1e33.xicav73335.workers.dev
+  - name: US-U0001F1FAU0001F1F8-@Raydikalx-C51A5B
+    server: 103.133.1.30
+    port: 8880
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    tls: false
+    servername: vms.lifetime36.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime36.workers.dev
+  - name: ProxyRift-1175
+    type: 'vless'
+    server: '103.228.169.140'
+    port: 443
+    udp: true
+    uuid: 'fa45096d-bed0-ad80-c773-23c30000001b'
+    encryption: 'none'
+    tls: true
+    servername: 'xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev'
+    client-fingerprint: 'chrome'
+    network: 'ws'
+    ws-opts:
+      path: '/sync'
+      headers:
+        Host: 'xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev'
+  - name: ProxyRift-1182
+    type: 'vless'
+    server: '103.249.134.29'
+    port: 443
+    udp: true
+    uuid: '04c808e2-0b59-47b0-a54b-32fc7ef1c902'
+    tls: true
+    servername: 'free.cndyw.ggff.net'
+    client-fingerprint: 'chrome'
+    network: 'ws'
+    ws-opts:
+      path: 'pyip=bpb.yousef.isegaro.com'
+      headers:
+        Host: 'free.cndyw.ggff.net'
   - name: CA-@Raydikalx-F25C32-ECH
     type: vmess
     server: 104.16.0.1
@@ -424,20 +463,6 @@ proxies:
       headers:
         Host: v2ray1.dozapp.xyz
       path: /lMnsZUN4/
-  - name: Wind24-Sydney-Australia
-    type: wireguard
-    server: 103.1.213.212
-    port: 80
-    ip: 100.80.234.177
-    private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
-    public-key: jCi1I5HBTtwCblBbMzOFmOOFNG1GilYOZgst0kyq9gY=
-    udp: true
-    pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
-    mtu: 1280
-    amnezia-wg-option:
-      jc: 3
-      jmin: 10
-      jmax: 50
   - name: Wind9-Singapore
     type: wireguard
     server: 103.107.198.228
@@ -508,6 +533,20 @@ proxies:
       jc: 3
       jmin: 10
       jmax: 50
+  - name: Wind6-Reykjavik-Iceland
+    type: wireguard
+    server: 185.165.170.3
+    port: 80
+    ip: 100.80.234.177
+    private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
+    public-key: ua7TUXkcSiiHeTyCok5b3PX9DkJ4l5yVvGlSmJ34WU8=
+    udp: true
+    pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
+    mtu: 1280
+    amnezia-wg-option:
+      jc: 3
+      jmin: 10
+      jmax: 50
   - name: Wind13-NorthMacedonia
     type: wireguard
     server: 185.225.28.52
@@ -515,6 +554,34 @@ proxies:
     ip: 100.80.234.177
     private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
     public-key: 9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ=
+    udp: true
+    pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
+    mtu: 1280
+    amnezia-wg-option:
+      jc: 3
+      jmin: 10
+      jmax: 50
+  - name: Wind20-NoviTravnik-Bosnia
+    type: wireguard
+    server: 185.99.3.25
+    port: 80
+    ip: 100.80.234.177
+    private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
+    public-key: 6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc=
+    udp: true
+    pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
+    mtu: 1280
+    amnezia-wg-option:
+      jc: 3
+      jmin: 10
+      jmax: 50
+  - name: Wind35-Johannesburg-SouthAfrica
+    type: wireguard
+    server: 197.242.159.229
+    port: 443
+    ip: 100.80.234.177
+    private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
+    public-key: Nh5LEJT44xbuvTQnv3OZ0bXi09BFXV4SBB1XVMI12Ec=
     udp: true
     pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
     mtu: 1280
