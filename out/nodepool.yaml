@@ -6,155 +6,194 @@ proxies:
     password: M2NbFywBXjS9Ova8SgqRrQkp
     udp: true
     sni: de-tg.fastlanehosting.ru
-  - name: ProxyRift-277
-    type: 'hysteria2'
-    server: 'hy2.aspidnet.xyz'
-    port: 443
-    udp: true
-    password: 'p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR'
-    obfs: 'salamander'
-    obfs-password: 'rG07s3COMIEvdnQipRyWzx_H_2xygNC3'
-    tls: true
-    servername: 'hy2.aspidnet.xyz'
-  - name: ProxyRift-1922
-    type: 'ss'
-    server: '102.133.165.160'
-    port: 16233
-    cipher: 'chacha20-ietf-poly1305'
-    password: 'Xsy8Ox4yOV3xLlpxtjzs3X'
-    udp: true
-  - name: ProxyRift-1771
+  - name: ProxyRift-1964
     type: 'ss'
     server: '102.37.156.224'
     port: 443
     cipher: 'chacha20-ietf-poly1305'
     password: 'aduB9HGxQHjA2SBMRjkHX6'
     udp: true
-  - name: ProxyRift-1455
+  - name: ProxyRift-081
     type: 'ss'
     server: '103.11.76.248'
     port: 28679
     cipher: '2022-blake3-aes-128-gcm'
     password: 'NzJlOTQ5NWYtM2ZkYi00Cg=='
     udp: true
-  - name: ProxyRift-1467
+  - name: ProxyRift-1875
     type: 'ss'
     server: '104.239.12.81'
     port: 43385
     cipher: 'chacha20-ietf-poly1305'
     password: 'AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa'
     udp: true
-  - name: ProxyRift-1971
-    type: 'ss'
-    server: '130.94.69.15'
+  - name: MY-U0001F1F2U0001F1FE-@Raydikalx-75DBAB
+    server: 130.94.69.15
     port: 7001
-    cipher: 'aes-256-gcm'
-    password: 'RexnBgU7EV5ADxG'
+    type: ss
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
     udp: true
-  - name: ProxyRift-061
+  - name: ProxyRift-1843
     type: 'ss'
-    server: '138.197.89.234'
-    port: 28960
-    cipher: 'chacha20-ietf-poly1305'
-    password: 'DZRy4Q3QH0jUGfKFl2jDCZ'
+    server: '137.184.89.151'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
     udp: true
-  - name: ProxyRift-1477
+  - name: US-138.197.89.234-3035
+    type: ss
+    server: 138.197.89.234
+    port: 28960
+    password: DZRy4Q3QH0jUGfKFl2jDCZ
+    cipher: chacha20-ietf-poly1305
+    udp: true
+  - name: ProxyRift-1923
     type: 'ss'
     server: '141.164.45.187'
-    port: 7001
+    port: 5498
     cipher: 'aes-256-gcm'
-    password: 'RexnBgU7EV5ADxG'
+    password: 'lGqs95QkFHo2NV'
     udp: true
-  - name: ProxyRift-1485
+  - name: 141.164.45.187
+    type: ss
+    server: 141.164.45.187
+    port: 6679
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+    udp: true
+  - name: ProxyRift-1924
+    type: 'ss'
+    server: '141.164.45.187'
+    port: 6697
+    cipher: 'aes-256-gcm'
+    password: 'TEzjfAYq2IjtuoS'
+    udp: true
+  - name: KR-141.164.45.187-0183
+    type: ss
+    server: 141.164.45.187
+    port: 7001
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+    udp: true
+  - name: ProxyRift-1925
     type: 'ss'
     server: '141.164.45.187'
     port: 7002
     cipher: 'aes-256-gcm'
     password: 'RexnBgU7EV5ADxG'
     udp: true
-  - name: ProxyRift-1480
+  - name: 141.164.45.187-2
+    type: ss
+    server: 141.164.45.187
+    port: 8000
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+    udp: true
+  - name: ProxyRift-1921
     type: 'ss'
     server: '141.164.45.187'
     port: 8008
     cipher: 'aes-256-gcm'
     password: 'XKFKl2rULjIp74'
     udp: true
-  - name: ProxyRift-1990
+  - name: ProxyRift-1920
     type: 'ss'
     server: '141.164.45.187'
     port: 8091
     cipher: 'aes-256-gcm'
     password: 'PCnnH6SQSnfoS27'
     udp: true
-  - name: ProxyRift-1487
+  - name: ProxyRift-1926
+    type: 'ss'
+    server: '141.164.45.187'
+    port: 8119
+    cipher: 'aes-256-gcm'
+    password: 'cdBIDV42DCwnfIN'
+    udp: true
+  - name: ProxyRift-1922
     type: 'ss'
     server: '141.164.45.187'
     port: 9101
     cipher: 'aes-256-gcm'
     password: 'e4FCWrgpkji3QY'
     udp: true
-  - name: ProxyRift-631
+  - name: ProxyRift-1225
     type: 'ss'
     server: '141.98.101.181'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-360
+  - name: ProxyRift-1871
+    type: 'ss'
+    server: '142.202.51.22'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    udp: true
+  - name: ProxyRift-1059
     type: 'ss'
     server: '149.104.107.41'
     port: 8090
     cipher: 'aes-256-gcm'
     password: 'PCnnH6SQSnfoS27'
     udp: true
-  - name: ProxyRift-1901
-    type: 'ss'
-    server: '149.104.109.252'
+  - name: PH-149.104.109.252-0262
+    type: ss
+    server: 149.104.109.252
     port: 8882
-    cipher: 'aes-256-gcm'
-    password: 'kDWvXYZoTBcGkC4'
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
     udp: true
-  - name: ProxyRift-636
+  - name: ProxyRift-1226
     type: 'ss'
     server: '149.22.87.204'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-634
+  - name: ProxyRift-1228
     type: 'ss'
     server: '149.22.87.240'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-635
+  - name: ProxyRift-1229
     type: 'ss'
     server: '149.22.87.241'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-041
+  - name: ProxyRift-043
     type: 'ss'
     server: '149.22.95.183'
     port: 443
     cipher: 'aes-128-gcm'
     password: 'shadowsocks'
     udp: true
-  - name: ProxyRift-1895
+  - name: ProxyRift-1838
     type: 'ss'
-    server: '15.204.233.41'
-    port: 8882
+    server: '149.40.57.133'
+    port: 19999
     cipher: 'aes-256-gcm'
-    password: 'kDWvXYZoTBcGkC4'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
     udp: true
-  - name: ProxyRift-401
+  - name: ProxyRift-1836
     type: 'ss'
-    server: '15.204.246.132'
-    port: 7307
+    server: '149.40.57.138'
+    port: 19999
     cipher: 'aes-256-gcm'
-    password: 'FoOiGlkAA9yPEGP'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    udp: true
+  - name: ProxyRift-1935
+    type: 'ss'
+    server: '149.88.107.47'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
     udp: true
   - name: AetrisVPN-2
     type: ss
@@ -163,42 +202,69 @@ proxies:
     password: faBAoD54k87UJG7
     cipher: aes-256-gcm
     udp: true
-  - name: ProxyRift-1665
-    type: 'ss'
-    server: '15.204.247.206'
-    port: 4444
-    cipher: 'aes-256-gcm'
-    password: 'pKEW8JPByTVTLtM'
-    udp: true
-  - name: United
+  - name: ZZ-SS-clashnode-0CCF6AEB
     type: ss
     server: 15.204.247.244
     port: 443
-    password: pKEW8JPByTVTLtM
     cipher: aes-256-gcm
+    sub_tag: A004-260618
     udp: true
-  - name: ProxyRift-1949
+    password: pKEW8JPByTVTLtM
+  - name: ProxyRift-1934
     type: 'ss'
-    server: '152.53.1.57'
-    port: 8388
-    cipher: 'chacha20-ietf-poly1305'
-    password: 'AdawffFMHymlasRb0VOP3HFf7sTG5sJx'
-    udp: true
-  - name: ProxyRift-1494
-    type: 'ss'
-    server: '154.36.158.197'
-    port: 8388
+    server: '15.235.164.133'
+    port: 19999
     cipher: 'aes-256-gcm'
-    password: 'BeaUf9c0AEWH40Pu'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
     udp: true
-  - name: ProxyRift-037
+  - name: ProxyRift-1932
     type: 'ss'
-    server: '156.146.38.167'
-    port: 443
-    cipher: 'aes-128-gcm'
-    password: 'shadowsocks'
+    server: '15.235.182.183'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
     udp: true
-  - name: ProxyRift-707
+  - name: ProxyRift-1877
+    type: 'ss'
+    server: '151.241.19.29'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    udp: true
+  - name: 152.53.1.57
+    type: ss
+    server: 152.53.1.57
+    port: 8388
+    password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+    cipher: chacha20-ietf-poly1305
+    udp: true
+  - name: HKG-3
+    type: trojan
+    server: 103.3.26.26
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    tls: true
+    sni: api.85s.me
+    network: ws
+    ws-opts:
+      headers:
+        Host: api.85s.me
+      path: /
+  - name: ProxyRift-1747
+    type: 'vless'
+    server: '08e117t.nl11.h1clayd.click'
+    port: 443
+    udp: true
+    uuid: '457a984c-8012-4e91-a1b6-fa433a9594c2'
+    encryption: 'none'
+    tls: true
+    servername: '08e117t.nl11.h1clayd.click'
+    client-fingerprint: 'firefox'
+    reality-opts:
+      public-key: 'zJ-MMC9HdJgBavkJnl_W5H4KCVcohAwUd6xlIllWOD8'
+      short-id: '96609495cd13a6bf'
+  - name: ProxyRift-1811
     type: 'vless'
     server: '103.106.229.177'
     port: 21001
@@ -211,122 +277,167 @@ proxies:
     reality-opts:
       public-key: 'IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA'
       short-id: 'a51c3ccb2320024a'
-  - name: ProxyRift-1877
-    type: 'vless'
-    server: '103.106.229.177'
+  - name: SG
+    type: vless
+    server: 103.106.229.177
     port: 21002
+    uuid: 67952583-8572-42e1-943d-0602794f885b
     udp: true
-    uuid: '67952583-8572-42e1-943d-0602794f885b'
-    encryption: 'none'
     tls: true
-    servername: 'www.cloudflare.com'
-    client-fingerprint: 'chrome'
+    servername: www.cloudflare.com
+    network: tcp
+    client-fingerprint: chrome
     reality-opts:
-      public-key: 'IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA'
-      short-id: 'd9a6b52e98121db2'
-  - name: ProxyRift-706
-    type: 'vless'
-    server: '103.106.229.177'
+      public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+      short-id: d9a6b52e98121db2
+  - name: "@VPsave"
+    type: vless
+    server: 103.106.229.177
     port: 21003
+    uuid: 67952583-8572-42e1-943d-0602794f885b
     udp: true
-    uuid: '67952583-8572-42e1-943d-0602794f885b'
-    encryption: 'none'
     tls: true
-    servername: 'www.cloudflare.com'
-    client-fingerprint: 'chrome'
+    servername: www.cloudflare.com
+    network: tcp
+    client-fingerprint: chrome
     reality-opts:
-      public-key: 'IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA'
-      short-id: 'f3602a3a1cf928b7'
-  - name: ProxyRift-708
-    type: 'vless'
-    server: '103.106.229.177'
+      public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+      short-id: f3602a3a1cf928b7
+  - name: SG-2
+    type: vless
+    server: 103.106.229.177
     port: 21004
+    uuid: 67952583-8572-42e1-943d-0602794f885b
     udp: true
-    uuid: '67952583-8572-42e1-943d-0602794f885b'
-    encryption: 'none'
     tls: true
-    servername: 'www.cloudflare.com'
-    client-fingerprint: 'chrome'
+    servername: www.cloudflare.com
+    network: tcp
+    client-fingerprint: chrome
     reality-opts:
-      public-key: 'IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA'
-      short-id: '4e0418d648f86141'
-  - name: ProxyRift-1906
+      public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+      short-id: 4e0418d648f86141
+  - name: ProxyRift-1813
     type: 'vless'
     server: '103.106.229.37'
     port: 21001
     udp: true
     uuid: '41b1c169-5905-4d98-b6a6-56896c25737c'
+    encryption: 'none'
     tls: true
     servername: 'www.cloudflare.com'
     client-fingerprint: 'chrome'
     reality-opts:
       public-key: 'HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU'
       short-id: 'ab39fc68ab3dee81'
-  - name: ProxyRift-713
-    type: 'vless'
-    server: '103.106.229.37'
+  - name: SG-3
+    type: vless
+    server: 103.106.229.37
     port: 21002
-    udp: true
-    uuid: '41b1c169-5905-4d98-b6a6-56896c25737c'
-    encryption: 'none'
-    tls: true
-    servername: 'www.cloudflare.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU'
-      short-id: '3ab8d93dd9b1a5be'
-  - name: ProxyRift-1843
-    type: 'vless'
-    server: '103.106.229.37'
-    port: 21003
-    udp: true
-    uuid: '41b1c169-5905-4d98-b6a6-56896c25737c'
-    encryption: 'none'
-    tls: true
-    servername: 'www.cloudflare.com'
-    client-fingerprint: 'chrome'
-    reality-opts:
-      public-key: 'HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU'
-      short-id: 'bab49aa4c2a88d27'
-  - name: "BR---Sao-Paulo-#1"
-    type: vmess
-    server: 103.88.232.55
-    port: 1270
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    cipher: auto
-    alterId: 0
+    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
     udp: true
     tls: true
-    servername: xmfhlpy.com
+    servername: www.cloudflare.com
     network: tcp
-  - name: CA-@Raydikalx-F25C32-ECH
-    type: vmess
-    server: 104.16.0.1
-    port: 80
-    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: vmess.lbw666.dpdns.org
-      path: "/ws?ed=2048"
-  - name: CA-@Raydikalx-C65974-ECH
-    type: vmess
-    server: 104.16.0.1
-    port: 8443
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    cipher: auto
-    alterId: 0
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+      short-id: 3ab8d93dd9b1a5be
+  - name: "@VPsave-2"
+    type: vless
+    server: 103.106.229.37
+    port: 21003
+    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
     udp: true
     tls: true
-    servername: v2ray1.dozapp.xyz
+    servername: www.cloudflare.com
+    network: tcp
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+      short-id: bab49aa4c2a88d27
+  - name: SG-@VPNine1
+    type: vless
+    server: 103.195.190.160
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: xy1ej.stream-node-us.danfeng.qzz.io
     network: ws
+    client-fingerprint: chrome
     ws-opts:
       headers:
-        Host: v2ray1.dozapp.xyz
-      path: /lMnsZUN4/
+        Host: xy1ej.stream-node-us.danfeng.qzz.io
+      path: "/danfeng?ed=2560"
+  - name: hamedp71-3
+    type: vless
+    server: 103.75.118.228
+    port: 11452
+    uuid: 814bd064-544d-4255-a070-5705c03f6da9
+    udp: true
+    tls: true
+    servername: www.apple.com
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+      short-id: 48050fab
+  - name: hamedp71-4
+    type: vless
+    server: 103.75.118.228
+    port: 12683
+    uuid: 814bd064-544d-4255-a070-5705c03f6da9
+    udp: true
+    tls: true
+    servername: www.apple.com
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+      short-id: 48050fab
+  - name: ProxyRift-1615
+    type: 'vless'
+    server: '103.82.101.94'
+    port: 443
+    udp: true
+    uuid: '5c32201a-6c0e-451b-8f0a-24b4bd40df59'
+    flow: 'xtls-rprx-vision'
+    encryption: 'none'
+    tls: true
+    servername: 'www.porsche.com'
+    client-fingerprint: 'chrome'
+    reality-opts:
+      public-key: 'kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk'
+      short-id: '1a2b3c4d'
+  - name: ProxyRift-511
+    type: 'vmess'
+    server: '103.88.232.55'
+    port: 1270
+    udp: true
+    uuid: '5c040f1d-45db-43bd-8d46-e4950e433735'
+    alterId: 0
+    cipher: 'auto'
+    tls: true
+    servername: 'xmfhlpy.com'
+  - name: ProxyRift-1973
+    type: 'vmess'
+    server: '104.16.0.1'
+    port: 80
+    udp: true
+    uuid: '0cf6d970-3f1d-4aae-a989-92a8f76ae3db'
+    alterId: 0
+    cipher: 'auto'
+    servername: 'vmess.lbw666.dpdns.org'
+    client-fingerprint: 'chrome'
+    alpn:
+      - 'http/1.1'
+    network: 'ws'
+    ws-opts:
+      path: '/ws?ed=2048'
+      headers:
+        Host: 'vmess.lbw666.dpdns.org'
   - name: Wind24-Sydney-Australia
     type: wireguard
     server: 103.1.213.212
@@ -334,6 +445,20 @@ proxies:
     ip: 100.80.234.177
     private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
     public-key: jCi1I5HBTtwCblBbMzOFmOOFNG1GilYOZgst0kyq9gY=
+    udp: true
+    pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
+    mtu: 1280
+    amnezia-wg-option:
+      jc: 3
+      jmin: 10
+      jmax: 50
+  - name: Wind9-Singapore
+    type: wireguard
+    server: 103.107.198.228
+    port: 80
+    ip: 100.80.234.177
+    private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
+    public-key: tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg=
     udp: true
     pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
     mtu: 1280
@@ -355,6 +480,20 @@ proxies:
       jc: 3
       jmin: 10
       jmax: 50
+  - name: Wind25-Melbourne-Victoria
+    type: wireguard
+    server: 116.206.228.180
+    port: 80
+    ip: 100.80.234.177
+    private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
+    public-key: r5BDU0T+VGZU6I+zuF3vlGrdORtgNvLhY08gQxrFRCw=
+    udp: true
+    pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
+    mtu: 1280
+    amnezia-wg-option:
+      jc: 3
+      jmin: 10
+      jmax: 50
   - name: Wind23-Toronto-Canada
     type: wireguard
     server: 149.57.28.226
@@ -369,13 +508,13 @@ proxies:
       jc: 3
       jmin: 10
       jmax: 50
-  - name: Wind18-SantaClara-UnitedStates
+  - name: Wind13-NorthMacedonia
     type: wireguard
-    server: 167.88.60.244
-    port: 443
+    server: 185.225.28.52
+    port: 80
     ip: 100.80.234.177
     private-key: cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg=
-    public-key: /oz2frQv99JveBgmTXW22QXIEulQURK79BW+ugk8fCE=
+    public-key: 9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ=
     udp: true
     pre-shared-key: N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ=
     mtu: 1280
