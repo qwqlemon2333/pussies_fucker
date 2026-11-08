@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-07T21:14:49.135Z",
+  "updated_at": "2026-11-08T03:06:04.908Z",
   "recency_days": 5,
-  "cutoff": "2026-11-02T21:14:49.122Z",
+  "cutoff": "2026-11-03T03:06:04.554Z",
   "sources": [
     {
       "repo": "0xRadikal/Free-v2ray-Configs",
       "default_branch": "main",
       "stars": 768,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:04:19Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -19,16 +19,16 @@
         "heavy/clash.yaml",
         "light/clash.yaml"
       ],
-      "nodes_kept": 22815
+      "nodes_kept": 22805
     },
     {
       "repo": "3inker/v2ray-subscription",
       "default_branch": "main",
       "stars": 5,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T17:38:25Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -42,9 +42,9 @@
       "default_branch": "main",
       "stars": 31,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T19:36:14Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -59,9 +59,9 @@
       "default_branch": "main",
       "stars": 320,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:09:51Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -69,16 +69,16 @@
         "Best-Results/clash-provider.yaml",
         "Best-Results/sub.txt"
       ],
-      "nodes_kept": 710
+      "nodes_kept": 758
     },
     {
       "repo": "LalatinaHub/LatinaSub",
       "default_branch": "main",
       "stars": 11,
       "first_seen": "2026-10-25T11:51:06.409Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T12:10:08Z",
-      "runs_seen": 47,
+      "runs_seen": 48,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -93,9 +93,9 @@
       "default_branch": "master",
       "stars": 89,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T17:28:49Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -103,16 +103,16 @@
         "result/sub.json",
         "result/nodes"
       ],
-      "nodes_kept": 18389
+      "nodes_kept": 18420
     },
     {
       "repo": "LoneKingCode/free-proxy-db",
       "default_branch": "main",
       "stars": 44,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T12:00:20Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -127,9 +127,9 @@
       "default_branch": "main",
       "stars": 118,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:33:27Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -137,16 +137,16 @@
         "configs/mix_sub.txt",
         "configs/trojan_sub.txt"
       ],
-      "nodes_kept": 3122
+      "nodes_kept": 3123
     },
     {
       "repo": "MatinGhanbari/v2ray-configs",
       "default_branch": "main",
       "stars": 689,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:28:58Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -154,16 +154,16 @@
         "subscriptions/filtered/subs/vmess.txt",
         "subscriptions/v2ray/super-sub.txt"
       ],
-      "nodes_kept": 6725
+      "nodes_kept": 6740
     },
     {
       "repo": "MohammadBahemmat/V2ray-Collector",
       "default_branch": "main",
       "stars": 86,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:10:22Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -178,9 +178,9 @@
       "default_branch": "master",
       "stars": 15,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T19:00:28Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -188,16 +188,16 @@
         "split/sub-ALL.txt",
         "split/sub-CA.txt"
       ],
-      "nodes_kept": 142
+      "nodes_kept": 144
     },
     {
       "repo": "MustafaBaqer/VestraNet-Nodes",
       "default_branch": "main",
       "stars": 89,
       "first_seen": "2026-10-25T11:51:06.409Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:58:13Z",
-      "runs_seen": 47,
+      "runs_seen": 48,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -205,32 +205,32 @@
         "subscriptions/mix-normal.txt",
         "protocols/vmess.txt"
       ],
-      "nodes_kept": 20864
+      "nodes_kept": 13191
     },
     {
       "repo": "ProblemTheCode/SylphNet-public",
       "default_branch": "main",
       "stars": 13,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:01:03Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
         "sub/sub.txt",
         "sub/sub_plain.txt"
       ],
-      "nodes_kept": 700
+      "nodes_kept": 762
     },
     {
       "repo": "Surfboardv2ray/Proxy-sorter",
       "default_branch": "main",
       "stars": 238,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T19:44:09Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -238,32 +238,32 @@
         "submerge/US.txt",
         "xray/configs/all_configs.txt"
       ],
-      "nodes_kept": 5167
+      "nodes_kept": 5190
     },
     {
       "repo": "TheHunterX/oneforallhub-v2ray-configs",
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-11-07T12:04:14.256Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T19:06:47Z",
-      "runs_seen": 2,
+      "runs_seen": 3,
       "unverified_runs": 0,
       "status": "active",
       "files": [
         "auto-subscription.txt",
         "subscription.txt"
       ],
-      "nodes_kept": 47
+      "nodes_kept": 65
     },
     {
       "repo": "Thordata/awesome-free-proxy-list",
       "default_branch": "main",
       "stars": 58,
       "first_seen": "2026-10-25T11:51:06.409Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:28:22Z",
-      "runs_seen": 47,
+      "runs_seen": 48,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -271,16 +271,16 @@
         "proxies/clash/all.yaml",
         "proxies/clash/high-anon.yaml"
       ],
-      "nodes_kept": 283
+      "nodes_kept": 1000
     },
     {
       "repo": "V2RayRoot/V2RayConfig",
       "default_branch": "main",
       "stars": 174,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:40:39Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -295,9 +295,9 @@
       "default_branch": "main",
       "stars": 5662,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:04:20Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -308,28 +308,45 @@
       "nodes_kept": 3120
     },
     {
+      "repo": "Z-ikko/ZikkO-Vpn-configs",
+      "default_branch": "main",
+      "stars": 1,
+      "first_seen": "2026-11-08T03:06:04.554Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
+      "last_commit_date": "2026-11-07T22:27:38Z",
+      "runs_seen": 1,
+      "unverified_runs": 0,
+      "status": "active",
+      "files": [
+        "sub/all.txt",
+        "sub/4.txt",
+        "sub/5.txt"
+      ],
+      "nodes_kept": 2100
+    },
+    {
       "repo": "ZendanTeam/SS44-sub",
       "default_branch": "main",
       "stars": 4,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T17:34:41Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
         "SS44-clash.yaml"
       ],
-      "nodes_kept": 104
+      "nodes_kept": 148
     },
     {
       "repo": "alireza786786/Free-V2ray-Configs",
       "default_branch": "main",
       "stars": 2,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:48:16Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -344,9 +361,9 @@
       "default_branch": "main",
       "stars": 61,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T12:26:01Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -354,16 +371,16 @@
         "output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vless.txt.yaml",
         "output_configs/v2ray/itsyebekhe/PSG/subscriptions/clash/vmess.yaml"
       ],
-      "nodes_kept": 2680
+      "nodes_kept": 2712
     },
     {
       "repo": "barry-far/V2ray-Config",
       "default_branch": "main",
       "stars": 2587,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:51:00Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -371,16 +388,16 @@
         "All_Configs_Sub.txt",
         "Base64/Sub17_base64.txt"
       ],
-      "nodes_kept": 18260
+      "nodes_kept": 17899
     },
     {
       "repo": "chenzhihan1751-cyber/node-sub-zixf",
       "default_branch": "main",
       "stars": 4,
       "first_seen": "2026-10-25T11:51:06.409Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T13:18:25Z",
-      "runs_seen": 47,
+      "runs_seen": 48,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -388,16 +405,16 @@
         "sub/base64.txt",
         "sub/stats.json"
       ],
-      "nodes_kept": 1710
+      "nodes_kept": 1780
     },
     {
       "repo": "crackbest/V2ray-Config",
       "default_branch": "main",
       "stars": 68,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:44:35Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -410,25 +427,25 @@
       "default_branch": "main",
       "stars": 4,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:07:24Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
         "nodes_detail.json",
         "nodes_alive.txt"
       ],
-      "nodes_kept": 10693
+      "nodes_kept": 10705
     },
     {
       "repo": "free-nodes/clashfree",
       "default_branch": "main",
       "stars": 17050,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:29:45Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -443,9 +460,9 @@
       "default_branch": "main",
       "stars": 136,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T17:07:33Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -453,16 +470,16 @@
         "sub/vmess.txt",
         "sub/vless.txt"
       ],
-      "nodes_kept": 7615
+      "nodes_kept": 8053
     },
     {
       "repo": "hamzawih0/zorVPN",
       "default_branch": "main",
       "stars": 1,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:10:12Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -476,9 +493,9 @@
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-11-04T23:02:32.865Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:59:20Z",
-      "runs_seen": 10,
+      "runs_seen": 11,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -486,16 +503,16 @@
         "sub/vmess.txt",
         "sub/vless/reality.txt"
       ],
-      "nodes_kept": 23125
+      "nodes_kept": 22459
     },
     {
       "repo": "iboxz/free-v2ray-collector",
       "default_branch": "main",
       "stars": 188,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:09:26Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -510,9 +527,9 @@
       "default_branch": "main",
       "stars": 43,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:10:38Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -527,9 +544,9 @@
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-11-07T21:14:49.122Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:54:58Z",
-      "runs_seen": 1,
+      "runs_seen": 2,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -544,9 +561,9 @@
       "default_branch": "main",
       "stars": 69,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T05:42:13Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -561,9 +578,9 @@
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-11-06T22:31:55.922Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T17:17:46Z",
-      "runs_seen": 4,
+      "runs_seen": 5,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -576,9 +593,9 @@
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:03:59Z",
-      "runs_seen": 43,
+      "runs_seen": 44,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -593,9 +610,9 @@
       "default_branch": "master",
       "stars": 4024,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:14:55Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -610,9 +627,9 @@
       "default_branch": "master",
       "stars": 930,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T17:54:20Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -620,16 +637,16 @@
         "sub",
         "list.json"
       ],
-      "nodes_kept": 262
+      "nodes_kept": 264
     },
     {
       "repo": "mheidari98/.proxy",
       "default_branch": "main",
       "stars": 190,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:16:34Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -644,9 +661,9 @@
       "default_branch": "main",
       "stars": 16,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:37:20Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -654,16 +671,16 @@
         "sub/vmess.txt",
         "sub/trojan.txt"
       ],
-      "nodes_kept": 422
+      "nodes_kept": 424
     },
     {
       "repo": "morpheusadam/v2ray-config",
       "default_branch": "main",
       "stars": 37,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:32:37Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -678,9 +695,9 @@
       "default_branch": "main",
       "stars": 33,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:12:30Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -695,9 +712,9 @@
       "default_branch": "main",
       "stars": 1,
       "first_seen": "2026-11-04T13:28:54.663Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:20:21Z",
-      "runs_seen": 11,
+      "runs_seen": 12,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -712,9 +729,9 @@
       "default_branch": "main",
       "stars": 4,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:21:43Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -722,16 +739,16 @@
         "nodes/nodev2ray.yaml",
         "nodes/clashmeta.yaml"
       ],
-      "nodes_kept": 186
+      "nodes_kept": 159
     },
     {
       "repo": "nukcrow/black-crow",
       "default_branch": "main",
       "stars": 10,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T19:27:56Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -739,16 +756,16 @@
         "sub/general/sub20.txt",
         "sub/general/bot.txt"
       ],
-      "nodes_kept": 5998
+      "nodes_kept": 5996
     },
     {
       "repo": "onlyactions/proxy-scanner",
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-11-06T13:26:54.204Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T03:34:45Z",
-      "runs_seen": 5,
+      "runs_seen": 6,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -763,9 +780,9 @@
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-10-25T11:51:06.409Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T12:14:48Z",
-      "runs_seen": 47,
+      "runs_seen": 48,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -778,9 +795,9 @@
       "default_branch": "main",
       "stars": 70,
       "first_seen": "2026-11-05T13:45:11.591Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-05T12:05:06Z",
-      "runs_seen": 8,
+      "runs_seen": 9,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -795,9 +812,9 @@
       "default_branch": "main",
       "stars": 5,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-05T22:04:57Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -812,9 +829,9 @@
       "default_branch": "main",
       "stars": 938,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T21:00:37Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -829,25 +846,25 @@
       "default_branch": "master",
       "stars": 0,
       "first_seen": "2026-11-04T23:02:32.865Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T12:50:34Z",
-      "runs_seen": 10,
+      "runs_seen": 11,
       "unverified_runs": 0,
       "status": "active",
       "files": [
         "free_subs.txt",
         "free_subs_small.txt"
       ],
-      "nodes_kept": 393
+      "nodes_kept": 455
     },
     {
       "repo": "shabane/kamaji",
       "default_branch": "master",
       "stars": 173,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T03:52:06Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -862,9 +879,9 @@
       "default_branch": "main",
       "stars": 1304,
       "first_seen": "2026-10-29T22:12:41.570Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:37:46Z",
-      "runs_seen": 29,
+      "runs_seen": 30,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -877,24 +894,24 @@
       "default_branch": "main",
       "stars": 15,
       "first_seen": "2026-10-29T22:12:41.570Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:41:56Z",
-      "runs_seen": 29,
+      "runs_seen": 30,
       "unverified_runs": 0,
       "status": "active",
       "files": [
         "clash.yaml"
       ],
-      "nodes_kept": 296
+      "nodes_kept": 274
     },
     {
       "repo": "skxxxkx666/freeport-manifest",
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T14:58:03Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -909,9 +926,9 @@
       "default_branch": "master",
       "stars": 31,
       "first_seen": "2026-10-26T11:20:23.213Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T16:59:22Z",
-      "runs_seen": 44,
+      "runs_seen": 45,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -926,9 +943,9 @@
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-11-06T04:01:27.318Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T12:00:22Z",
-      "runs_seen": 6,
+      "runs_seen": 7,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -936,32 +953,16 @@
         "nodes.txt",
         "v2ray.txt"
       ],
-      "nodes_kept": 68
-    },
-    {
-      "repo": "vincent20240707/free-v2ray-nodes",
-      "default_branch": "main",
-      "stars": 0,
-      "first_seen": "2026-10-30T21:49:15.243Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
-      "last_commit_date": "2026-11-07T01:22:33Z",
-      "runs_seen": 25,
-      "unverified_runs": 0,
-      "status": "active",
-      "files": [
-        "subscriptions.txt",
-        "nodes.txt"
-      ],
-      "nodes_kept": 50
+      "nodes_kept": 81
     },
     {
       "repo": "wzmwayne/proxy-node",
       "default_branch": "main",
       "stars": 21,
       "first_seen": "2026-11-05T23:02:12.652Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T20:00:46Z",
-      "runs_seen": 7,
+      "runs_seen": 8,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -969,16 +970,16 @@
         "output/aio-all/clash.yaml",
         "output/aio/clash.yaml"
       ],
-      "nodes_kept": 6839
+      "nodes_kept": 6993
     },
     {
       "repo": "xifan001-lab/clash-sub",
       "default_branch": "main",
       "stars": 0,
       "first_seen": "2026-10-25T11:51:06.409Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-04T07:50:16Z",
-      "runs_seen": 47,
+      "runs_seen": 48,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -991,9 +992,9 @@
       "default_branch": "main",
       "stars": 1,
       "first_seen": "2026-10-25T11:51:06.409Z",
-      "last_seen": "2026-11-07T21:14:49.122Z",
+      "last_seen": "2026-11-08T03:06:04.554Z",
       "last_commit_date": "2026-11-07T18:17:57Z",
-      "runs_seen": 47,
+      "runs_seen": 48,
       "unverified_runs": 0,
       "status": "active",
       "files": [
@@ -1005,66 +1006,6 @@
     }
   ],
   "removed": [
-    {
-      "repo": "wobushilixi/free-proxy-nodes",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T03:08:30.601Z"
-    },
-    {
-      "repo": "dfhhvc/freenodes",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T03:08:30.601Z"
-    },
-    {
-      "repo": "jwadya089-commits/My-sub",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T03:08:30.601Z"
-    },
-    {
-      "repo": "Romaxa55/MegaV_Public",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T03:08:30.601Z"
-    },
-    {
-      "repo": "sunmiao4458/free-proxy-airport",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T03:08:30.601Z"
-    },
-    {
-      "repo": "zueston/proxy-hub",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T14:07:48.488Z"
-    },
-    {
-      "repo": "yafeisun/v2raynode",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T14:07:48.488Z"
-    },
-    {
-      "repo": "SnapdragonLee/SystemProxy",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T14:07:48.488Z"
-    },
-    {
-      "repo": "sakha1370/OpenRay",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T14:07:48.488Z"
-    },
-    {
-      "repo": "wobushilixi/free-proxy-nodes",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T14:07:48.488Z"
-    },
-    {
-      "repo": "dfhhvc/freenodes",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T14:07:48.488Z"
-    },
-    {
-      "repo": "Romaxa55/MegaV_Public",
-      "reason": "evicted_max_sources",
-      "at": "2026-11-02T14:07:48.488Z"
-    },
     {
       "repo": "jwadya089-commits/My-sub",
       "reason": "evicted_max_sources",
@@ -2004,6 +1945,66 @@
       "repo": "shifeiquan520/shifeiquan3",
       "reason": "evicted_max_sources",
       "at": "2026-11-07T21:14:49.122Z"
+    },
+    {
+      "repo": "yafeisun/v2raynode",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "SnapdragonLee/SystemProxy",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "zueston/proxy-hub",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "sakha1370/OpenRay",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "wobushilixi/free-proxy-nodes",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "Romaxa55/MegaV_Public",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "sunmiao4458/free-proxy-airport",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "NiREvil/vless",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "zhuhaiuk/free-nodes",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "shifeiquan520/shifeiquan3",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "vincent20240707/free-v2ray-nodes",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
+    },
+    {
+      "repo": "yuluo688/clash-hot-countries",
+      "reason": "evicted_max_sources",
+      "at": "2026-11-08T03:06:04.554Z"
     }
   ]
 }
