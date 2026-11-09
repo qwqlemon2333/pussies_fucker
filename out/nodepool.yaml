@@ -1,13 +1,4 @@
 proxies:
-  - name: "@rayhub_ir-0626-7"
-    type: hysteria2
-    server: 103.251.167.168
-    port: 443
-    password: gdubbi2zb6gdp0c8
-    udp: true
-    sni: gettestin.xxee.ru
-    obfs: salamander
-    obfs-password: 2a7e8084206388f4
   - name: "@OutlineReleasedKey"
     type: hysteria2
     server: 13.143.239.127
@@ -15,13 +6,13 @@ proxies:
     password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
     udp: true
     sni: nl1.obxodvpn.us
-  - name: 47@oneclickvpnkeys
+  - name: 4@oneclickvpnkeys
     type: hysteria2
-    server: 13.229.106.122
+    server: 13.212.76.106
     port: 443
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     udp: true
-    sni: vpn-sg-001.fastervpn.world
+    sni: vk.com
   - name: ProxyRift-812
     type: 'hysteria2'
     server: '130.49.161.70'
@@ -40,7 +31,7 @@ proxies:
     password: '70043bfa-d6fb-4980-b27e-773e9e8b2004'
     tls: true
     servername: 'crt.onecloudstream.com'
-  - name: "@FreakConfig"
+  - name: "@proxy_kafee-#1"
     type: hysteria2
     server: 144.31.49.138
     port: 443
@@ -49,21 +40,33 @@ proxies:
     sni: ru1.sferavpn.pro
     obfs: salamander
     obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  - name: US-@VPNine1
+  - name: ">>@oneclickvpnkeys::PL"
     type: hysteria2
     server: 144.31.49.47
     port: 443
     password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
     udp: true
     sni: admin.wwwinternetvideo.click
-  - name: "FRA-#1"
-    type: hysteria2
-    server: 173.212.201.85
+  - name: ProxyRift-1338
+    type: 'hysteria2'
+    server: '162.249.125.133'
     port: 443
-    password: gf1
     udp: true
-    sni: www.docker.com
-  - name: "Channel-:-@Daily_Configs"
+    password: 'QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s'
+    obfs: 'salamander'
+    obfs-password: 'c1b4086fea89914496c7e10967a419216566'
+    tls: true
+    servername: 'hy2-new.aspidnet.xyz'
+  - name: "USA-#14"
+    type: hysteria2
+    server: 179.255.107.182
+    port: 443
+    password: 3be5bdf034cd9dc2c152d5d57bd2db7f
+    udp: true
+    sni: bing.com
+    obfs: salamander
+    obfs-password: salamander
+  - name: "Telegram@vpnjey-#2,"
     type: hysteria2
     server: 179.61.138.145
     port: 443
@@ -72,7 +75,7 @@ proxies:
     sni: de2.jey.cc.cd
     obfs: salamander
     obfs-password: Telegram@vpnjey
-  - name: "@internet_azad_2026-#3"
+  - name: 48288-Telegram-=-t.me/SO
     type: hysteria2
     server: 18.157.222.169
     port: 444
@@ -81,13 +84,20 @@ proxies:
     sni: free.masir-sefid.shop
     obfs: salamander
     obfs-password: Masir_Sefid
-  - name: 139093-Telegram-=-t.me/S
+  - name: 11@oneclickvpnkeys
+    type: hysteria2
+    server: 185.153.55.28
+    port: 443
+    password: 769f34f0-1500-488f-b414-03bc90666502
+    udp: true
+    sni: se.mimowhat.online
+  - name: hysteria2-859968188
     type: hysteria2
     server: 185.156.44.99
     port: 443
-    password: gf1
+    password: "gf1:gfhysteria2024"
     udp: true
-    sni: whatsapp.com
+    sni: www.bing.com
   - name: hysteria2-1945507344
     type: hysteria2
     server: 192.142.23.46
@@ -102,25 +112,16 @@ proxies:
     password: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
     udp: true
     sni: kaz0001hy01.packet-drop-society.net
-  - name: 50435-Telegram-=-t.me/SO
+  - name: DE-@VPNine1
     type: hysteria2
-    server: 195.15.201.34
-    port: 8880
-    password: Masir_Sefid
-    udp: true
-    sni: free.masir-sefid-1.my
-    obfs: salamander
-    obfs-password: Masir_Sefid
-  - name: 38@oneclickvpnkeys
-    type: hysteria2
-    server: 2.26.49.16
+    server: 198.13.140.193
     port: 443
-    password: sxc15led4b0vp5fy
+    password: 59018379-d5df-4314-ab23-df0e838d7953
     udp: true
-    sni: social.klipp.su
+    sni: efa11.lumariqis.com
     obfs: salamander
-    obfs-password: 3sv5vpdl9xr84lyb
-  - name: US-@VPNine1-2
+    obfs-password: litevpn
+  - name: TELEGRAM-@MTMVPN
     type: hysteria2
     server: 2.27.249.79
     port: 443
@@ -129,7 +130,7 @@ proxies:
     sni: nl1.sferavpn.pro
     obfs: salamander
     obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  - name: 61@oneclickvpnkeys
+  - name: "#246-??-US"
     type: hysteria2
     server: 206.189.229.48
     port: 443
@@ -145,7 +146,7 @@ proxies:
     password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
     udp: true
     sni: cabinet.wwwinternetvideo.click
-  - name: 72@oneclickvpnkeys
+  - name: "@OutlineReleasedKey-2"
     type: hysteria2
     server: 217.60.33.215
     port: 443
@@ -159,13 +160,6 @@ proxies:
     password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
     udp: true
     sni: hopp-legend-se.roxa.org
-  - name: 80@oneclickvpnkeys
-    type: hysteria2
-    server: 31.76.71.63
-    port: 443
-    password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-    udp: true
-    sni: cabinet.wwwinternetvideo.click
   - name: "@confiig_hub"
     type: hysteria2
     server: 31.76.80.69
@@ -175,20 +169,20 @@ proxies:
     sni: fiproxy1.lockdwn.com
     obfs: salamander
     obfs-password: uw9b2qq5rx
-  - name: "@V2ray_Collector"
+  - name: GB_12.1MB/s
+    type: hysteria2
+    server: 31.77.144.133
+    port: 443
+    password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+    udp: true
+    sni: argg9.auragg.org
+  - name: 63@oneclickvpnkeys
     type: hysteria2
     server: 45.192.12.93
     port: 443
     password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
     udp: true
     sni: admin.wwwinternetvideo.click
-  - name: 46.229.243.141
-    type: hysteria2
-    server: 46.229.243.141
-    port: 8080
-    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-    udp: true
-    sni: grape-turbo-fr.roxa.org
   - name: hysteria2-722298612
     type: hysteria2
     server: 5.129.235.85
@@ -196,14 +190,7 @@ proxies:
     password: "gf1:gfhysteria2024"
     udp: true
     sni: whatsapp.com
-  - name: NL_22.5MB/s
-    type: hysteria2
-    server: 5.255.102.165
-    port: 443
-    password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-    udp: true
-    sni: www.microsoft.com
-  - name: "#654-NL-NL"
+  - name: "#682-NL-NL"
     type: hysteria2
     server: 51.15.19.206
     port: 8443
@@ -212,7 +199,7 @@ proxies:
     sni: t.me
     obfs: salamander
     obfs-password: HysteriaHowdy
-  - name: "#326-FR-FR"
+  - name: "#367-FR-FR"
     type: hysteria2
     server: 62.210.124.146
     port: 22000
@@ -226,15 +213,6 @@ proxies:
     password: "gf1:gfhysteria2024"
     udp: true
     sni: vk.com
-  - name: "@V2RayyNGvpn-#1"
-    type: hysteria2
-    server: 70.34.206.217
-    port: 443
-    password: "T$me$V2RayyNGvpn"
-    udp: true
-    sni: www.wordreference.com
-    obfs: salamander
-    obfs-password: "T$me$V2RayyNGVpn@V2RayyNGvpn"
   - name: ">>@oneclickvpnkeys::NL"
     type: hysteria2
     server: 72.56.92.120
@@ -242,13 +220,6 @@ proxies:
     password: CnVfXXvMzh
     udp: true
     sni: hys13.wba-pn.ru
-  - name: 146433-Telegram-=-t.me/S
-    type: hysteria2
-    server: 77.238.250.4
-    port: 443
-    password: netherlands_hysteria2_fastlane_zffh8t4xf
-    udp: true
-    sni: nl8.h.fastlanehosting.ru
   - name: hysteria2-1827145159
     type: hysteria2
     server: 8.209.247.109
@@ -264,118 +235,54 @@ proxies:
     password: '63e1b9462d708b56d5d5a0267cffecdc'
     tls: true
     servername: 'promo3.goonars.com'
-  - name: 98@oneclickvpnkeys
+  - name: "V2RayyNGvpn-#1"
     type: hysteria2
-    server: 89.124.73.31
+    server: 91.107.150.74
     port: 443
-    password: 0f771058-7892-4d46-b77e-a69e811b9cbc
+    password: V2RayyNGvpn
     udp: true
-    sni: hls-svod.itunes.apple.com
-  - name: "#12"
+    sni: www.bing.com
+    obfs: salamander
+    obfs-password: V2RayyNGvpn
+  - name: "@Daily_Configs"
     type: hysteria2
-    server: 91.84.119.49
+    server: 91.107.178.22
     port: 443
-    password: netherlands_3_hysteria2_fastlane_xr3nai71s
+    password: DSgrpvSRAu
     udp: true
-    sni: nl4.h.fastlanehosting.ru
-  - name: "@OutlineReleasedKey-2"
+    sni: www.refersion.com
+    obfs: salamander
+    obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  - name: "@OutlineReleasedKey-3"
     type: hysteria2
     server: 95.140.147.245
     port: 443
     password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
     udp: true
     sni: nl1server.rabstvo.shop
-  - name: "@V2ray_Collector-2"
+  - name: "@V2ray_Collector"
     type: hysteria2
     server: 95.143.196.97
     port: 443
     password: 769f34f0-1500-488f-b414-03bc90666502
     udp: true
     sni: se.mimowhat.online
-  - name: "@v2ray_configs_poolFinl...-#2"
-    type: hysteria2
-    server: 95.217.96.131
-    port: 52016
-    password: m3bqxk03mg221yi2
-    udp: true
-    sni: assets.gateway-stream.com
-    obfs: salamander
-    obfs-password: fsc92dsh321o5h3r
-  - name: "@V2ray_Collector-3"
+  - name: 73@oneclickvpnkeys
     type: hysteria2
     server: admin.wwwinternetvideo.click
     port: 443
     password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
     udp: true
-  - name: "@vmesskhodam-#1"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52002
-    password: elknam6l7izf3z71
-    udp: true
-    sni: assets.gateway-stream.com
-    obfs: salamander
-    obfs-password: ielzukpwth087afx
+    sni: admin.wwwinternetvideo.click
   - name: FI-@VPNine1
     type: hysteria2
     server: assets.gateway-stream.com
     port: 52008
-    password: t8t2qojzsykqazfu
+    password: 76kyzc055ahiyfzy
     udp: true
     sni: assets.gateway-stream.com
     obfs: salamander
     obfs-password: 93lc6r07zfx4crct
-  - name: FI-@VPNine1-2
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52019
-    password: k1dom6dyqelryllv
-    udp: true
-    sni: assets.gateway-stream.com
-  - name: "@filembad"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52021
-    password: 4z2oldt85p494bgb
-    udp: true
-    sni: assets.gateway-stream.com
-    obfs: salamander
-    obfs-password: mtg2vchyir6la3et
-  - name: 145201-Telegram-=-t.me/S
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52022
-    password: t8t2qojzsykqazfu
-    udp: true
-    sni: assets.gateway-stream.com
-    obfs: salamander
-    obfs-password: 1wcfqg6gwoyxlplo
-  - name: "[-]-@Cfox_SerVer-#1"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52030
-    password: xbr3ppxk7rv068c4
-    udp: true
-    obfs: salamander
-    obfs-password: x5y77oxwfcl868u3
-  - name: "FI-@VPNine1-#11"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52087
-    password: 3ff7b2e75ce84d05ae16572b60a9b707
-    udp: true
-    sni: assets.gateway-stream.com
-    obfs: salamander
-    obfs-password: bwgy7ppdoiz448uw
-  - name: "FI-@VPNine1-#6"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52089
-    password: kjq3gpn1xom1ted9
-    udp: true
-    sni: assets.gateway-stream.com
-    obfs: salamander
-    obfs-password: hitar6eeayxd7imh
   - name: ">>@oneclickvpnkeys::EE"
     type: hysteria2
     server: cabinet.wwwinternetvideo.click
@@ -383,7 +290,7 @@ proxies:
     password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
     udp: true
     sni: cabinet.wwwinternetvideo.click
-  - name: "@V2ray_Collector-4"
+  - name: 62@oneclickvpnkeys
     type: hysteria2
     server: clash2.deep-links.com
     port: 443
@@ -397,7 +304,7 @@ proxies:
     password: M2NbFywBXjS9Ova8SgqRrQkp
     udp: true
     sni: de-tg.fastlanehosting.ru
-  - name: "@vmesskhodam"
+  - name: "@FreakConfig"
     type: hysteria2
     server: edge.hankli1214.xyz
     port: 443
@@ -413,7 +320,7 @@ proxies:
     password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
     udp: true
     sni: cabinet.wwwinternetvideo.click
-  - name: go.wwwinternetvideo.click
+  - name: ">>@oneclickvpnkeys::PL-2"
     type: hysteria2
     server: go.wwwinternetvideo.click
     port: 443
@@ -427,13 +334,39 @@ proxies:
     password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
     udp: true
     sni: admin.wwwinternetvideo.click
-  - name: ">>@oneclickvpnkeys::PL"
+  - name: ">>@oneclickvpnkeys::PL-3"
     type: hysteria2
     server: go2.wwwinternetvideo.click
     port: 443
     password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
     udp: true
     sni: admin.wwwinternetvideo.click
+  - name: ProxyRift-1177
+    type: 'hysteria2'
+    server: 'hy2.aspidnet.xyz'
+    port: 443
+    udp: true
+    password: 'p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR'
+    obfs: 'salamander'
+    obfs-password: 'rG07s3COMIEvdnQipRyWzx_H_2xygNC3'
+    tls: true
+    servername: 'hy2.aspidnet.xyz'
+  - name: "#695-??-NL"
+    type: hysteria2
+    server: hysteria.udpgw.com
+    port: 8443
+    password: HowdyHysteria2023w0W
+    udp: true
+    sni: sni-here.com
+    obfs: salamander
+    obfs-password: HysteriaHowdy
+  - name: hysteria2-1005580180
+    type: hysteria2
+    server: labs.frkn.org
+    port: 443
+    password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+    udp: true
+    sni: labs.frkn.org
   - name: ProxyRift-1747
     type: 'ss'
     server: '102.133.165.160'
@@ -490,6 +423,13 @@ proxies:
     password: W74XFALLLuw6m5IA
     cipher: chacha20-ietf-poly1305
     udp: true
+  - name: AetrisVPN
+    type: ss
+    server: 104.222.183.180
+    port: 47195
+    password: DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP
+    cipher: chacha20-ietf-poly1305
+    udp: true
   - name: ProxyRift-1328
     type: 'ss'
     server: '104.239.12.81'
@@ -504,25 +444,18 @@ proxies:
     password: 2MaqmLJwWXtdJPvpzXD2MSYiZrXDwneqZbAEXqZUw7RzX7ndd3xFM9C3u9NdRXZPTNgDBenPLn6B6VrwmodCSEQc8RfuxBn8
     cipher: chacha20-ietf-poly1305
     udp: true
-  - name: "US_369966KB/sA004-260618-[5e00a7a7f520]"
-    type: ss
+  - name: US-U0001F1FAU0001F1F8-@Raydikalx-7E39A7
     server: 107.172.219.230
     port: 2096
-    password: 456c497e-02bc-4b46-883f-06747cabdfbd
+    type: ss
     cipher: chacha20-ietf-poly1305
+    password: 456c497e-02bc-4b46-883f-06747cabdfbd
     udp: true
   - name: shadowsocks-1382489667
     type: ss
     server: 107.174.88.128
     port: 443
     password: 063aee2ed1124285b5d8a8b049e24cba
-    cipher: chacha20-ietf-poly1305
-    udp: true
-  - name: "@tanhant"
-    type: ss
-    server: 109.122.251.86
-    port: 20700
-    password: pLGCPnj2WgzxX1IedW8yd7trwRlXqjLa
     cipher: chacha20-ietf-poly1305
     udp: true
   - name: "10"
@@ -574,19 +507,19 @@ proxies:
     password: W74XFALLLuw6m5IA
     cipher: chacha20-ietf-poly1305
     udp: true
-  - name: "@tootffarangi"
-    type: ss
-    server: 13.61.187.228
-    port: 443
-    password: "Zvik9nOMN9iCGHR8GXQqvGP+S7LJG/MWA2DvoLxIv3w=:g/6oV8zes+tB9StYhLIoc6mXmP8WMcInHMKNvGGflX8="
-    cipher: 2022-blake3-aes-256-gcm
-    udp: true
-  - name: "@OutlineReleasedKey-3"
+  - name: "@OutlineReleasedKey-4"
     type: ss
     server: 130.49.189.158
     port: 43558
     password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
     cipher: chacha20-ietf-poly1305
+    udp: true
+  - name: "https://t.me/ForceRunVPN--2822ms-Unknown"
+    type: ss
+    server: 130.94.69.15
+    port: 7001
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
     udp: true
   - name: "@V2rayNG_CaFe"
     type: ss
@@ -594,13 +527,6 @@ proxies:
     port: 443
     password: W74XFALLLuw6m5IA
     cipher: chacha20-ietf-poly1305
-    udp: true
-  - name: nukcrow
-    type: ss
-    server: 134.195.198.211
-    port: 443
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
     udp: true
   - name: IN-134.209.147.198-0312
     type: ss
@@ -615,6 +541,20 @@ proxies:
     port: 990
     password: f8f7aCzcPKbsF8p3
     cipher: chacha20-ietf-poly1305
+    udp: true
+  - name: AetrisVPN-2
+    type: ss
+    server: 135.220.178.46
+    port: 46303
+    password: zZMNTGpPl38ASlbI1EKOBJ
+    cipher: chacha20-ietf-poly1305
+    udp: true
+  - name: megav.app
+    type: ss
+    server: 136.243.249.198
+    port: 443
+    password: b9ztqlg4so8lt9zi
+    cipher: aes-256-gcm
     udp: true
   - name: "The+Netherlands+->+The+Netherlands+@Deam"
     type: ss
@@ -672,110 +612,33 @@ proxies:
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
     udp: true
-  - name: "@confiig_hub-2"
+  - name: shadowsocks-1147717311
+    type: ss
+    server: 139.180.220.175
+    port: 8388
+    password: qpSevKaUXYQKvSjp
+    cipher: aes-256-gcm
+    udp: true
+  - name: cfg-044
     type: ss
     server: 140.238.64.207
     port: 42345
-    password: e936372a-d976-4e25-8b3b-29c1a5841e06
     cipher: chacha20-ietf-poly1305
+    password: e936372a-d976-4e25-8b3b-29c1a5841e06
     udp: true
-  - name: ProxyRift-1318
-    type: 'ss'
-    server: '141.164.45.187'
-    port: 2376
-    cipher: 'aes-256-gcm'
-    password: 'faBAoD54k87UJG7'
-    udp: true
-  - name: 141.164.45.187
+  - name: NL-U0001F1F3U0001F1F1-@Raydikalx-2E8FE6
+    server: 140.82.56.38
+    port: 8388
     type: ss
-    server: 141.164.45.187
-    port: 5001
-    password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
+    password: iOaIXNsQXVIxwmkY
     udp: true
-  - name: "#918-KR-KR"
+  - name: 141.95.29.163
     type: ss
-    server: 141.164.45.187
-    port: 5498
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-    udp: true
-  - name: "#923-KR-KR"
-    type: ss
-    server: 141.164.45.187
-    port: 6679
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-    udp: true
-  - name: "#924-KR-KR"
-    type: ss
-    server: 141.164.45.187
-    port: 6697
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-    udp: true
-  - name: 141.164.45.187-2
-    type: ss
-    server: 141.164.45.187
-    port: 7001
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-    udp: true
-  - name: "#958-KR-KR"
-    type: ss
-    server: 141.164.45.187
-    port: 7002
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-    udp: true
-  - name: "#928-KR-KR"
-    type: ss
-    server: 141.164.45.187
-    port: 8000
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-    udp: true
-  - name: "#914-KR-KR"
-    type: ss
-    server: 141.164.45.187
-    port: 8008
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-    udp: true
-  - name: "#964-KR-KR"
-    type: ss
-    server: 141.164.45.187
-    port: 8091
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-    udp: true
-  - name: "Channel-id:-@ShadowProxy66"
-    type: ss
-    server: 141.164.45.187
-    port: 8119
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-    udp: true
-  - name: "KR_41105KB/sM002-260618-[d3eabb786ac4]"
-    type: ss
-    server: 141.164.45.187
-    port: 8888
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-    udp: true
-  - name: ProxyRift-1330
-    type: 'ss'
-    server: '141.164.45.187'
-    port: 9090
-    cipher: 'aes-256-gcm'
-    password: 'Y6R9pAtvxxzmGC'
-    udp: true
-  - name: "#944-KR-KR"
-    type: ss
-    server: 141.164.45.187
-    port: 9101
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
+    server: 141.95.29.163
+    port: 2083
+    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:JTou+JSmZOAyrMLdvNBcXFm0Y9luZ/8u17ie48jQfVc="
+    cipher: 2022-blake3-aes-256-gcm
     udp: true
   - name: ProxyRift-207
     type: 'ss'
@@ -804,13 +667,6 @@ proxies:
     port: 19999
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-    udp: true
-  - name: "210302"
-    type: ss
-    server: 146.19.196.142
-    port: 8388
-    password: MDAwM
-    cipher: chacha20-ietf-poly1305
     udp: true
   - name: SS-349-free-nodes
     type: ss
@@ -881,14 +737,6 @@ proxies:
     port: 990
     password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
     cipher: chacha20-ietf-poly1305
-    udp: true
-  - name: U0001F1F5U0001F1EDPH_1542KB/sM003-260806
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-    port: 8882
-    server: 149.104.109.252
-    sub_tag: M003-260806
-    type: ss
     udp: true
   - name: ProxyRift-1607
     type: 'ss'
@@ -1009,31 +857,111 @@ proxies:
     cipher: 'aes-256-gcm'
     password: 'FoOiGlkAA9yPEGP'
     udp: true
-  - name: "#919-US-US"
+  - name: "#745-US-US"
     type: ss
     server: 15.204.247.124
     port: 2375
     password: faBAoD54k87UJG7
     cipher: aes-256-gcm
     udp: true
-  - name: nukcrow-3
-    type: trojan
-    server: 022xw1dmczg0c6165pcla6.tomborn69.workers.dev
-    port: 443
-    password: "pjg&JybcgFsca,+gQMa"
+  - name: "#231-US-US"
+    type: ss
+    server: 15.204.247.175
+    port: 8008
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
     udp: true
-    tls: true
-    sni: 022xW1dMCzG0c6165PCla6.TOMBorn69.woRKERS.dev
-    network: ws
-    ws-opts:
-      path: /
-  - name: nukcrow-4
-    type: trojan
-    server: 0319tw05.fans8.xyz
-    port: 443
-    password: cd3d48cb-6641-4183-aff1-f8f6789fecce
+  - name: ProxyRift-1676
+    type: 'ss'
+    server: '15.204.247.206'
+    port: 4444
+    cipher: 'aes-256-gcm'
+    password: 'pKEW8JPByTVTLtM'
     udp: true
-    tls: true
+  - name: "#815-US-US"
+    type: ss
+    server: 15.204.247.244
+    port: 443
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+    udp: true
+  - name: "#230-US-US"
+    type: ss
+    server: 15.204.247.244
+    port: 4444
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+    udp: true
+  - name: ProxyRift-1292
+    type: 'ss'
+    server: '15.235.164.133'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    udp: true
+  - name: ProxyRift-1297
+    type: 'ss'
+    server: '15.235.182.183'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    udp: true
+  - name: ProxyRift-1275
+    type: 'ss'
+    server: '151.241.19.29'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    udp: true
+  - name: ProxyRift-1274
+    type: 'ss'
+    server: '151.241.19.36'
+    port: 19999
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    udp: true
+  - name: ProxyRift-1796
+    type: 'ss'
+    server: '152.53.1.57'
+    port: 8388
+    cipher: 'chacha20-ietf-poly1305'
+    password: 'AdawffFMHymlasRb0VOP3HFf7sTG5sJx'
+    udp: true
+  - name: 154.36.158.197
+    type: ss
+    server: 154.36.158.197
+    port: 8388
+    password: BeaUf9c0AEWH40Pu
+    cipher: aes-256-gcm
+    udp: true
+  - name: "#801-RO-RO"
+    type: ss
+    server: 154.46.31.106
+    port: 443
+    password: QFWzCw2uX9B9i6qAYeFBIE
+    cipher: chacha20-ietf-poly1305
+    udp: true
+  - name: US-shadowsocks-738053653
+    type: ss
+    server: 154.53.60.212
+    port: 80
+    password: Nxv8ypErRfCSczD7
+    cipher: aes-256-gcm
+    udp: true
+  - name: MA-154.70.207.97-0393
+    type: ss
+    server: 154.70.207.97
+    port: 990
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    cipher: chacha20-ietf-poly1305
+    udp: true
+  - name: ProxyRift-202
+    type: 'ss'
+    server: '156.146.38.167'
+    port: 443
+    cipher: 'aes-128-gcm'
+    password: 'shadowsocks'
+    udp: true
   - name: "@DeltaKroneckerGithub"
     type: trojan
     server: 0406.infinityconfig7.workers.dev
@@ -1070,6 +998,28 @@ proxies:
     type: trojan
     server: 0xs3ced9.zzzqwdbwq.workers.dev
     port: 2096
+    password: "letiranbreath-x@^f"
+    udp: true
+    tls: true
+    sni: 0xs3ced9.zzzqwdbwq.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+  - name: trojan-1236800549
+    type: trojan
+    server: 0xs3ced9.zzzqwdbwq.workers.dev
+    port: 443
+    password: "letiranbreath-x@^f"
+    udp: true
+    tls: true
+    sni: 0xs3ced9.zzzqwdbwq.workers.dev
+    network: ws
+    ws-opts:
+      path: /
+  - name: trojan-1229168318
+    type: trojan
+    server: 0xs3ced9.zzzqwdbwq.workers.dev
+    port: 8443
     password: "letiranbreath-x@^f"
     udp: true
     tls: true
@@ -1350,7 +1300,7 @@ proxies:
     udp: true
     tls: true
     sni: dl.kgvn.garenanow.com
-  - name: 103.168.56.77
+  - name: MN-103.168.56.77-3361
     type: trojan
     server: 103.168.56.77
     port: 443
@@ -1533,7 +1483,7 @@ proxies:
     udp: true
     tls: true
     sni: www.baidu.com
-  - name: 103.25.202.114
+  - name: SG-103.25.202.114-0936
     type: trojan
     server: 103.25.202.114
     port: 443
@@ -1581,19 +1531,6 @@ proxies:
       headers:
         Host: flat-wood-1b6a.mahdihesine3.workers.dev
       path: "/eyJqdW5rIjoiQjJ4ZVlETFIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
-  - name: nukcrow-5
-    type: trojan
-    server: 103.39.78.118
-    port: 8443
-    password: "521314"
-    udp: true
-    tls: true
-    sni: hhtj.hhllfly.kdns.fr
-    network: ws
-    ws-opts:
-      headers:
-        Host: hhtj.hhllfly.kdns.fr
-      path: /
   - name: HK(mibei77.com-)-2
     type: trojan
     server: 103.69.128.221
@@ -1795,6 +1732,34 @@ proxies:
       headers:
         Host: vexpanel-dcd001fcab.pages.dev
       path: /tj
+  - name: "[5324][US][0][TROJAN][None][v2ray1_ng]"
+    type: trojan
+    server: 104.16.1.120
+    port: 443
+    password: MITIVPN
+    udp: true
+    tls: true
+    sni: us-ga-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+    network: ws
+    ws-opts:
+      headers:
+        Host: Us-A-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+      path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/us---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  - name: 104.16.10.64
+    type: trojan
+    server: 104.16.10.64
+    port: 443
+    password: Aimer
+    udp: true
+    tls: true
+    sni: epccu.ambercc.filegear-sg.me
+  - name: "@Hope_Net-join-us-on-Telegram-7"
+    type: trojan
+    server: 104.16.10.83
+    port: 443
+    password: NISHIKUITAN111
+    udp: true
+    tls: true
   - name: "@happ_tmn"
     type: vless
     server: 0.I0-6.de5.neT
@@ -1809,11 +1774,11 @@ proxies:
       headers:
         Host: 0.I0-6.de5.neT
       path: /FbLtzaav4GSW7GPL6LUGsEkZ
-  - name: nukcrow-9
+  - name: 01-ir.nimhubnet.ir
     type: vless
     server: 01-ir.nimhubnet.ir
     port: 1001
-    uuid: 92630838-a2ed-40ea-ae4a-2a8f5e6956e1
+    uuid: 82fefb57-ad17-4e26-8725-2fb55d3b8569
     udp: true
     tls: true
     servername: myket.ir
@@ -1822,6 +1787,21 @@ proxies:
     reality-opts:
       public-key: WhhDDr5dbpu-MKir-ituefFelzPYJ3aI_XUnAPItZnk
       short-id: 9f87d005b13ec024
+  - name: 02104dg.es7.h1clayd.click
+    type: vless
+    server: 02104dg.es7.h1clayd.click
+    port: 443
+    uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+    udp: true
+    tls: true
+    servername: 02104dg.es7.h1clayd.click
+    network: grpc
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: af7e99c1e3f1
+    reality-opts:
+      public-key: AK4PrvaK2WV1v1NEegq2rE53gVnlXUw_jo3XwA1aIEI
+      short-id: 7d0aaf84998bfe61
   - name: "@happ_tmn-2"
     type: vless
     server: 022xw1dmczg0c6165pcla6.tomborn69.workers.dev
@@ -1875,7 +1855,7 @@ proxies:
     network: ws
     ws-opts:
       path: /fp=chrome
-  - name: 04535dt.us8.h1clayd.click
+  - name: AetrisVPN-3
     type: vless
     server: 04535dt.us8.h1clayd.click
     port: 443
@@ -1887,7 +1867,7 @@ proxies:
     reality-opts:
       public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
       short-id: ba2a3dce62b99092
-  - name: "#807-??-US"
+  - name: "@VPsave"
     type: vless
     server: 04535dt.us9.h1clayd.click
     port: 443
@@ -1896,7 +1876,7 @@ proxies:
     tls: true
     servername: 04535dt.us9.h1clayd.click
     network: tcp
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     reality-opts:
       public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
       short-id: ba2a3dce62b99092
@@ -1914,7 +1894,7 @@ proxies:
       headers:
         Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
       path: /ws/996d5cc2-defd-b038-4728-6a450d1c373a
-  - name: 0592efg.us8.h1clayd.click
+  - name: "210374"
     type: vless
     server: 0592efg.us8.h1clayd.click
     port: 443
@@ -1923,13 +1903,13 @@ proxies:
     tls: true
     servername: 0592efg.us8.h1clayd.click
     network: grpc
-    client-fingerprint: ios
+    client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: 99f2107b03f8
     reality-opts:
       public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
       short-id: bd8f712209a9c283
-  - name: "@VPsave"
+  - name: "@VPsave-2"
     type: vless
     server: 0592efg.us9.h1clayd.click
     port: 443
@@ -1944,7 +1924,19 @@ proxies:
     reality-opts:
       public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
       short-id: bd8f712209a9c283
-  - name: "@happ_tmn-5"
+  - name: "@happ_tmn-4"
+    type: vless
+    server: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+    port: 443
+    uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+    udp: true
+    tls: true
+    servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+    network: ws
+    client-fingerprint: chrome
+    ws-opts:
+      path: /vl/ERYN0G44hia16zhR
+  - name: "@happ_tmn-6"
     type: vless
     server: 1.1.1.0
     port: 443
@@ -1981,7 +1973,7 @@ proxies:
     reality-opts:
       public-key: CZWbmrDdvesNCBlbMBuvHsJiR8Hsxmsd8DWDR_2JrjM
       short-id: 6ba85179e30d4fc2
-  - name: "@happ_tmn-6"
+  - name: "@happ_tmn-7"
     type: vless
     server: 100.48.247.169
     port: 30101
@@ -1995,7 +1987,7 @@ proxies:
     reality-opts:
       public-key: egnl0iFXY3IZYfvHwoNd72sCaULkoFRoL78wQiFwcDU
       short-id: 176d4445
-  - name: "@happ_tmn-7"
+  - name: "@happ_tmn-8"
     type: vless
     server: 100.48.247.169
     port: 30103
@@ -2009,7 +2001,7 @@ proxies:
     reality-opts:
       public-key: 8M0-R5F627Hnwb-hiS0VMSm-q3NPmriztJSU9FfvTB4
       short-id: 435e2af5
-  - name: "@happ_tmn-8"
+  - name: "@happ_tmn-9"
     type: vless
     server: 100.48.247.169
     port: 30402
@@ -2023,7 +2015,7 @@ proxies:
     reality-opts:
       public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew
       short-id: f5f6e6f4
-  - name: "@happ_tmn-9"
+  - name: "United-States---Ashburn-100.48.247.169:3"
     type: vless
     server: 100.48.247.169
     port: 30701
@@ -2105,6 +2097,20 @@ proxies:
     client-fingerprint: chrome
     ws-opts:
       path: /
+  - name: 103.102.229.75
+    type: vless
+    server: 103.102.229.75
+    port: 443
+    uuid: dc95c1dd-2cd3-414c-8cf1-71ae86dad666
+    udp: true
+    tls: true
+    servername: cdn-rum-keno-prsv.keno.su
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: Cw04nkURk7InPCPZl-0PovP44rh5o74dMHBUFOsjFig
+      short-id: a1b2c3d4e5f60718
   - name: ProxyRift-1752
     type: 'vless'
     server: '103.106.229.177'
@@ -2231,31 +2237,31 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
-  - name: spotify_porteghali-VL-TCP--XX-down
+  - name: "@DeltaKroneckerGithub-107"
     type: vless
-    server: 103.109.234.138
-    port: 443
-    uuid: ea0a2f27-7e22-4337-820b-6703eca2d7b4
-    udp: true
-    tls: true
-    servername: google.com
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8
-      short-id: ""
-  - name: 14@oneclickvpnkeys
-    type: vless
-    server: 103.109.234.8
+    server: 103.109.234.15
     port: 8443
-    uuid: 9e894e86-cdae-4894-b39a-246a59c89448
+    uuid: 70983c95-9c61-49f6-90b0-bc6da73520eb
     udp: true
     tls: true
     servername: ign.com
     network: tcp
     flow: xtls-rprx-vision
-    client-fingerprint: qq
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+  - name: "@DeltaKroneckerGithub-108"
+    type: vless
+    server: 103.109.234.8
+    port: 8443
+    uuid: 932fbc77-4dff-4607-8b69-50d6580331a3
+    udp: true
+    tls: true
+    servername: ign.com
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
@@ -2286,6 +2292,19 @@ proxies:
       headers:
         Host: jp-osa.862400.xyz
       path: "/announcement?ed=2048fp=random"
+  - name: "@leviconfigs-7"
+    type: vless
+    server: 103.112.71.83
+    port: 443
+    uuid: f82332b2-dc8c-4196-ac12-f276e37e278a
+    udp: true
+    tls: true
+    servername: test.bridge.anti-zapret.com
+    network: tcp
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
+      short-id: cbb0a5c1dc905505
   - name: "@happ_tmn-18"
     type: vless
     server: 103.114.201.154
@@ -2302,6 +2321,20 @@ proxies:
       path: /
   - name: "@happ_tmn-19"
     type: vless
+    server: 103.114.203.189
+    port: 443
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    udp: true
+    tls: true
+    servername: vp4.1145678.xyz
+    network: ws
+    client-fingerprint: firefox
+    ws-opts:
+      headers:
+        Host: vp4.1145678.xyz
+      path: /
+  - name: "@happ_tmn-20"
+    type: vless
     server: 103.116.7.100
     port: 2087
     uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
@@ -2314,7 +2347,7 @@ proxies:
       headers:
         Host: proxy-1cu.pages.dev
       path: /
-  - name: "@happ_tmn-20"
+  - name: "@happ_tmn-21"
     type: vless
     server: 103.116.7.103
     port: 2083
@@ -2341,7 +2374,7 @@ proxies:
       headers:
         Host: proxy-34l.pages.dev
       path: /
-  - name: "@happ_tmn-21"
+  - name: "@happ_tmn-22"
     type: vless
     server: 103.116.7.138
     port: 2096
@@ -2355,7 +2388,7 @@ proxies:
       headers:
         Host: sni.111000.indevs.in
       path: "/?ed=2560&Telegram🇨🇳@WangCai2"
-  - name: "@happ_tmn-22"
+  - name: "@happ_tmn-23"
     type: vless
     server: 103.116.7.154
     port: 80
@@ -2368,7 +2401,7 @@ proxies:
       headers:
         Host: japan.freenods-...
       path: /
-  - name: "@happ_tmn-23"
+  - name: "@happ_tmn-24"
     type: vless
     server: 103.116.7.158
     port: 443
@@ -2393,7 +2426,7 @@ proxies:
       headers:
         Host: proxy-34l.pages.dev
       path: /
-  - name: "@happ_tmn-24"
+  - name: "@happ_tmn-25"
     type: vless
     server: 103.116.7.230
     port: 443
@@ -2406,7 +2439,7 @@ proxies:
       headers:
         Host: edcch.ambercc.filegear-sg.me
       path: "/?ed=2560&proxyip=ts.hpc.tw"
-  - name: "@happ_tmn-25"
+  - name: "@happ_tmn-26"
     type: vless
     server: 103.116.7.235
     port: 443
@@ -2419,7 +2452,7 @@ proxies:
       headers:
         Host: edccy.ambercc.filegear-sg.me
       path: "/?ed=2560&proxyip=ts.hpc.tw"
-  - name: "@happ_tmn-26"
+  - name: "@happ_tmn-27"
     type: vless
     server: 103.116.7.246
     port: 443
@@ -2432,7 +2465,7 @@ proxies:
       headers:
         Host: z-e-u-s-panel-xxqeq4.hwiwkcmekwk.workers.dev
       path: /stream/PANEL_ZEUS/aaa41f0d0cbc
-  - name: "@happ_tmn-27"
+  - name: "@happ_tmn-28"
     type: vless
     server: 103.116.7.248
     port: 443
@@ -2445,20 +2478,6 @@ proxies:
       headers:
         Host: edcch.ambercc.filegear-sg.me
       path: "/?ed"
-  - name: "@happ_tmn-28"
-    type: vless
-    server: 103.118.254.37
-    port: 443
-    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-    udp: true
-    tls: true
-    servername: shuma.ccwu.cc
-    network: ws
-    client-fingerprint: chrome
-    ws-opts:
-      headers:
-        Host: shuma.ccwu.cc
-      path: /
   - name: "@happ_tmn-29"
     type: vless
     server: 103.126.50.196
@@ -2497,7 +2516,7 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: ""
-  - name: "@Hope_Net-join-us-on-Telegram-109"
+  - name: "@Hope_Net-join-us-on-Telegram-118"
     type: vless
     server: 103.133.1.33
     port: 2053
@@ -2580,7 +2599,35 @@ proxies:
     reality-opts:
       public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
       short-id: 711ad7f475c35e5e
-  - name: nukcrow-10
+  - name: "SuperVPN-MX-MexicoCity-#105-[VLESS]"
+    type: vless
+    server: 103.14.26.115
+    port: 52014
+    uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+    udp: true
+    tls: true
+    servername: cloudflare.com
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    reality-opts:
+      public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+      short-id: d4b7e8c1a9f2b3e5
+  - name: "SuperVPN-BR-SaoPaulo-#104-[VLESS]"
+    type: vless
+    server: 103.14.27.211
+    port: 52014
+    uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+    udp: true
+    tls: true
+    servername: cloudflare.com
+    network: tcp
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    reality-opts:
+      public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+      short-id: d4b7e8c1a9f2b3e5
+  - name: nukcrow-5
     type: vless
     server: 103.148.73.144
     port: 8443
@@ -2822,61 +2869,6 @@ proxies:
       headers:
         Host: snip.edgeoneai.cc.cd
       path: /
-  - name: "@happ_tmn-50"
-    type: vless
-    server: 103.173.179.184
-    port: 443
-    uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
-    udp: true
-    tls: true
-    servername: 20664.pages.dev
-    network: ws
-    client-fingerprint: random
-    ws-opts:
-      headers:
-        Host: 20664.pages.dev
-      path: "/?ed=2048"
-  - name: "@v2Meli"
-    type: vless
-    server: 103.175.79.10
-    port: 443
-    uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
-    udp: true
-    tls: true
-    servername: speed.cloudflare.com
-    network: tcp
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
-      short-id: ""
-  - name: "146"
-    type: vless
-    server: 103.175.79.4
-    port: 443
-    uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
-    udp: true
-    tls: true
-    servername: download.nvidia.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
-      short-id: ""
-  - name: "@happ_tmn-51"
-    type: vless
-    server: 103.175.79.4
-    port: 8443
-    uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
-    udp: true
-    tls: true
-    servername: download.autodesk.com
-    network: grpc
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: TunService
-    reality-opts:
-      public-key: 92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE
-      short-id: ""
   - name: United-States---Ashburn-0000000000000000
     type: vmess
     server: 00000000000000000000000000000000000000000000000000000000000002a.rui77.com
@@ -2922,6 +2914,24 @@ proxies:
     server: 00000000000000000000000000000000000000000000000000000000000006a.rui77.com
     port: 443
     uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2
+    cipher: auto
+    alterId: 0
+    udp: true
+    network: tcp
+  - name: United-States---Ashburn-0000000000000000-6
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000007a.rui77.com
+    port: 80
+    uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+    cipher: auto
+    alterId: 0
+    udp: true
+    network: tcp
+  - name: United-States---Ashburn-0000000000000000-7
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000010a.rui77.com
+    port: 443
+    uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
     cipher: auto
     alterId: 0
     udp: true
@@ -2982,6 +2992,195 @@ proxies:
       headers:
         Host: de-2.0rd.net
       path: /jd8spy0o
+  - name: Japan---Tokyo-0a459on-g05.jp07-sh-vm0.en
+    type: vmess
+    server: 0a459on-g05.jp07-sh-vm0.entry.fr0528.art
+    port: 28787
+    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
+    cipher: auto
+    alterId: 1
+    udp: true
+    network: tcp
+  - name: Hong-Kong-SAR-China---Hong-Kong-0a46ce00
+    type: vmess
+    server: 0a46ce00-sunz40-taz53d-1j0y6.hk.p5pv.com
+    port: 80
+    uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: 0a46ce00-sunz40-taz53d-1j0y6.hk.p5pv.com
+      path: /
+  - name: Japan---Tokyo-0a4yywn-g05.jp05-h6-vm0.en
+    type: vmess
+    server: 0a4yywn-g05.jp05-h6-vm0.entry.fr0528.art
+    port: 46486
+    uuid: ef4bb54a-b9c1-3034-993b-2325ef168b13
+    cipher: auto
+    alterId: 1
+    udp: true
+    network: tcp
+  - name: Hong-Kong-SAR-China---Hong-Kong-0af112c9
+    type: vmess
+    server: 0af112c9-sv2sg0-swbdgq-1iddy.hk3.p5pv.com
+    port: 80
+    uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: 0af112c9-sv2sg0-swbdgq-1iddy.hk3.p5pv.com
+      path: /
+  - name: Hong-Kong-SAR-China---Hong-Kong-0afa2b47
+    type: vmess
+    server: 0afa2b47-sv0xs0-t51upj-ochh.hk.p5pv.com
+    port: 80
+    uuid: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - name: Hong-Kong-SAR-China---Hong-Kong-0b98b5a5
+    type: vmess
+    server: 0b98b5a5-sv2sg0-tc2sod-1tizo.hk3.p5pv.com
+    port: 80
+    uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - name: Hong-Kong-SAR-China---Hong-Kong-0bdf3f30
+    type: vmess
+    server: 0bdf3f30-sv8cg0-t9uin7-19ord.hk.p5pv.com
+    port: 80
+    uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - name: Hong-Kong-SAR-China---Hong-Kong-0e60bb70
+    type: vmess
+    server: 0e60bb70-sv0xs0-swudbv-df1b.hk3.p5pv.com
+    port: 80
+    uuid: 9b94a182-5a1b-11ee-b866-f23c9164ca5d
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - name: Hong-Kong-SAR-China---Hong-Kong-0e7f1016
+    type: vmess
+    server: 0e7f1016-sva740-te0v28-1mh67.hk3.p5pv.com
+    port: 80
+    uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: 0e7f1016-sva740-te0v28-1mh67.hk3.p5pv.com
+      path: /
+  - name: Hong-Kong-SAR-China---Hong-Kong-0ee7018b
+    type: vmess
+    server: 0ee7018b-sv2sg0-tbicd9-1go3q.hk.p5pv.com
+    port: 80
+    uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: 0ee7018b-sv2sg0-tbicd9-1go3q.hk.p5pv.com
+      path: /
+  - name: Hong-Kong-SAR-China---Hong-Kong-0f5d032a
+    type: vmess
+    server: 0f5d032a-sv2sg0-t9azkv-17xn0.hk.p5pv.com
+    port: 80
+    uuid: 4faf123a-572a-11eb-8684-f23c913c8d2b
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - name: Japan---Tokyo-0i4ui-g03.jp03-7d22-vm0.en
+    type: vmess
+    server: 0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art
+    port: 21583
+    uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+    cipher: auto
+    alterId: 1
+    udp: true
+    tls: true
+    servername: 0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art
+    network: tcp
+  - name: Singapore---Unknown-0PKTZNwsBJKsVOG1.v.3
+    type: vmess
+    server: 0PKTZNwsBJKsVOG1.v.3dns.vip
+    port: 443
+    uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: true
+    servername: 0PKTZNwsBJKsVOG1.v.3dns.vip
+    network: ws
+    ws-opts:
+      headers:
+        Host: 0PKTZNwsBJKsVOG1.v.3dns.vip
+      path: /ws-vmess
+  - name: "Japan---Tokyo-1-jp.importal.top:443"
+    type: vmess
+    server: 1-jp.importal.top
+    port: 443
+    uuid: d9eebbac-d4ce-33ca-8889-564a58a8620a
+    cipher: auto
+    alterId: 2
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: 1-jp.importal.top
+      path: /portals
+  - name: "South-Korea---Seoul-1-kr.importal.top:44"
+    type: vmess
+    server: 1-kr.importal.top
+    port: 443
+    uuid: 7caa36ef-ff70-3649-a4da-aaaa7b38777f
+    cipher: auto
+    alterId: 2
+    udp: true
+    tls: true
+    servername: 1-kr.importal.top
+    network: ws
+    ws-opts:
+      headers:
+        Host: 1-kr.importal.top
+      path: /portals
   - name: RELAY-1.1.1.1-0839
     type: vmess
     server: 1.1.1.1
@@ -2997,7 +3196,68 @@ proxies:
       headers:
         Host: usbk.cfip.top
       path: /cctv13/hd.m3u8
-  - name: "Channel-id:-@ShadowProxy66-4"
+  - name: "Australia---Unknown-1.72img.xyz:443"
+    type: vmess
+    server: 1.72img.xyz
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: true
+    servername: 1.72img.xyz
+    network: ws
+    ws-opts:
+      headers:
+        Host: 1.72img.xyz
+      path: /
+  - name: "[OpenRay]-Dynamic-14324"
+    type: vmess
+    server: 1.ae1.indevs.in
+    port: 80
+    uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+    cipher: auto
+    alterId: 0
+    udp: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: 1.aE1.InDevs.In
+      path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+  - name: AU-103.224.212.211-0041
+    type: vmess
+    server: 10.72img.xyz
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    cipher: auto
+    alterId: 0
+    udp: true
+    tls: true
+    servername: 10.72img.xyz
+    network: ws
+    ws-opts:
+      headers:
+        Host: 10.72img.xyz
+      path: /
+  - name: "Iran---Unknown-1000site.ir:80"
+    type: vmess
+    server: 1000site.ir
+    port: 80
+    uuid: e37f970a-052c-4c4d-9983-3c3b93f6c22c
+    cipher: auto
+    alterId: 0
+    udp: true
+    network: tcp
+  - name: AetrisVPN-4
+    type: vmess
+    server: 101.32.187.182
+    port: 10898
+    uuid: b6b14ef7-a769-406f-9df7-31790ff7a920
+    cipher: auto
+    alterId: 0
+    udp: true
+    network: tcp
+  - name: "Channel-id:-@ShadowProxy66-3"
     type: vmess
     server: 102.132.188.2
     port: 443
@@ -3038,7 +3298,7 @@ proxies:
       headers:
         Host: 4fc128ce-4845-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat
       path: "/4fc128ce-4845-11f0-a948-6a75f667b472?ed=2365"
-  - name: "Channel-id:-@ShadowProxy66-5"
+  - name: "Channel-id:-@ShadowProxy66-4"
     type: vmess
     server: 102.177.189.30
     port: 80
@@ -3064,6 +3324,15 @@ proxies:
       headers:
         Host: TG.WangCai2.s2.db-link02.top
       path: /dabai.in
+  - name: AetrisVPN-5
+    type: vmess
+    server: 103.160.180.26
+    port: 22222
+    uuid: a5206a55-d5bd-41b9-92a5-bd27a90355ff
+    cipher: auto
+    alterId: 0
+    udp: true
+    network: tcp
   - name: Hong-Kong-SAR-China---Hong-Kong-103.164
     type: vmess
     server: 103.164.81.46
@@ -3196,7 +3465,7 @@ proxies:
     network: ws
     ws-opts:
       path: /vmessws
-  - name: VN-103.82.25.106-7827
+  - name: VN-103.82.25.106-8876
     type: vmess
     server: 103.82.25.106
     port: 80
@@ -3340,7 +3609,7 @@ proxies:
       path: /rthiugoyretdsuigg?ed=2560
       headers:
         Host: server10.9966338.xyz
-  - name: "@Hope_Net-join-us-on-Telegram-111"
+  - name: "@Hope_Net-join-us-on-Telegram-120"
     type: vmess
     server: 104.16.120.250
     port: 443
@@ -3394,7 +3663,7 @@ proxies:
       headers:
         Host: uka.369777.xyz
       path: /wwwnet
-  - name: "@DeltaKroneckerGithub-104"
+  - name: "@DeltaKroneckerGithub-111"
     type: vmess
     server: 104.16.14.226
     port: 443
@@ -3407,7 +3676,7 @@ proxies:
       headers:
         Host: c.1808.cf
       path: "/zeduvws?ed=2048"
-  - name: "@Hope_Net-join-us-on-Telegram-112"
+  - name: "@Hope_Net-join-us-on-Telegram-121"
     type: vmess
     server: 104.16.143.237
     port: 8880
@@ -3420,7 +3689,7 @@ proxies:
       headers:
         Host: yd.changyouVPN.top
       path: "/?ed=2048"
-  - name: "@Hope_Net-join-us-on-Telegram-113"
+  - name: "@Hope_Net-join-us-on-Telegram-122"
     type: vmess
     server: 104.16.148.244
     port: 2082
@@ -3433,7 +3702,7 @@ proxies:
       headers:
         Host: ip3.6929198.xyz
       path: github.com/Alvin9999
-  - name: RELAY-104.16.148.244-1405
+  - name: RELAY-104.16.148.244-1416
     type: vmess
     server: 104.16.148.244
     port: 2086
@@ -3446,7 +3715,7 @@ proxies:
       headers:
         Host: ip006.freegradely.xyz
       path: github.com/Alvin9999
-  - name: "@Hope_Net-join-us-on-Telegram-114"
+  - name: "@Hope_Net-join-us-on-Telegram-123"
     type: vmess
     server: 104.16.148.244
     port: 2095
@@ -3459,7 +3728,7 @@ proxies:
       headers:
         Host: ip2.6016725.xyz
       path: github.com/Alvin9999
-  - name: "@DeltaKroneckerGithub-105"
+  - name: "@DeltaKroneckerGithub-112"
     type: vmess
     server: 104.16.149.48
     port: 443
@@ -3485,7 +3754,7 @@ proxies:
       headers:
         Host: usf.369777.xyz
       path: /wwwnet
-  - name: "@Hope_Net-join-us-on-Telegram-115"
+  - name: "@Hope_Net-join-us-on-Telegram-124"
     type: vmess
     server: 104.16.155.10
     port: 2052
@@ -3513,7 +3782,7 @@ proxies:
       headers:
         Host: sg1.pavo.eu.org
       path: /sg1vmess
-  - name: "@Hope_Net-join-us-on-Telegram-116"
+  - name: "@Hope_Net-join-us-on-Telegram-125"
     type: vmess
     server: 104.16.155.10
     port: 2082
@@ -3550,7 +3819,7 @@ proxies:
       headers:
         Host: 100-149-191-2.s5.db-link02.top
       path: /dabai.in104.20.16.209
-  - name: "@Hope_Net-join-us-on-Telegram-117"
+  - name: "@Hope_Net-join-us-on-Telegram-126"
     type: vmess
     server: 104.16.155.10
     port: 80
@@ -3624,7 +3893,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "@DeltaKroneckerGithub-106"
+  - name: "@DeltaKroneckerGithub-113"
     type: vmess
     server: 104.16.17.22
     port: 443
@@ -3664,259 +3933,6 @@ proxies:
     network: ws
     ws-opts:
       path: /vmess
-  - name: RELAY-104.16.180.79-7824
-    type: vmess
-    server: 104.16.180.79
-    port: 443
-    uuid: 43AE625A-F929-4B61-97AD-7CA94C1BCAC0
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /speedtest
-  - name: _Telegram@kxswa
-    type: vmess
-    server: 104.16.2.51
-    port: 443
-    uuid: d930577a-2543-3f74-bd62-fda462fc8c18
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    servername: 100-100-17-466.db-link02.top
-    network: ws
-    ws-opts:
-      headers:
-        Host: 100-100-17-466.db-link02.top
-      path: /dabai.in104.16.2.51
-  - name: _1124176
-    type: vmess
-    server: 104.16.207.196
-    port: 443
-    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-    cipher: auto
-    alterId: 64
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-  - name: "@sina_tec-<=MTN"
-    type: vmess
-    server: 104.16.209.12
-    port: 8880
-    uuid: 0c664f44-9f69-454f-841a-4616715df26f
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: a7.iraniancp.fun
-      path: /
-  - name: "@v2ray_ar"
-    type: vmess
-    server: 104.16.210.12
-    port: 8443
-    uuid: 6536cbd6-0f09-40cc-e3a8-a566be75a2c5
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    servername: amit.hossihm.tk
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ""
-  - name: v2cross.com-3
-    type: vmess
-    server: 104.16.217.241
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    servername: nelly.homes
-    network: ws
-    ws-opts:
-      headers:
-        Host: nelly.homes
-      path: /linkvws
-  - name: "99"
-    type: vmess
-    server: 104.16.219.108
-    port: 80
-    uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aparat.com.V2ray.com.shf2.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g28h.dns-dynamic.net.
-      path: /Telegram/XV2ray
-  - name: RELAY-104.16.219.230-8871
-    type: vmess
-    server: 104.16.219.230
-    port: 443
-    uuid: 824c58b1-65ba-4680-a609-663a000dbb92
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wss13889
-  - name: RELAY-104.16.23.3-3105
-    type: vmess
-    server: 104.16.23.3
-    port: 443
-    uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-  - name: CA-U0001F1E8U0001F1E6-@Raydikalx-A75AE7
-    server: 104.16.32.14
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: false
-    servername: vspeedfast.org
-    network: ws
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: vspeedfast.org
-  - name: "030"
-    type: vmess
-    server: 104.16.33.253
-    port: 80
-    uuid: 363b3efe-1b74-38dd-9656-90c292006581
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: usf.369777.xyz
-      path: /wwwnet
-  - name: 2_US
-    type: vmess
-    server: 104.16.38.71
-    port: 2052
-    uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: us6_0.wish.ml
-      path: /
-  - name: "@DeltaKroneckerGithub-107"
-    type: vmess
-    server: 104.16.40.109
-    port: 2082
-    uuid: 37d8c992-6170-40e9-89dd-e9a2647223f8
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/ws?ed=2048"
-  - name: "@DeltaKroneckerGithub-108"
-    type: vmess
-    server: 104.16.42.197
-    port: 2082
-    uuid: f7fe7b40-5eb2-450b-bee7-86e2ff2c97be
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/ws?ed=2048"
-  - name: "@DeltaKroneckerGithub-109"
-    type: vmess
-    server: 104.16.43.44
-    port: 2082
-    uuid: 753443e5-052c-4476-9cfa-3f434ff2f986
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/ws?ed=2048"
-  - name: "@Hope_Net-join-us-on-Telegram-118"
-    type: vmess
-    server: 104.16.53.11
-    port: 80
-    uuid: 676d18a1-82fc-47ae-a676-a4c348eeaac0
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: tcp
-  - name: CA-@Raydikalx-C71551
-    type: vmess
-    server: 104.16.53.5
-    port: 80
-    uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: "dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz."
-      path: /vmess
-  - name: RELAY-104.16.55.139-9240
-    type: vmess
-    server: 104.16.55.139
-    port: 2052
-    uuid: bf475e6c-a607-415e-a7f7-45c889320633
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: wtywwcrzjp5.yofnhkfc.xyz
-      path: /video/9TfVEyku
-  - name: RELAY-104.16.56.52-1841
-    type: vmess
-    server: 104.16.56.52
-    port: 2053
-    uuid: 8a599586-696e-4af7-a98c-693d5947fcad
-    cipher: auto
-    alterId: 0
-    udp: true
-    tls: true
-    servername: mating-spell-consider-rental.trycloudflare.com
-    network: ws
-    ws-opts:
-      headers:
-        Host: mating-spell-consider-rental.trycloudflare.com
-      path: "/vmess-argo?ed=2560"
-  - name: CA-@Raydikalx-066BC9
-    type: vmess
-    server: 104.16.58.52
-    port: 8080
-    uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-    cipher: auto
-    alterId: 0
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: oiictw.yydsii.com
-      path: /
   - name: Wind24-Sydney-Australia
     type: wireguard
     server: 103.1.213.212
