@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-18T23:43:51.178Z",
+  "generated_at": "2026-11-19T04:53:52.478Z",
   "mode": "ci",
-  "duration_s": 220.2,
+  "duration_s": 137.7,
   "recency": {
     "days": 5,
-    "cutoff": "2026-11-13T23:40:11Z",
-    "cutoff_date": "2026-11-13"
+    "cutoff": "2026-11-14T04:51:34Z",
+    "cutoff_date": "2026-11-14"
   },
   "discovery": {
     "counts": {
-      "discovered": 715,
-      "eligible_stage1": 715,
+      "discovered": 707,
+      "eligible_stage1": 707,
       "commit_verified": 140,
-      "recent": 136,
-      "stale_dropped": 4,
-      "unverified_cap": 575,
+      "recent": 139,
+      "stale_dropped": 1,
+      "unverified_cap": 567,
       "selected": 60,
       "files": 148
     },
@@ -23,7 +23,7 @@
         "query": "topic:v2ray",
         "pages": 3,
         "items": 300,
-        "total_count": 763,
+        "total_count": 738,
         "error": null
       },
       {
@@ -37,7 +37,7 @@
         "query": "topic:clash",
         "pages": 3,
         "items": 300,
-        "total_count": 884,
+        "total_count": 851,
         "error": null
       },
       {
@@ -58,28 +58,28 @@
         "query": "topic:shadowsocks",
         "pages": 3,
         "items": 300,
-        "total_count": 397,
+        "total_count": 390,
         "error": null
       },
       {
         "query": "topic:hysteria",
         "pages": 1,
-        "items": 38,
-        "total_count": 38,
+        "items": 39,
+        "total_count": 39,
         "error": null
       },
       {
         "query": "topic:vmess",
         "pages": 3,
-        "items": 220,
-        "total_count": 220,
+        "items": 214,
+        "total_count": 214,
         "error": null
       },
       {
         "query": "vmess subscription",
         "pages": 1,
-        "items": 79,
-        "total_count": 79,
+        "items": 78,
+        "total_count": 78,
         "error": null
       },
       {
@@ -106,10 +106,10 @@
     ],
     "api": {
       "authenticated": true,
-      "core_requests": 260,
+      "core_requests": 4,
       "core_budget": null,
       "search_requests": 20,
-      "cache_hits": 0,
+      "cache_hits": 119,
       "offline": false,
       "stopped": null,
       "stopped_search": null,
@@ -120,24 +120,23 @@
   "transports": [
     "raw-direct",
     "gh-proxy.com",
-    "jsdelivr-direct",
     "ghproxy.net"
   ],
   "transport_detail": {
     "raw-direct": {
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 724863,
-      "seconds": 0.21,
+      "bytes": 724885,
+      "seconds": 0.19,
       "ok": true,
       "error": null
     },
     "jsdelivr-direct": {
       "url": "https://cdn.jsdelivr.net/gh/asgharkapk/Sub-Config-Extractor@main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
-      "status": 200,
-      "bytes": 724863,
-      "seconds": 1.04,
-      "ok": true,
+      "status": 403,
+      "bytes": 218,
+      "seconds": 1.6,
+      "ok": false,
       "error": null
     },
     "jsdelivr-proxied": {
@@ -151,16 +150,16 @@
     "gh-proxy.com": {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 724863,
-      "seconds": 0.22,
+      "bytes": 724885,
+      "seconds": 0.3,
       "ok": true,
       "error": null
     },
     "ghproxy.net": {
       "url": "https://ghproxy.net/https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 724863,
-      "seconds": 1.53,
+      "bytes": 724885,
+      "seconds": 3.23,
       "ok": true,
       "error": null
     },
@@ -175,18 +174,18 @@
   },
   "registry": {
     "total": 60,
-    "refreshed": 59,
+    "refreshed": 60,
     "added": [
       "NiREvil/vless",
       "vincent20240707/free-v2ray-nodes",
       "sakha1370/OpenRay",
       "free-nodes/clashfree",
       "zueston/proxy-hub",
+      "hbc1997/nodefusion",
       "yafeisun/v2raynode",
       "shifeiquan520/shifeiquan3",
       "zhuhaiuk/free-nodes",
       "SnapdragonLee/SystemProxy",
-      "v2raydog-node/free-nodes",
       "longyang1233/free-nodes-sub",
       "yuluo688/clash-hot-countries",
       "sunmiao4458/free-proxy-airport",
@@ -196,84 +195,84 @@
     ],
     "removed": [
       {
-        "repo": "crackbest/V2ray-Config",
-        "reason": "stale_default_branch",
-        "at": "2026-11-18T23:43:50.938Z"
-      },
-      {
         "repo": "sakha1370/OpenRay",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "zueston/proxy-hub",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "yafeisun/v2raynode",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "SnapdragonLee/SystemProxy",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "Surfboardv2ray/phoenix",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "longyang1233/free-nodes-sub",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "free-nodes/clashfree",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
-      },
-      {
-        "repo": "mahdyaralipor/v2all",
-        "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "shifeiquan520/shifeiquan3",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
+      },
+      {
+        "repo": "mahdyaralipor/v2all",
+        "reason": "evicted_max_sources",
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "yuluo688/clash-hot-countries",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "zhuhaiuk/free-nodes",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
-      },
-      {
-        "repo": "sunmiao4458/free-proxy-airport",
-        "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "NiREvil/vless",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "vincent20240707/free-v2ray-nodes",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
       },
       {
         "repo": "fushuain-collab/free-nodes",
         "reason": "evicted_max_sources",
-        "at": "2026-11-18T23:43:50.938Z"
+        "at": "2026-11-19T04:53:52.400Z"
+      },
+      {
+        "repo": "sunmiao4458/free-proxy-airport",
+        "reason": "evicted_max_sources",
+        "at": "2026-11-19T04:53:52.400Z"
+      },
+      {
+        "repo": "mfuu/FreeProxies",
+        "reason": "evicted_max_sources",
+        "at": "2026-11-19T04:53:52.400Z"
       }
     ],
     "evicted": [
@@ -284,14 +283,15 @@
       "Surfboardv2ray/phoenix",
       "longyang1233/free-nodes-sub",
       "free-nodes/clashfree",
-      "mahdyaralipor/v2all",
       "shifeiquan520/shifeiquan3",
+      "mahdyaralipor/v2all",
       "yuluo688/clash-hot-countries",
       "zhuhaiuk/free-nodes",
-      "sunmiao4458/free-proxy-airport",
       "NiREvil/vless",
       "vincent20240707/free-v2ray-nodes",
-      "fushuain-collab/free-nodes"
+      "fushuain-collab/free-nodes",
+      "sunmiao4458/free-proxy-airport",
+      "mfuu/FreeProxies"
     ],
     "unverified": [],
     "note": "removed = 本轮被请出花名册的源（stale/404/archived/连续未验证/超上限）"
@@ -305,8 +305,8 @@
       "commit": "2026-11-18T15:10:58Z",
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 724863,
-      "parsed": 2579,
+      "bytes": 724885,
+      "parsed": 2580,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -319,8 +319,8 @@
       "commit": "2026-11-18T15:10:58Z",
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vless.txt.yaml",
       "status": 200,
-      "bytes": 53039,
-      "parsed": 153,
+      "bytes": 51325,
+      "parsed": 149,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -333,7 +333,7 @@
       "commit": "2026-11-18T15:10:58Z",
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/v2ray/itsyebekhe/PSG/subscriptions/clash/vmess.yaml",
       "status": 200,
-      "bytes": 8025,
+      "bytes": 8001,
       "parsed": 25,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -347,8 +347,8 @@
       "commit": "2026-11-18T23:01:40Z",
       "url": "https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/all-clash.yaml",
       "status": 200,
-      "bytes": 407605,
-      "parsed": 1602,
+      "bytes": 537415,
+      "parsed": 1875,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -361,8 +361,8 @@
       "commit": "2026-11-18T23:01:40Z",
       "url": "https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/light-clash.yaml",
       "status": 200,
-      "bytes": 31956,
-      "parsed": 119,
+      "bytes": 52376,
+      "parsed": 170,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -375,7 +375,7 @@
       "commit": "2026-11-18T23:01:40Z",
       "url": "https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/all-singbox.json",
       "status": 200,
-      "bytes": 530351,
+      "bytes": 706312,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -390,8 +390,8 @@
       "commit": "2026-11-18T18:39:28Z",
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
       "status": 200,
-      "bytes": 1219965,
-      "parsed": 3955,
+      "bytes": 1214631,
+      "parsed": 3957,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -404,8 +404,8 @@
       "commit": "2026-11-18T18:39:28Z",
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/vmess.txt",
       "status": 200,
-      "bytes": 1385192,
-      "parsed": 2657,
+      "bytes": 1394584,
+      "parsed": 2680,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -418,8 +418,8 @@
       "commit": "2026-11-18T18:39:28Z",
       "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt",
       "status": 200,
-      "bytes": 79524,
-      "parsed": 199,
+      "bytes": 84212,
+      "parsed": 200,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -474,8 +474,8 @@
       "commit": "2026-11-18T15:26:44Z",
       "url": "https://raw.githubusercontent.com/mani-moh/pattn/master/subs/protocols/vmess_base64.txt",
       "status": 200,
-      "bytes": 5045716,
-      "parsed": 9035,
+      "bytes": 5348956,
+      "parsed": 9565,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -488,8 +488,8 @@
       "commit": "2026-11-18T15:26:44Z",
       "url": "https://raw.githubusercontent.com/mani-moh/pattn/master/subs/protocols/vmess.txt",
       "status": 200,
-      "bytes": 3784444,
-      "parsed": 9035,
+      "bytes": 4011875,
+      "parsed": 9565,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -502,8 +502,8 @@
       "commit": "2026-11-18T15:26:44Z",
       "url": "https://raw.githubusercontent.com/mani-moh/pattn/master/subs/protocols/trojan_base64.txt",
       "status": 200,
-      "bytes": 1443144,
-      "parsed": 6369,
+      "bytes": 1464560,
+      "parsed": 6441,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -516,8 +516,8 @@
       "commit": "2026-11-17T03:38:06Z",
       "url": "https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/by-proto/vless.base64.txt",
       "status": 200,
-      "bytes": 235569,
-      "parsed": 619,
+      "bytes": 207525,
+      "parsed": 548,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -530,8 +530,8 @@
       "commit": "2026-11-17T03:38:06Z",
       "url": "https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/by-proto/vmess.base64.txt",
       "status": 200,
-      "bytes": 71261,
-      "parsed": 154,
+      "bytes": 75213,
+      "parsed": 162,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -544,8 +544,8 @@
       "commit": "2026-11-17T03:38:06Z",
       "url": "https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/by-proto/vmess.txt",
       "status": 200,
-      "bytes": 53446,
-      "parsed": 154,
+      "bytes": 56410,
+      "parsed": 162,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -558,7 +558,7 @@
       "commit": "2026-11-18T23:28:15Z",
       "url": "https://raw.githubusercontent.com/MustafaBaqer/VestraNet-Nodes/main/subscriptions/mix-base64.txt",
       "status": 200,
-      "bytes": 3884164,
+      "bytes": 3697540,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -573,8 +573,8 @@
       "commit": "2026-11-18T23:28:15Z",
       "url": "https://raw.githubusercontent.com/MustafaBaqer/VestraNet-Nodes/main/subscriptions/mix-normal.txt",
       "status": 200,
-      "bytes": 2913122,
-      "parsed": 8586,
+      "bytes": 2773153,
+      "parsed": 7684,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -587,8 +587,8 @@
       "commit": "2026-11-18T23:28:15Z",
       "url": "https://raw.githubusercontent.com/MustafaBaqer/VestraNet-Nodes/main/protocols/vmess.txt",
       "status": 200,
-      "bytes": 2130982,
-      "parsed": 6218,
+      "bytes": 1737699,
+      "parsed": 5015,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -629,8 +629,8 @@
       "commit": "2026-11-18T21:47:03Z",
       "url": "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/vmess_sub.txt",
       "status": 200,
-      "bytes": 613488,
-      "parsed": 1023,
+      "bytes": 619460,
+      "parsed": 1034,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -643,8 +643,8 @@
       "commit": "2026-11-18T21:47:03Z",
       "url": "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix_sub.txt",
       "status": 200,
-      "bytes": 768972,
-      "parsed": 1705,
+      "bytes": 774276,
+      "parsed": 1714,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -657,8 +657,8 @@
       "commit": "2026-11-18T21:47:03Z",
       "url": "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/trojan_sub.txt",
       "status": 200,
-      "bytes": 69900,
-      "parsed": 313,
+      "bytes": 71528,
+      "parsed": 315,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -741,8 +741,8 @@
       "commit": "2026-11-18T19:40:21Z",
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_base64_Sub.txt",
       "status": 200,
-      "bytes": 2936700,
-      "parsed": 8861,
+      "bytes": 2930572,
+      "parsed": 8936,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -755,8 +755,8 @@
       "commit": "2026-11-18T19:40:21Z",
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
       "status": 200,
-      "bytes": 2202525,
-      "parsed": 8861,
+      "bytes": 2197929,
+      "parsed": 8936,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -769,8 +769,8 @@
       "commit": "2026-11-18T19:40:21Z",
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Base64/Sub17_base64.txt",
       "status": 200,
-      "bytes": 253808,
-      "parsed": 497,
+      "bytes": 243712,
+      "parsed": 491,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -783,8 +783,8 @@
       "commit": "2026-11-18T17:22:58Z",
       "url": "https://raw.githubusercontent.com/nostalume/FreeNodes/main/nodes/freeclashnode.yaml",
       "status": 200,
-      "bytes": 6320,
-      "parsed": 29,
+      "bytes": 24271,
+      "parsed": 94,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -797,8 +797,8 @@
       "commit": "2026-11-18T17:22:58Z",
       "url": "https://raw.githubusercontent.com/nostalume/FreeNodes/main/nodes/nodev2ray.yaml",
       "status": 200,
-      "bytes": 5705,
-      "parsed": 27,
+      "bytes": 32142,
+      "parsed": 115,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -811,8 +811,8 @@
       "commit": "2026-11-18T17:22:58Z",
       "url": "https://raw.githubusercontent.com/nostalume/FreeNodes/main/nodes/clashmeta.yaml",
       "status": 200,
-      "bytes": 55308,
-      "parsed": 221,
+      "bytes": 17496,
+      "parsed": 67,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -869,7 +869,7 @@
       "commit": "2026-11-18T18:29:46Z",
       "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/subscriptions.json",
       "status": 200,
-      "bytes": 5788,
+      "bytes": 5793,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -884,8 +884,8 @@
       "commit": "2026-11-18T18:29:46Z",
       "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/clash/all.yaml",
       "status": 200,
-      "bytes": 48169,
-      "parsed": 158,
+      "bytes": 111228,
+      "parsed": 500,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -898,8 +898,8 @@
       "commit": "2026-11-18T18:29:46Z",
       "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/clash/high-anon.yaml",
       "status": 200,
-      "bytes": 39668,
-      "parsed": 129,
+      "bytes": 107585,
+      "parsed": 472,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -997,7 +997,7 @@
       "commit": "2026-11-18T01:32:22Z",
       "url": "https://raw.githubusercontent.com/vincent20240707/free-v2ray-nodes/main/subscriptions.txt",
       "status": 200,
-      "bytes": 1800,
+      "bytes": 1922,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -1070,7 +1070,7 @@
       "commit": "2026-11-18T21:46:44Z",
       "url": "https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/converted/all_valid_proxies_clash_config.yaml",
       "status": 200,
-      "bytes": 3000381,
+      "bytes": 2990982,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -1158,8 +1158,8 @@
       "commit": "2026-11-18T22:04:15Z",
       "url": "https://raw.githubusercontent.com/happ-tmn/happ-tmn-subscriptions/main/sub/vless.txt",
       "status": 200,
-      "bytes": 5073481,
-      "parsed": 21223,
+      "bytes": 5049259,
+      "parsed": 21097,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1172,7 +1172,7 @@
       "commit": "2026-11-18T22:04:15Z",
       "url": "https://raw.githubusercontent.com/happ-tmn/happ-tmn-subscriptions/main/sub/vmess.txt",
       "status": 200,
-      "bytes": 37421,
+      "bytes": 33489,
       "parsed": 6,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -1186,8 +1186,8 @@
       "commit": "2026-11-18T22:04:15Z",
       "url": "https://raw.githubusercontent.com/happ-tmn/happ-tmn-subscriptions/main/sub/vless/reality.txt",
       "status": 200,
-      "bytes": 737009,
-      "parsed": 2862,
+      "bytes": 722117,
+      "parsed": 2802,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1200,7 +1200,7 @@
       "commit": "2026-11-18T20:00:56Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/subs",
       "status": 200,
-      "bytes": 25435,
+      "bytes": 25511,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -1215,7 +1215,7 @@
       "commit": "2026-11-18T20:00:56Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/sub.json",
       "status": 200,
-      "bytes": 26792,
+      "bytes": 26868,
       "parsed": 0,
       "transport": "raw-direct",
       "shape": "unknown",
@@ -1230,8 +1230,8 @@
       "commit": "2026-11-18T20:00:56Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes",
       "status": 200,
-      "bytes": 4423807,
-      "parsed": 18588,
+      "bytes": 4394610,
+      "parsed": 18477,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1244,8 +1244,8 @@
       "commit": "2026-11-18T18:31:54Z",
       "url": "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/sub/vless.txt",
       "status": 200,
-      "bytes": 114803,
-      "parsed": 351,
+      "bytes": 107085,
+      "parsed": 317,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1258,8 +1258,8 @@
       "commit": "2026-11-18T18:31:54Z",
       "url": "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/sub/vmess.txt",
       "status": 200,
-      "bytes": 12665,
-      "parsed": 26,
+      "bytes": 11399,
+      "parsed": 24,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1272,8 +1272,8 @@
       "commit": "2026-11-18T18:31:54Z",
       "url": "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/sub/trojan.txt",
       "status": 200,
-      "bytes": 9491,
-      "parsed": 32,
+      "bytes": 11169,
+      "parsed": 41,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1286,8 +1286,8 @@
       "commit": "2026-11-18T21:06:38Z",
       "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/nodes_detail.json",
       "status": 200,
-      "bytes": 3186346,
-      "parsed": 7485,
+      "bytes": 3206571,
+      "parsed": 7515,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1300,8 +1300,8 @@
       "commit": "2026-11-18T21:06:38Z",
       "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/nodes_alive.txt",
       "status": 200,
-      "bytes": 919251,
-      "parsed": 3176,
+      "bytes": 929860,
+      "parsed": 3209,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1356,8 +1356,8 @@
       "commit": "2026-11-18T04:37:50Z",
       "url": "https://raw.githubusercontent.com/Billow001/free-nodes-sub/main/FreeNodes001.yaml",
       "status": 200,
-      "bytes": 22533,
-      "parsed": 63,
+      "bytes": 27369,
+      "parsed": 79,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1370,8 +1370,8 @@
       "commit": "2026-11-18T04:37:50Z",
       "url": "https://raw.githubusercontent.com/Billow001/free-nodes-sub/main/mobile_sub.txt",
       "status": 200,
-      "bytes": 12872,
-      "parsed": 43,
+      "bytes": 14028,
+      "parsed": 49,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1426,8 +1426,8 @@
       "commit": "2026-11-18T22:58:47Z",
       "url": "https://raw.githubusercontent.com/guhaoxin123/dsh-vpn/main/clash.yaml",
       "status": 200,
-      "bytes": 274751,
-      "parsed": 862,
+      "bytes": 245345,
+      "parsed": 787,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1440,8 +1440,8 @@
       "commit": "2026-11-18T22:58:47Z",
       "url": "https://raw.githubusercontent.com/guhaoxin123/dsh-vpn/main/fast/clash.yaml",
       "status": 200,
-      "bytes": 2225,
-      "parsed": 4,
+      "bytes": 4806,
+      "parsed": 10,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1454,8 +1454,8 @@
       "commit": "2026-11-18T22:58:47Z",
       "url": "https://raw.githubusercontent.com/guhaoxin123/dsh-vpn/main/v2rayng.txt",
       "status": 200,
-      "bytes": 215188,
-      "parsed": 789,
+      "bytes": 193236,
+      "parsed": 728,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1468,8 +1468,8 @@
       "commit": "2026-11-18T23:32:39Z",
       "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
       "status": 200,
-      "bytes": 4542133,
-      "parsed": 11386,
+      "bytes": 4532528,
+      "parsed": 11372,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1482,8 +1482,8 @@
       "commit": "2026-11-18T23:32:39Z",
       "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml",
       "status": 200,
-      "bytes": 2626420,
-      "parsed": 6516,
+      "bytes": 2629161,
+      "parsed": 6535,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1496,8 +1496,8 @@
       "commit": "2026-11-18T23:32:39Z",
       "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml",
       "status": 200,
-      "bytes": 2378075,
-      "parsed": 6078,
+      "bytes": 2392611,
+      "parsed": 6114,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1510,8 +1510,8 @@
       "commit": "2026-11-18T17:13:39Z",
       "url": "https://raw.githubusercontent.com/ninjastrikers/nexus-nodes/main/configs/vmess.txt",
       "status": 200,
-      "bytes": 285432,
-      "parsed": 499,
+      "bytes": 288252,
+      "parsed": 500,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1524,7 +1524,7 @@
       "commit": "2026-11-18T17:13:39Z",
       "url": "https://raw.githubusercontent.com/ninjastrikers/nexus-nodes/main/configs/countries/unknown/vmess.txt",
       "status": 200,
-      "bytes": 286092,
+      "bytes": 284916,
       "parsed": 500,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -1538,8 +1538,8 @@
       "commit": "2026-11-18T17:13:39Z",
       "url": "https://raw.githubusercontent.com/ninjastrikers/nexus-nodes/main/configs/countries/ca/vmess.txt",
       "status": 200,
-      "bytes": 274064,
-      "parsed": 500,
+      "bytes": 279684,
+      "parsed": 499,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1552,7 +1552,7 @@
       "commit": "2026-11-18T14:51:39Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/LatinaSub/main/result/clash.yaml",
       "status": 200,
-      "bytes": 247843,
+      "bytes": 249041,
       "parsed": 500,
       "transport": "raw-direct",
       "shape": "clash-yaml",
@@ -1566,7 +1566,7 @@
       "commit": "2026-11-18T14:51:39Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/LatinaSub/main/result/nodes",
       "status": 200,
-      "bytes": 129286,
+      "bytes": 131743,
       "parsed": 500,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -1580,7 +1580,7 @@
       "commit": "2026-11-18T14:51:39Z",
       "url": "https://raw.githubusercontent.com/LalatinaHub/LatinaSub/main/result/sub",
       "status": 200,
-      "bytes": 172384,
+      "bytes": 175660,
       "parsed": 500,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -1617,6 +1617,49 @@
       "error": "fetched but parsed 0 nodes"
     },
     {
+      "repo": "hbc1997/nodefusion",
+      "canonical": "hbc1997/nodefusion",
+      "branch": "main",
+      "path": "out/nodes.json",
+      "commit": "2026-11-19T04:52:04Z",
+      "url": "https://raw.githubusercontent.com/hbc1997/nodefusion/main/out/nodes.json",
+      "status": 200,
+      "bytes": 33835,
+      "parsed": 0,
+      "transport": "raw-direct",
+      "shape": "unknown",
+      "attempts_tried": 1,
+      "error": "fetched but parsed 0 nodes"
+    },
+    {
+      "repo": "hbc1997/nodefusion",
+      "canonical": "hbc1997/nodefusion",
+      "branch": "main",
+      "path": "out/clash.yaml",
+      "commit": "2026-11-19T04:52:04Z",
+      "url": "https://raw.githubusercontent.com/hbc1997/nodefusion/main/out/clash.yaml",
+      "status": 200,
+      "bytes": 37907,
+      "parsed": 216,
+      "transport": "raw-direct",
+      "shape": "clash-yaml",
+      "attempts_tried": 1
+    },
+    {
+      "repo": "hbc1997/nodefusion",
+      "canonical": "hbc1997/nodefusion",
+      "branch": "main",
+      "path": "out/sub_base64.txt",
+      "commit": "2026-11-19T04:52:04Z",
+      "url": "https://raw.githubusercontent.com/hbc1997/nodefusion/main/out/sub_base64.txt",
+      "status": 200,
+      "bytes": 8804,
+      "parsed": 30,
+      "transport": "raw-direct",
+      "shape": "base64-list",
+      "attempts_tried": 1
+    },
+    {
       "repo": "mfuu/FreeProxies",
       "canonical": "mfuu/FreeProxies",
       "branch": "master",
@@ -1624,8 +1667,8 @@
       "commit": "2026-11-18T13:33:53Z",
       "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub.yaml",
       "status": 200,
-      "bytes": 19913,
-      "parsed": 110,
+      "bytes": 6608,
+      "parsed": 35,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1638,8 +1681,8 @@
       "commit": "2026-11-18T13:33:53Z",
       "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
       "status": 200,
-      "bytes": 30056,
-      "parsed": 110,
+      "bytes": 10688,
+      "parsed": 35,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1755,8 +1798,8 @@
       "commit": "2026-11-18T09:51:59Z",
       "url": "https://raw.githubusercontent.com/ZendanTeam/SS44-sub/main/SS44-clash.yaml",
       "status": 200,
-      "bytes": 27700,
-      "parsed": 120,
+      "bytes": 28899,
+      "parsed": 131,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1769,7 +1812,7 @@
       "commit": "2026-11-18T23:40:08Z",
       "url": "https://raw.githubusercontent.com/hamzawih0/zorVPN/main/clash.yaml",
       "status": 200,
-      "bytes": 33290,
+      "bytes": 32286,
       "parsed": 50,
       "transport": "raw-direct",
       "shape": "clash-yaml",
@@ -1783,7 +1826,7 @@
       "commit": "2026-11-18T23:40:08Z",
       "url": "https://raw.githubusercontent.com/hamzawih0/zorVPN/main/ZorVPN-nodes.txt",
       "status": 200,
-      "bytes": 12674,
+      "bytes": 12407,
       "parsed": 50,
       "transport": "raw-direct",
       "shape": "uri-list",
@@ -1853,8 +1896,8 @@
       "commit": "2026-11-18T23:40:25Z",
       "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/clash.yaml",
       "status": 200,
-      "bytes": 146647,
-      "parsed": 290,
+      "bytes": 141978,
+      "parsed": 279,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1867,8 +1910,8 @@
       "commit": "2026-11-18T23:40:25Z",
       "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/clash-provider.yaml",
       "status": 200,
-      "bytes": 65195,
-      "parsed": 290,
+      "bytes": 63546,
+      "parsed": 279,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1881,8 +1924,8 @@
       "commit": "2026-11-18T23:40:25Z",
       "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/sub.txt",
       "status": 200,
-      "bytes": 78992,
-      "parsed": 291,
+      "bytes": 79264,
+      "parsed": 280,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1895,7 +1938,7 @@
       "commit": "2026-11-18T14:55:17Z",
       "url": "https://raw.githubusercontent.com/owenlee3/my-nodes/main/output/clash.yaml",
       "status": 200,
-      "bytes": 39056,
+      "bytes": 39681,
       "parsed": 150,
       "transport": "raw-direct",
       "shape": "clash-yaml",
@@ -1938,8 +1981,8 @@
       "commit": "2026-11-18T22:17:30Z",
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
       "status": 200,
-      "bytes": 5420,
-      "parsed": 29,
+      "bytes": 5288,
+      "parsed": 26,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1952,8 +1995,8 @@
       "commit": "2026-11-18T22:17:30Z",
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
       "status": 200,
-      "bytes": 3048,
-      "parsed": 5,
+      "bytes": 3532,
+      "parsed": 7,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1966,8 +2009,8 @@
       "commit": "2026-11-18T19:54:14Z",
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt",
       "status": 200,
-      "bytes": 1701973,
-      "parsed": 4462,
+      "bytes": 1669477,
+      "parsed": 4338,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1980,8 +2023,8 @@
       "commit": "2026-11-18T19:54:14Z",
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/US.txt",
       "status": 200,
-      "bytes": 479185,
-      "parsed": 1148,
+      "bytes": 466153,
+      "parsed": 1104,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -2014,48 +2057,6 @@
       "shape": "clash-yaml",
       "attempts_tried": 1,
       "error": "fetched but parsed 0 nodes"
-    },
-    {
-      "repo": "liMilCo/v2r",
-      "canonical": "liMilCo/v2r",
-      "branch": "main",
-      "path": "configs.txt",
-      "commit": "2026-11-18T07:01:16Z",
-      "url": "https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt",
-      "status": 200,
-      "bytes": 7607980,
-      "parsed": 15299,
-      "transport": "raw-direct",
-      "shape": "base64-list",
-      "attempts_tried": 1
-    },
-    {
-      "repo": "liMilCo/v2r",
-      "canonical": "liMilCo/v2r",
-      "branch": "main",
-      "path": "all_configs.txt",
-      "commit": "2026-11-18T07:01:16Z",
-      "url": "https://raw.githubusercontent.com/liMilCo/v2r/main/all_configs.txt",
-      "status": 200,
-      "bytes": 5705984,
-      "parsed": 15299,
-      "transport": "raw-direct",
-      "shape": "uri-list",
-      "attempts_tried": 1
-    },
-    {
-      "repo": "liMilCo/v2r",
-      "canonical": "liMilCo/v2r",
-      "branch": "main",
-      "path": "sub/31.txt",
-      "commit": "2026-11-18T07:01:16Z",
-      "url": "https://raw.githubusercontent.com/liMilCo/v2r/main/sub/31.txt",
-      "status": 200,
-      "bytes": 200289,
-      "parsed": 480,
-      "transport": "raw-direct",
-      "shape": "uri-list",
-      "attempts_tried": 1
     },
     {
       "repo": "twj0/subseek",
@@ -2107,8 +2108,8 @@
       "commit": "2026-11-18T12:00:24Z",
       "url": "https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/clash.yaml",
       "status": 200,
-      "bytes": 7764,
-      "parsed": 23,
+      "bytes": 8684,
+      "parsed": 26,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -2121,8 +2122,8 @@
       "commit": "2026-11-18T12:00:24Z",
       "url": "https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/nodes.txt",
       "status": 200,
-      "bytes": 6215,
-      "parsed": 24,
+      "bytes": 7207,
+      "parsed": 27,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -2135,8 +2136,8 @@
       "commit": "2026-11-18T12:00:24Z",
       "url": "https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/v2ray.txt",
       "status": 200,
-      "bytes": 8289,
-      "parsed": 24,
+      "bytes": 9613,
+      "parsed": 27,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -2205,8 +2206,8 @@
       "commit": "2026-11-18T18:38:18Z",
       "url": "https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/output/clash.yaml",
       "status": 200,
-      "bytes": 14496,
-      "parsed": 36,
+      "bytes": 22241,
+      "parsed": 55,
       "transport": "raw-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -2219,7 +2220,7 @@
       "commit": "2026-11-18T21:33:47Z",
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub3.txt",
       "status": 200,
-      "bytes": 38444,
+      "bytes": 38392,
       "parsed": 100,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -2233,7 +2234,7 @@
       "commit": "2026-11-18T21:33:47Z",
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub1.txt",
       "status": 200,
-      "bytes": 32456,
+      "bytes": 32672,
       "parsed": 100,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -2247,7 +2248,7 @@
       "commit": "2026-11-18T21:33:47Z",
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub2.txt",
       "status": 200,
-      "bytes": 27220,
+      "bytes": 27264,
       "parsed": 100,
       "transport": "raw-direct",
       "shape": "base64-list",
@@ -2261,8 +2262,8 @@
       "commit": "2026-11-18T22:46:38Z",
       "url": "https://raw.githubusercontent.com/V2HUBIR/V2HUBIR-Free-V2Ray-Configs-free-Sub/main/sub_base64.txt",
       "status": 200,
-      "bytes": 75532,
-      "parsed": 199,
+      "bytes": 78800,
+      "parsed": 198,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -2275,8 +2276,8 @@
       "commit": "2026-11-18T22:46:38Z",
       "url": "https://raw.githubusercontent.com/V2HUBIR/V2HUBIR-Free-V2Ray-Configs-free-Sub/main/sub.txt",
       "status": 200,
-      "bytes": 56648,
-      "parsed": 199,
+      "bytes": 59100,
+      "parsed": 198,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -2331,8 +2332,8 @@
       "commit": "2026-11-18T23:29:35Z",
       "url": "https://raw.githubusercontent.com/ProblemTheCode/SylphNet-public/main/sub/sub.txt",
       "status": 200,
-      "bytes": 71472,
-      "parsed": 256,
+      "bytes": 85308,
+      "parsed": 315,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -2345,8 +2346,8 @@
       "commit": "2026-11-18T23:29:35Z",
       "url": "https://raw.githubusercontent.com/ProblemTheCode/SylphNet-public/main/sub/sub_plain.txt",
       "status": 200,
-      "bytes": 53603,
-      "parsed": 256,
+      "bytes": 63981,
+      "parsed": 315,
       "transport": "raw-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -2359,8 +2360,8 @@
       "commit": "2026-11-18T14:44:45Z",
       "url": "https://raw.githubusercontent.com/mahdyaralipor/v2all/main/real_sub.txt",
       "status": 200,
-      "bytes": 4452,
-      "parsed": 10,
+      "bytes": 9076,
+      "parsed": 19,
       "transport": "raw-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -2395,15 +2396,15 @@
       "attempts_tried": 1
     }
   ],
-  "tcp_alive": 2311,
+  "tcp_alive": 2286,
   "proxy_verified": 72,
-  "probe_seconds": 24.3,
+  "probe_seconds": 23.7,
   "probe": {
     "ran": true,
     "cached": false,
     "verified": 72,
     "tested": 400,
-    "seconds": 24.3,
+    "seconds": 23.7,
     "api_port": 9090,
     "attempts": 2,
     "partial": false,
@@ -2419,25 +2420,25 @@
   },
   "totals": {
     "raw_files": 148,
-    "raw_bytes": 118890094,
-    "raw": 301518,
-    "unique": 51780,
-    "insecure_dropped": 29651,
-    "private_dropped": 219,
-    "dead_dropped": 1689,
+    "raw_bytes": 105613979,
+    "raw": 270339,
+    "unique": 50745,
+    "insecure_dropped": 28262,
+    "private_dropped": 181,
+    "dead_dropped": 1714,
     "kept": 72,
-    "alive_tcp": 2311,
+    "alive_tcp": 2286,
     "proxy_verified": 72,
     "unnameable_dropped": 0,
-    "duplicates_dropped": 206916,
-    "content_duplicates_dropped": 197632,
-    "endpoint_duplicates_dropped": 9284,
-    "invalid_dropped": 164,
+    "duplicates_dropped": 178806,
+    "content_duplicates_dropped": 169698,
+    "endpoint_duplicates_dropped": 9108,
+    "invalid_dropped": 36,
     "live_candidates": 4000,
     "live_candidates_capped": true,
-    "uri_skipped": 10,
+    "uri_skipped": 12,
     "repos": 60,
-    "files": 123
+    "files": 122
   },
   "geodata": {
     "found": false,
@@ -2449,103 +2450,102 @@
     "binary": "/home/runner/work/pussies_fucker/pussies_fucker/bin/mihomo",
     "geoip_rules": false,
     "ok": true,
-    "message": "time=\"2026-11-18T23:43:51.109091672Z\" level=info msg=\"Geosite Matcher implementation: succinct\" | time=\"2026-11-18T23:43:51.109235879Z\" level=info msg=\"Initial configuration complete, total time: 0ms\" | configuration file /home/runner/work/pussies_fucker/pussies_fucker/.verify/config-test/config.yaml test is successful"
+    "message": "time=\"2026-11-19T04:53:52.437746116Z\" level=info msg=\"Geosite Matcher implementation: succinct\" | time=\"2026-11-19T04:53:52.437861927Z\" level=info msg=\"Initial configuration complete, total time: 0ms\" | configuration file /home/runner/work/pussies_fucker/pussies_fucker/.verify/config-test/config.yaml test is successful"
   },
   "drop_reasons": {
-    "insecure": 8650,
-    "sni_ip_literal": 4111,
-    "trojan_no_tls": 3659,
-    "tls_disabled": 21001,
-    "weak_ss_cipher": 3071,
-    "plaintext_proxy": 904,
-    "vmess_weak_cipher": 629,
-    "private": 219,
-    "reality_no_pubkey": 210,
-    "bad_port": 164,
-    "weak_ssr_cipher": 61,
+    "insecure": 8848,
+    "sni_ip_literal": 3482,
+    "weak_ss_cipher": 2778,
+    "trojan_no_tls": 3706,
+    "vmess_weak_cipher": 454,
+    "tls_disabled": 19414,
+    "plaintext_proxy": 1483,
+    "private": 181,
+    "reality_no_pubkey": 194,
+    "bad_port": 36,
+    "weak_ssr_cipher": 63,
     "adapter_reality_pubkey": 8,
-    "adapter_ss_method": 20,
-    "adapter_ss2022_key": 47,
-    "adapter_required_field": 67,
-    "adapter_reality_shortid": 1
+    "adapter_ss_method": 10,
+    "adapter_reality_shortid": 5,
+    "adapter_ss2022_key": 45,
+    "adapter_required_field": 81
   },
   "parse_errors": {
-    "vmess_b64": 627,
-    "trojan_shape": 44,
+    "vmess_b64": 335,
+    "vmess_missing": 1,
     "exception": 76,
-    "vmess_json": 74,
+    "vmess_json": 16,
+    "trojan_shape": 35,
     "trojan_addr": 1,
     "vless_addr": 1,
-    "vless_shape": 140,
-    "ss_userinfo": 23228,
+    "vless_shape": 160,
+    "ss_userinfo": 22314,
     "ss_b64": 12,
     "no_type": 12,
-    "ss_addr": 14,
-    "ss_shape": 124,
-    "vmess_missing": 5
+    "ss_plugin_unsupported": 2
   },
   "by_type": {
     "hysteria2": 2,
-    "ss": 49,
-    "vless": 8,
+    "ss": 42,
+    "vless": 13,
     "vmess": 3,
-    "wireguard": 10
+    "wireguard": 12
   },
   "raw_by_type": {
-    "vmess": 110958,
-    "vless": 129281,
-    "trojan": 37198,
-    "ss": 21418,
-    "hysteria2": 1607,
-    "socks5": 305,
-    "http": 467,
-    "tuic": 43,
-    "wireguard": 39,
-    "socks4": 132,
-    "ssr": 61,
-    "hysteria": 7,
+    "vmess": 89060,
+    "vless": 122217,
+    "ss": 19372,
+    "trojan": 36448,
+    "hysteria2": 1604,
+    "http": 993,
+    "socks5": 388,
+    "hysteria": 12,
+    "tuic": 36,
+    "wireguard": 42,
+    "socks4": 102,
+    "ssr": 63,
     "anytls": 2
   },
   "fastest": [
     {
-      "name": "ProxyRift-885",
+      "name": "vless-1380366773",
+      "type": "vless",
+      "server": "103.116.7.220",
+      "port": 2096,
+      "rtt_ms": 5.9,
+      "probe_delay_ms": 97
+    },
+    {
+      "name": "ProxyRift-1655",
       "type": "vmess",
       "server": "104.16.0.1",
       "port": 2083,
-      "rtt_ms": 2.8,
-      "probe_delay_ms": 1370
+      "rtt_ms": 5.9,
+      "probe_delay_ms": 609
     },
     {
-      "name": "ProxyRift-1523",
-      "type": "ss",
-      "server": "15.204.247.244",
-      "port": 4444,
-      "rtt_ms": 16.6,
-      "probe_delay_ms": 258
+      "name": "ProxyRift-357",
+      "type": "vless",
+      "server": "103.116.7.67",
+      "port": 2083,
+      "rtt_ms": 6.4,
+      "probe_delay_ms": 107
     },
     {
-      "name": "ProxyRift-1189",
-      "type": "ss",
-      "server": "135.148.42.13",
-      "port": 8388,
-      "rtt_ms": 16.8,
-      "probe_delay_ms": 137
+      "name": "vless-1380366755",
+      "type": "vless",
+      "server": "103.116.7.133",
+      "port": 2083,
+      "rtt_ms": 6.7,
+      "probe_delay_ms": 126
     },
     {
-      "name": "ProxyRift-1363",
-      "type": "ss",
-      "server": "15.204.246.111",
-      "port": 5498,
-      "rtt_ms": 17,
-      "probe_delay_ms": 251
-    },
-    {
-      "name": "Wind23-Toronto-Canada",
-      "type": "wireguard",
-      "server": "149.57.28.226",
-      "port": 80,
-      "rtt_ms": 17,
-      "probe_delay_ms": 1075
+      "name": "@happ_tmn-15",
+      "type": "vless",
+      "server": "103.116.7.100",
+      "port": 2087,
+      "rtt_ms": 6.8,
+      "probe_delay_ms": 104
     }
   ],
   "config": {
