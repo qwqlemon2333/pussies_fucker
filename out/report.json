@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-21T22:36:46.393Z",
+  "generated_at": "2026-11-22T03:53:57.689Z",
   "mode": "ci",
-  "duration_s": 279.3,
+  "duration_s": 134.9,
   "recency": {
     "days": 5,
-    "cutoff": "2026-11-16T22:32:07Z",
-    "cutoff_date": "2026-11-16"
+    "cutoff": "2026-11-17T03:51:42Z",
+    "cutoff_date": "2026-11-17"
   },
   "discovery": {
     "counts": {
-      "discovered": 732,
-      "eligible_stage1": 732,
+      "discovered": 720,
+      "eligible_stage1": 720,
       "commit_verified": 140,
-      "recent": 137,
-      "stale_dropped": 3,
-      "unverified_cap": 592,
+      "recent": 139,
+      "stale_dropped": 1,
+      "unverified_cap": 580,
       "selected": 60,
       "files": 147
     },
@@ -23,7 +23,7 @@
         "query": "topic:v2ray",
         "pages": 3,
         "items": 300,
-        "total_count": 747,
+        "total_count": 697,
         "error": null
       },
       {
@@ -37,14 +37,14 @@
         "query": "topic:clash",
         "pages": 3,
         "items": 300,
-        "total_count": 870,
+        "total_count": 808,
         "error": null
       },
       {
         "query": "topic:clash-config",
         "pages": 1,
-        "items": 16,
-        "total_count": 16,
+        "items": 13,
+        "total_count": 13,
         "error": null
       },
       {
@@ -58,28 +58,28 @@
         "query": "topic:shadowsocks",
         "pages": 3,
         "items": 300,
-        "total_count": 423,
+        "total_count": 399,
         "error": null
       },
       {
         "query": "topic:hysteria",
         "pages": 1,
-        "items": 39,
-        "total_count": 39,
+        "items": 35,
+        "total_count": 35,
         "error": null
       },
       {
         "query": "topic:vmess",
         "pages": 3,
-        "items": 228,
-        "total_count": 228,
+        "items": 212,
+        "total_count": 212,
         "error": null
       },
       {
         "query": "vmess subscription",
         "pages": 1,
-        "items": 87,
-        "total_count": 87,
+        "items": 84,
+        "total_count": 84,
         "error": null
       },
       {
@@ -99,17 +99,17 @@
       {
         "query": "free proxies nodes",
         "pages": 1,
-        "items": 21,
-        "total_count": 21,
+        "items": 22,
+        "total_count": 22,
         "error": null
       }
     ],
     "api": {
       "authenticated": true,
-      "core_requests": 260,
+      "core_requests": 4,
       "core_budget": null,
       "search_requests": 20,
-      "cache_hits": 0,
+      "cache_hits": 119,
       "offline": false,
       "stopped": null,
       "stopped_search": null,
@@ -119,24 +119,22 @@
   },
   "transports": [
     "jsdelivr-direct",
-    "raw-direct",
-    "gh-proxy.com",
-    "ghproxy.net"
+    "raw-direct"
   ],
   "transport_detail": {
     "raw-direct": {
       "url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 724394,
-      "seconds": 0.24,
+      "bytes": 719952,
+      "seconds": 0.3,
       "ok": true,
       "error": null
     },
     "jsdelivr-direct": {
       "url": "https://cdn.jsdelivr.net/gh/asgharkapk/Sub-Config-Extractor@main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 718509,
-      "seconds": 0.22,
+      "bytes": 719952,
+      "seconds": 0.28,
       "ok": true,
       "error": null
     },
@@ -150,18 +148,18 @@
     },
     "gh-proxy.com": {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
-      "status": 200,
-      "bytes": 724394,
-      "seconds": 0.28,
-      "ok": true,
+      "status": 403,
+      "bytes": 65,
+      "seconds": 0.1,
+      "ok": false,
       "error": null
     },
     "ghproxy.net": {
       "url": "https://ghproxy.net/https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
-      "status": 200,
-      "bytes": 724394,
-      "seconds": 1.67,
-      "ok": true,
+      "status": 0,
+      "bytes": 0,
+      "seconds": 8,
+      "ok": false,
       "error": null
     },
     "raw-proxied": {
@@ -175,15 +173,15 @@
   },
   "registry": {
     "total": 60,
-    "refreshed": 58,
+    "refreshed": 59,
     "added": [
       "NiREvil/vless",
       "vincent20240707/free-v2ray-nodes",
       "sakha1370/OpenRay",
       "free-nodes/clashfree",
       "zueston/proxy-hub",
-      "Billow001/free-nodes-sub",
       "yafeisun/v2raynode",
+      "lq707904686/free-nodes",
       "hbc1997/nodefusion",
       "kzeng/free-proxy-airport",
       "zhuhaiuk/free-nodes",
@@ -193,99 +191,93 @@
       "yuluo688/clash-hot-countries",
       "sunmiao4458/free-proxy-airport",
       "mahdyaralipor/v2all",
-      "Surfboardv2ray/phoenix",
-      "fushuain-collab/free-nodes"
+      "Surfboardv2ray/phoenix"
     ],
     "removed": [
       {
-        "repo": "noahclanman/free-xray-gcp",
+        "repo": "alireza786786/Free-V2ray-Configs",
         "reason": "forgotten_unverified",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "sakha1370/OpenRay",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "zueston/proxy-hub",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "yafeisun/v2raynode",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "SnapdragonLee/SystemProxy",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "Surfboardv2ray/phoenix",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "free-nodes/clashfree",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "longyang1233/free-nodes-sub",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "mahdyaralipor/v2all",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "NiREvil/vless",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
-      },
-      {
-        "repo": "zhuhaiuk/free-nodes",
-        "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
-      },
-      {
-        "repo": "vincent20240707/free-v2ray-nodes",
-        "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
-      },
-      {
-        "repo": "fushuain-collab/free-nodes",
-        "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "sunmiao4458/free-proxy-airport",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
-        "repo": "yuluo688/clash-hot-countries",
+        "repo": "zhuhaiuk/free-nodes",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
+      },
+      {
+        "repo": "vincent20240707/free-v2ray-nodes",
+        "reason": "evicted_max_sources",
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "kzeng/free-proxy-airport",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "hbc1997/nodefusion",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
       },
       {
         "repo": "v2raydog-node/free-nodes",
         "reason": "evicted_max_sources",
-        "at": "2026-11-21T22:36:46.305Z"
+        "at": "2026-11-22T03:53:57.584Z"
+      },
+      {
+        "repo": "yuluo688/clash-hot-countries",
+        "reason": "evicted_max_sources",
+        "at": "2026-11-22T03:53:57.584Z"
       }
     ],
     "evicted": [
@@ -298,18 +290,15 @@
       "longyang1233/free-nodes-sub",
       "mahdyaralipor/v2all",
       "NiREvil/vless",
+      "sunmiao4458/free-proxy-airport",
       "zhuhaiuk/free-nodes",
       "vincent20240707/free-v2ray-nodes",
-      "fushuain-collab/free-nodes",
-      "sunmiao4458/free-proxy-airport",
-      "yuluo688/clash-hot-countries",
       "kzeng/free-proxy-airport",
       "hbc1997/nodefusion",
-      "v2raydog-node/free-nodes"
+      "v2raydog-node/free-nodes",
+      "yuluo688/clash-hot-countries"
     ],
-    "unverified": [
-      "alireza786786/Free-V2ray-Configs"
-    ],
+    "unverified": [],
     "note": "removed = 本轮被请出花名册的源（stale/404/archived/连续未验证/超上限）"
   },
   "sources": [
@@ -321,8 +310,8 @@
       "commit": "2026-11-21T14:17:05Z",
       "url": "https://cdn.jsdelivr.net/gh/asgharkapk/Sub-Config-Extractor@main/output_configs/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs/vmess.txt.yaml",
       "status": 200,
-      "bytes": 718509,
-      "parsed": 2556,
+      "bytes": 719952,
+      "parsed": 2543,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -391,7 +380,7 @@
       "commit": "2026-11-21T21:58:00Z",
       "url": "https://cdn.jsdelivr.net/gh/rekt0ro/ProxyRift@main/subscriptions/all-singbox.json",
       "status": 200,
-      "bytes": 500748,
+      "bytes": 575549,
       "parsed": 0,
       "transport": "jsdelivr-direct",
       "shape": "unknown",
@@ -420,8 +409,8 @@
       "commit": "2026-11-21T17:06:13Z",
       "url": "https://cdn.jsdelivr.net/gh/MatinGhanbari/v2ray-configs@main/subscriptions/filtered/subs/vmess.txt",
       "status": 200,
-      "bytes": 1365864,
-      "parsed": 2635,
+      "bytes": 1379016,
+      "parsed": 2640,
       "transport": "jsdelivr-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -574,12 +563,11 @@
       "commit": "2026-11-21T22:28:15Z",
       "url": "https://cdn.jsdelivr.net/gh/MustafaBaqer/VestraNet-Nodes@main/subscriptions/mix-base64.txt",
       "status": 200,
-      "bytes": 3786652,
-      "parsed": 0,
+      "bytes": 3782996,
+      "parsed": 8304,
       "transport": "jsdelivr-direct",
-      "shape": "unknown",
-      "attempts_tried": 1,
-      "error": "fetched but parsed 0 nodes"
+      "shape": "base64-list",
+      "attempts_tried": 1
     },
     {
       "repo": "MustafaBaqer/VestraNet-Nodes",
@@ -589,8 +577,8 @@
       "commit": "2026-11-21T22:28:15Z",
       "url": "https://cdn.jsdelivr.net/gh/MustafaBaqer/VestraNet-Nodes@main/subscriptions/mix-normal.txt",
       "status": 200,
-      "bytes": 2811447,
-      "parsed": 8266,
+      "bytes": 2771495,
+      "parsed": 8412,
       "transport": "jsdelivr-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -673,8 +661,8 @@
       "commit": "2026-11-21T19:19:08Z",
       "url": "https://cdn.jsdelivr.net/gh/barry-far/V2ray-Config@main/All_Configs_base64_Sub.txt",
       "status": 200,
-      "bytes": 2947320,
-      "parsed": 9086,
+      "bytes": 2933332,
+      "parsed": 9052,
       "transport": "jsdelivr-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -816,7 +804,7 @@
       "commit": "2026-11-21T18:29:26Z",
       "url": "https://cdn.jsdelivr.net/gh/Thordata/awesome-free-proxy-list@main/proxies/clash/all.yaml",
       "status": 200,
-      "bytes": 111325,
+      "bytes": 107992,
       "parsed": 500,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
@@ -972,8 +960,8 @@
       "commit": "2026-11-21T21:42:38Z",
       "url": "https://cdn.jsdelivr.net/gh/yijigu783/free-nodes@main/nodes.yaml",
       "status": 200,
-      "bytes": 16424,
-      "parsed": 44,
+      "bytes": 15563,
+      "parsed": 41,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1016,8 +1004,8 @@
       "commit": "2026-11-21T16:00:32Z",
       "url": "https://cdn.jsdelivr.net/gh/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy@main/combine/clash.config.yaml",
       "status": 200,
-      "bytes": 1832049,
-      "parsed": 3023,
+      "bytes": 1722726,
+      "parsed": 2798,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1075,8 +1063,8 @@
       "commit": "2026-11-21T19:29:17Z",
       "url": "https://cdn.jsdelivr.net/gh/chenzhihan1751-cyber/node-sub-zixf@main/sub/v2ray.txt",
       "status": 200,
-      "bytes": 147131,
-      "parsed": 790,
+      "bytes": 136277,
+      "parsed": 736,
       "transport": "jsdelivr-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -1426,8 +1414,8 @@
       "commit": "2026-11-21T22:17:43Z",
       "url": "https://cdn.jsdelivr.net/gh/0xRadikal/Free-v2ray-Configs@main/all/clash.yaml",
       "status": 200,
-      "bytes": 4557647,
-      "parsed": 11463,
+      "bytes": 4577248,
+      "parsed": 11517,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1440,8 +1428,8 @@
       "commit": "2026-11-21T22:17:43Z",
       "url": "https://cdn.jsdelivr.net/gh/0xRadikal/Free-v2ray-Configs@main/heavy/clash.yaml",
       "status": 200,
-      "bytes": 2647319,
-      "parsed": 6597,
+      "bytes": 2617648,
+      "parsed": 6538,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1468,8 +1456,8 @@
       "commit": "2026-11-21T21:38:56Z",
       "url": "https://cdn.jsdelivr.net/gh/ninjastrikers/nexus-nodes@main/configs/vmess.txt",
       "status": 200,
-      "bytes": 285844,
-      "parsed": 500,
+      "bytes": 279828,
+      "parsed": 499,
       "transport": "jsdelivr-direct",
       "shape": "base64-list",
       "attempts_tried": 1
@@ -1524,7 +1512,7 @@
       "commit": "2026-11-21T13:56:35Z",
       "url": "https://cdn.jsdelivr.net/gh/LalatinaHub/LatinaSub@main/result/nodes",
       "status": 200,
-      "bytes": 128901,
+      "bytes": 124881,
       "parsed": 500,
       "transport": "jsdelivr-direct",
       "shape": "uri-list",
@@ -1784,7 +1772,7 @@
       "commit": "2026-11-21T22:31:34Z",
       "url": "https://cdn.jsdelivr.net/gh/hamzawih0/zorVPN@main/clash.yaml",
       "status": 200,
-      "bytes": 33790,
+      "bytes": 33782,
       "parsed": 50,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
@@ -1798,7 +1786,7 @@
       "commit": "2026-11-21T22:31:34Z",
       "url": "https://cdn.jsdelivr.net/gh/hamzawih0/zorVPN@main/ZorVPN-nodes.txt",
       "status": 200,
-      "bytes": 12639,
+      "bytes": 12752,
       "parsed": 50,
       "transport": "jsdelivr-direct",
       "shape": "uri-list",
@@ -1842,6 +1830,20 @@
       "status": 200,
       "bytes": 44688,
       "parsed": 100,
+      "transport": "jsdelivr-direct",
+      "shape": "clash-yaml",
+      "attempts_tried": 1
+    },
+    {
+      "repo": "lq707904686/free-nodes",
+      "canonical": "lq707904686/free-nodes",
+      "branch": "main",
+      "path": "clash.yaml",
+      "commit": "2026-11-22T01:57:29Z",
+      "url": "https://cdn.jsdelivr.net/gh/lq707904686/free-nodes@main/clash.yaml",
+      "status": 200,
+      "bytes": 40343,
+      "parsed": 130,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -1967,8 +1969,8 @@
       "commit": "2026-11-21T21:04:56Z",
       "url": "https://cdn.jsdelivr.net/gh/zhuhaiuk/free-nodes@main/clash_config.yaml",
       "status": 200,
-      "bytes": 5597,
-      "parsed": 31,
+      "bytes": 6441,
+      "parsed": 35,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -2192,8 +2194,8 @@
       "commit": "2026-11-21T21:38:40Z",
       "url": "https://cdn.jsdelivr.net/gh/yuluo688/clash-hot-countries@master/clash-hot-countries-en.yaml",
       "status": 200,
-      "bytes": 2590,
-      "parsed": 20,
+      "bytes": 3834,
+      "parsed": 33,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -2206,8 +2208,8 @@
       "commit": "2026-11-21T19:38:19Z",
       "url": "https://cdn.jsdelivr.net/gh/sunmiao4458/free-proxy-airport@main/output/clash.yaml",
       "status": 200,
-      "bytes": 18059,
-      "parsed": 53,
+      "bytes": 12840,
+      "parsed": 38,
       "transport": "jsdelivr-direct",
       "shape": "clash-yaml",
       "attempts_tried": 1
@@ -2220,7 +2222,7 @@
       "commit": "2026-11-21T22:19:28Z",
       "url": "https://cdn.jsdelivr.net/gh/Alirewa/V2ray-Configs@main/sub3.txt",
       "status": 200,
-      "bytes": 36448,
+      "bytes": 37004,
       "parsed": 100,
       "transport": "jsdelivr-direct",
       "shape": "base64-list",
@@ -2346,8 +2348,8 @@
       "commit": "2026-11-21T21:38:45Z",
       "url": "https://cdn.jsdelivr.net/gh/ProblemTheCode/SylphNet-public@main/sub/sub_plain.txt",
       "status": 200,
-      "bytes": 55771,
-      "parsed": 255,
+      "bytes": 59387,
+      "parsed": 289,
       "transport": "jsdelivr-direct",
       "shape": "uri-list",
       "attempts_tried": 1
@@ -2380,31 +2382,17 @@
       "shape": "unknown",
       "attempts_tried": 1,
       "error": "fetched but parsed 0 nodes"
-    },
-    {
-      "repo": "fushuain-collab/free-nodes",
-      "canonical": "fushuain-collab/free-nodes",
-      "branch": "main",
-      "path": "sub.txt",
-      "commit": "2026-11-21T09:25:38Z",
-      "url": "https://cdn.jsdelivr.net/gh/fushuain-collab/free-nodes@main/sub.txt",
-      "status": 200,
-      "bytes": 7516,
-      "parsed": 50,
-      "transport": "jsdelivr-direct",
-      "shape": "uri-list",
-      "attempts_tried": 1
     }
   ],
-  "tcp_alive": 2395,
+  "tcp_alive": 2200,
   "proxy_verified": 76,
-  "probe_seconds": 22.6,
+  "probe_seconds": 22.5,
   "probe": {
     "ran": true,
     "cached": false,
     "verified": 76,
     "tested": 400,
-    "seconds": 22.6,
+    "seconds": 22.5,
     "api_port": 9090,
     "attempts": 2,
     "partial": false,
@@ -2420,25 +2408,25 @@
   },
   "totals": {
     "raw_files": 147,
-    "raw_bytes": 98809643,
-    "raw": 247625,
-    "unique": 49229,
-    "insecure_dropped": 25899,
-    "private_dropped": 150,
-    "dead_dropped": 1605,
+    "raw_bytes": 98730939,
+    "raw": 255861,
+    "unique": 50373,
+    "insecure_dropped": 26155,
+    "private_dropped": 148,
+    "dead_dropped": 1800,
     "kept": 76,
-    "alive_tcp": 2395,
+    "alive_tcp": 2200,
     "proxy_verified": 76,
     "unnameable_dropped": 0,
-    "duplicates_dropped": 161063,
-    "content_duplicates_dropped": 151947,
-    "endpoint_duplicates_dropped": 9116,
+    "duplicates_dropped": 167801,
+    "content_duplicates_dropped": 158484,
+    "endpoint_duplicates_dropped": 9317,
     "invalid_dropped": 39,
     "live_candidates": 4000,
     "live_candidates_capped": true,
-    "uri_skipped": 10,
+    "uri_skipped": 11,
     "repos": 60,
-    "files": 123
+    "files": 124
   },
   "geodata": {
     "found": false,
@@ -2450,101 +2438,101 @@
     "binary": "/home/runner/work/pussies_fucker/pussies_fucker/bin/mihomo",
     "geoip_rules": false,
     "ok": true,
-    "message": "time=\"2026-11-21T22:36:46.337585597Z\" level=info msg=\"Geosite Matcher implementation: succinct\" | time=\"2026-11-21T22:36:46.337712985Z\" level=info msg=\"Initial configuration complete, total time: 0ms\" | configuration file /home/runner/work/pussies_fucker/pussies_fucker/.verify/config-test/config.yaml test is successful"
+    "message": "time=\"2026-11-22T03:53:57.638329476Z\" level=info msg=\"Geosite Matcher implementation: succinct\" | time=\"2026-11-22T03:53:57.638450185Z\" level=info msg=\"Initial configuration complete, total time: 0ms\" | configuration file /home/runner/work/pussies_fucker/pussies_fucker/.verify/config-test/config.yaml test is successful"
   },
   "drop_reasons": {
-    "insecure": 10174,
-    "sni_ip_literal": 3347,
-    "trojan_no_tls": 3789,
-    "weak_ss_cipher": 2096,
-    "vmess_weak_cipher": 367,
-    "tls_disabled": 15725,
-    "plaintext_proxy": 1313,
-    "private": 150,
-    "reality_no_pubkey": 149,
+    "insecure": 10039,
+    "sni_ip_literal": 3458,
+    "trojan_no_tls": 3802,
+    "weak_ss_cipher": 2099,
+    "vmess_weak_cipher": 365,
+    "tls_disabled": 16116,
+    "plaintext_proxy": 1298,
+    "private": 148,
+    "reality_no_pubkey": 140,
     "bad_port": 39,
     "weak_ssr_cipher": 64,
-    "adapter_reality_shortid": 8,
+    "adapter_reality_shortid": 7,
     "adapter_ss_method": 26,
-    "adapter_ss2022_key": 64,
-    "adapter_reality_pubkey": 6,
+    "adapter_ss2022_key": 66,
+    "adapter_reality_pubkey": 4,
     "adapter_required_field": 16
   },
   "parse_errors": {
     "vmess_b64": 407,
     "trojan_shape": 42,
-    "vmess_missing": 1,
-    "exception": 40,
-    "vmess_json": 20,
+    "vmess_missing": 2,
+    "exception": 41,
+    "vmess_json": 19,
     "trojan_addr": 1,
-    "ss_userinfo": 23502,
-    "vless_shape": 88,
-    "ss_addr": 4,
+    "ss_addr": 5,
+    "vless_shape": 81,
+    "ss_userinfo": 23501,
     "no_type": 12,
     "ss_plugin_unsupported": 2
   },
   "by_type": {
-    "hysteria2": 3,
-    "ss": 55,
-    "vless": 6,
+    "hysteria2": 2,
+    "ss": 52,
+    "vless": 9,
     "vmess": 2,
-    "wireguard": 10
+    "wireguard": 11
   },
   "raw_by_type": {
-    "vmess": 85686,
-    "vless": 106338,
-    "trojan": 33193,
-    "ss": 19521,
-    "hysteria2": 1427,
-    "socks5": 443,
-    "http": 825,
-    "tuic": 35,
-    "wireguard": 38,
-    "socks4": 45,
+    "vmess": 91032,
+    "vless": 108254,
+    "trojan": 33703,
+    "ss": 19551,
+    "hysteria2": 1841,
+    "socks5": 372,
+    "http": 890,
+    "tuic": 71,
+    "wireguard": 37,
+    "socks4": 36,
     "ssr": 64,
     "hysteria": 6,
     "anytls": 4
   },
   "fastest": [
     {
-      "name": "ProxyRift-030",
-      "type": "ss",
-      "server": "129.146.75.79",
-      "port": 50356,
-      "rtt_ms": 2.8,
-      "probe_delay_ms": 26
+      "name": "vless-1380366773",
+      "type": "vless",
+      "server": "103.116.7.220",
+      "port": 2096,
+      "rtt_ms": 5.1,
+      "probe_delay_ms": 204
     },
     {
-      "name": "ProxyRift-1669",
-      "type": "ss",
-      "server": "147.224.251.204",
-      "port": 50356,
-      "rtt_ms": 2.9,
-      "probe_delay_ms": 19
+      "name": "vless-1380366755",
+      "type": "vless",
+      "server": "103.116.7.133",
+      "port": 2083,
+      "rtt_ms": 5.2,
+      "probe_delay_ms": 97
     },
     {
-      "name": "ProxyRift-1608",
+      "name": "ProxyRift-347",
       "type": "ss",
-      "server": "129.146.116.143",
-      "port": 50356,
-      "rtt_ms": 3,
-      "probe_delay_ms": 23
+      "server": "149.22.95.183",
+      "port": 443,
+      "rtt_ms": 7.8,
+      "probe_delay_ms": 61
     },
     {
-      "name": "ProxyRift-1526",
+      "name": "ProxyRift-1309",
       "type": "ss",
-      "server": "132.226.77.186",
-      "port": 50356,
-      "rtt_ms": 3.5,
-      "probe_delay_ms": 23
+      "server": "137.184.89.151",
+      "port": 19999,
+      "rtt_ms": 23.3,
+      "probe_delay_ms": 5111
     },
     {
-      "name": "ProxyRift-014",
-      "type": "ss",
-      "server": "104.238.140.45",
-      "port": 11051,
-      "rtt_ms": 12,
-      "probe_delay_ms": 38
+      "name": "Wind18-SantaClara-UnitedStates",
+      "type": "wireguard",
+      "server": "167.88.60.244",
+      "port": 443,
+      "rtt_ms": 27.9,
+      "probe_delay_ms": 1148
     }
   ],
   "config": {
